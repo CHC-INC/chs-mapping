@@ -23,30 +23,16 @@ jobs:
         with:
           r-version: ${{ matrix.config.r }}
 
-      - name: Setup renv 
+      - name: Install packages 
         run: |
-          install.packages('remotes')
-          remotes::install_github("rstudio/renv")
-        shell: Rscript {0}
-
-      - uses: actions/cache@v2 
-        with:
-          path: ~/.local/share/renv
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-
-
-      - name: Install dependencies 
-        run: renv::restore()
-        shell: Rscript {0}
+          R -e 'install.packages(c(tidyverse, googlesheets4, sf))'
 
       - name: Generate data
-        run: source("R/createMappingData.R")
-        shell: Rscript {0}
+        run: Rscript R/createMappingData.R
 
       - name: Commit files
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add .
-          git diff-index --quiet HEAD || (git commit -m "update data" && git push)
+          git add data/*
+          git diff-index --quiet HEAD || (git commit -m "Vaccination data update: $(date)" && git push)
