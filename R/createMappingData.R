@@ -1,6 +1,5 @@
 library(dplyr)
 library(googlesheets4)
-library(sf)
 
 # Download vaccination data from DPH website
 vaccinations_city <-
