@@ -25,7 +25,7 @@ jobs:
 
       - name: Install packages 
         run: |
-          R -e 'install.packages(c(tidyverse, googlesheets4, sf))'
+          R -e 'install.packages(c("tidyverse", "googlesheets4", "sf"))'
 
       - name: Generate data
         run: Rscript R/createMappingData.R
