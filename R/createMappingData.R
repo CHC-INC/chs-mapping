@@ -15,7 +15,7 @@ vaccinations_city <-
 
 # Import the pre-calculated City/Block Group crosswalk
 city_bg_crosswalk <-
-  read.csv('intermediate/city_bg_crosswalk.csv')
+  read.csv("intermediate/city_bg_crosswalk.csv")
 
 # Import the outreach data from Google Sheet
 gs4_deauth()
@@ -39,5 +39,5 @@ merged_data <- city_bg_crosswalk %>%
   left_join(outreach, by = "GEOID") %>%
   left_join(vaccinations_city, by = c("community" = "city")) %>%
   select(-community) %>%
-  mutate(Current_Vaccination_Date = format(Sys.Date(), "%b %d, %Y"))
-  
+  mutate(Current_Vaccination_Date = format(Sys.Date(), "%b %d, %Y")) %>%
+  write.csv("../data/merged_vaccination_data.csv", row.names = FALSE)
