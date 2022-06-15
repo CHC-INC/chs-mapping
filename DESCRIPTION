@@ -1,1 +1,2 @@
+Package: chc-mapping
 Imports: dplyr, googlesheets4, sf
