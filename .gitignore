@@ -1,0 +1,10 @@
+.Rhistory
+
+web/.DS_Store
+web/node_modules
+web/.svelte-kit
+web/package
+web/.env
+web/.env.*
+web/!.env.example
+web/.output
