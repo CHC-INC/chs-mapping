@@ -7,14 +7,14 @@ vaccinations_city <-
     "http://publichealth.lacounty.gov/media/coronavirus/vaccine/data/tables/cair_pm_hosp_geocoded_city_totals.csv"
   ) %>%
   select(1, 4) %>%
-  rename(
-    city = 1,
-    Current_Vaccination = 2
-  )
+  rename(city = 1,
+         Current_Vaccination = 2) %>%
+  filter(Current_Vaccination < 1) %>%
+  mutate(Current_Vaccination = sprintf('%.1f', Current_Vaccination * 100))
 
 # Import the pre-calculated City/Block Group crosswalk
 city_bg_crosswalk <-
-  read.csv("R/intermediate/city_bg_crosswalk.csv")
+  read.csv("R/intermediate/city_bg_crosswalk.csv", colClasses = "character")
 
 # Import the outreach data from Google Sheet
 gs4_deauth()
@@ -30,13 +30,12 @@ outreach <-
     Current_Outreach,
     Current_Outreach_Date,
     ZIP = ZIPCODE
-  ) %>%
-  mutate(GEOID = as.numeric(GEOID))
+  )
 
 # Merge all data and output for consumption by website
-merged_data <- city_bg_crosswalk %>%
+city_bg_crosswalk %>%
   left_join(outreach, by = "GEOID") %>%
   left_join(vaccinations_city, by = c("community" = "city")) %>%
   select(-community) %>%
   mutate(Current_Vaccination_Date = format(Sys.Date(), "%b %d, %Y")) %>%
-  write.csv("data/merged_vaccination_data.csv", row.names = FALSE)
+  write.csv("data/merged_vaccination_data.csv", row.names = FALSE, na="")

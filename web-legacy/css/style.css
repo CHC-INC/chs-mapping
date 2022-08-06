@@ -1,0 +1,267 @@
+body,html {
+	margin:0;
+	height:100%;
+	width:100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#map {
+	height: 100%;
+	text-align: center;
+}
+
+h4 {
+	font-size: 0.8em;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: gainsboro;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 60px 225px 1fr;
+	grid-template-columns: 300px 1fr 400px;
+	grid-template-areas: 
+	"header header header"
+	"sidebar content dashboard"
+	"legend content dashboard"
+	"footer footer footer";
+}
+
+.header {
+	grid-area: header;
+	padding:10px;
+	background-color:gainsboro;
+	color: #222;
+	font-size: 2em;
+}
+
+.legend {
+	/* background-color: gainsboro; */
+	grid-area: legend;
+}
+.legend-inner {
+	font-size: 0.8em;
+	padding: 12px;
+	/* background-color: gainsboro; */
+	/* grid-area: legend; */
+}
+
+.nav {
+	grid-area: nav;
+	padding:10px;
+	background-color: #444;
+	color: white;
+	font-size: 1.2em;
+}
+
+.sidebar {
+	color: #444;
+	grid-area: sidebar;
+	padding:10px;
+	background-color: #fff;
+	overflow: auto;
+}
+
+.sidebar-title {
+	color: #333;
+}
+/* 
+.dashboard {
+	grid-area: dashboard;
+} */
+.content {
+	grid-area: content;
+	resize: horizontal;
+	overflow: auto;
+}
+
+.footer {
+	grid-area: footer;
+	padding:10px;
+	background-color: rgb(255, 255, 255);
+}
+
+/* legend styles */
+.info {
+	/* text-align: center; */
+
+	padding: 10px;
+	font-size: 0.8em;
+	padding:20px;
+	/* font: 14px/16px Arial, Helvetica, sans-serif;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	/* width: 250px; */
+	/* min-height: 50px; */ 
+}
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+
+.legend {
+	line-height: 18px;
+	color: #555;
+	overflow: auto;
+}
+.legend i {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 8px;
+	/* opacity: 0.7; */
+}
+
+.item {
+	color: #ccc;
+	margin:3px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.map-item {
+    background-color: #333;
+}
+.layer-item {
+    background-color: #444;
+}
+
+.item:hover {
+	background-color: #111;
+}
+
+.legend-scheme {
+	border-radius: 2px;
+	padding: 5px;
+	background-color: #666;
+	color: #ccc;
+	font-size: 0.7em;
+	margin: 1px;
+	cursor: pointer;
+}
+.legend-color {
+	float: left;
+	border-radius: 4px;
+	padding: 2px;
+	background-color: rgb(65, 0, 0);
+	color: #ccc;
+	font-size: 0.8em;
+	margin: 1px;
+	cursor: pointer;
+}
+
+.selectivity-result-label .selectivity-results-container .selectivity-result-item {
+	color: #444;
+}
+
+.dropdown {
+	margin: 5px;
+}
+
+
+/*
+	Waffle table
+*/
+
+.waffle-container {
+	display: inline-block;
+	width: 100px;
+}
+
+.waffle-column {
+	/*width: 15px;*/
+	float: left;
+}
+
+.waffle-border {
+	border: 1px solid transparent;
+	float: left;
+}
+
+.waffle-box {
+	width: 8px;
+	height: 8px;
+	background: rgba(49, 79, 79, 0.8);
+}
+
+.waffle-box-empty {
+	width: 8px;
+	/* height: 20px; */
+	background: rgba(49, 79, 79, 0.2);
+}
+
+.smallfont {
+	font-size: 0.6em;
+}
+
+td {
+	vertical-align: top;
+}
+
+.selectivity-single-select {
+	border-radius: 6px !important;
+}
+
+hr {
+	background-color: #bbb;
+	height: 1px;
+	border: none;
+}
+
+#toggler {
+	
+    position: absolute;
+    margin-left: -38px;
+    margin-top: 70px;
+    font-size: 1.4em;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 8px 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#toggler2 {
+	
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -100px;
+    font-size: 1.4em;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 8px 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.info {
+	padding: 6px 8px;
+	font-size: 1em;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	/* min-width: 250px;
+	min-height: 50px; */
+}
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+
+.tooltip {
+	font-size: 0.7em;
+}
+
+.pages-print-container [leaflet-browser-print-pages-hide] {
+	display: none;
+}
+
+.leaflet-popup-pane, .leaflet-control {
+    cursor: auto;
+    text-align: left;
+}
