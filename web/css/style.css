@@ -1,13 +1,18 @@
-body,html {
-	margin:0;
-	height:100%;
-	width:100%;
+body,
+html {
+	margin: 0;
+	height: 100%;
+	width: 100%;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 #map {
 	height: 100%;
 	text-align: center;
+}
+
+#map i {
+	margin-top: 80px;
 }
 
 h4 {
@@ -22,17 +27,17 @@ body {
 	display: grid;
 	grid-template-rows: 60px 225px 1fr;
 	grid-template-columns: 300px 1fr 400px;
-	grid-template-areas: 
-	"header header header"
-	"sidebar content dashboard"
-	"legend content dashboard"
-	"footer footer footer";
+	grid-template-areas:
+		"header header header"
+		"sidebar content dashboard"
+		"legend content dashboard"
+		"footer footer footer";
 }
 
 .header {
 	grid-area: header;
-	padding:10px;
-	background-color:gainsboro;
+	padding: 10px;
+	background-color: gainsboro;
 	color: #222;
 	font-size: 2em;
 }
@@ -41,6 +46,7 @@ body {
 	/* background-color: gainsboro; */
 	grid-area: legend;
 }
+
 .legend-inner {
 	font-size: 0.8em;
 	padding: 12px;
@@ -50,7 +56,7 @@ body {
 
 .nav {
 	grid-area: nav;
-	padding:10px;
+	padding: 10px;
 	background-color: #444;
 	color: white;
 	font-size: 1.2em;
@@ -59,7 +65,7 @@ body {
 .sidebar {
 	color: #444;
 	grid-area: sidebar;
-	padding:10px;
+	padding: 10px;
 	background-color: #fff;
 	overflow: auto;
 }
@@ -67,6 +73,7 @@ body {
 .sidebar-title {
 	color: #333;
 }
+
 /* 
 .dashboard {
 	grid-area: dashboard;
@@ -79,7 +86,7 @@ body {
 
 .footer {
 	grid-area: footer;
-	padding:10px;
+	padding: 10px;
 	background-color: rgb(255, 255, 255);
 }
 
@@ -89,15 +96,16 @@ body {
 
 	padding: 10px;
 	font-size: 0.8em;
-	padding:20px;
+	padding: 20px;
 	/* font: 14px/16px Arial, Helvetica, sans-serif;
 	background: white;
 	background: rgba(255,255,255,0.8);
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 	border-radius: 5px;
 	/* width: 250px; */
-	/* min-height: 50px; */ 
+	/* min-height: 50px; */
 }
+
 .info h4 {
 	margin: 0 0 5px;
 	color: #777;
@@ -108,6 +116,7 @@ body {
 	color: #555;
 	overflow: auto;
 }
+
 .legend i {
 	width: 18px;
 	height: 18px;
@@ -118,16 +127,17 @@ body {
 
 .item {
 	color: #ccc;
-	margin:3px;
+	margin: 3px;
 	padding: 10px;
 	cursor: pointer;
 }
 
 .map-item {
-    background-color: #333;
+	background-color: #333;
 }
+
 .layer-item {
-    background-color: #444;
+	background-color: #444;
 }
 
 .item:hover {
@@ -143,6 +153,7 @@ body {
 	margin: 1px;
 	cursor: pointer;
 }
+
 .legend-color {
 	float: left;
 	border-radius: 4px;
@@ -156,6 +167,10 @@ body {
 
 .selectivity-result-label .selectivity-results-container .selectivity-result-item {
 	color: #444;
+}
+
+.selectivity-single-select {
+	border-radius: 6px !important;
 }
 
 .dropdown {
@@ -202,10 +217,6 @@ td {
 	vertical-align: top;
 }
 
-.selectivity-single-select {
-	border-radius: 6px !important;
-}
-
 hr {
 	background-color: #bbb;
 	height: 1px;
@@ -213,41 +224,44 @@ hr {
 }
 
 #toggler {
-	
-    position: absolute;
-    margin-left: -38px;
-    margin-top: 70px;
-    font-size: 1.4em;
-    z-index: 9999;
-    background-color: #fff;
-    padding: 8px 8px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	margin-left: -38px;
+	margin-top: 70px;
+	font-size: 1.4em;
+	z-index: 9999;
+	background-color: #fff;
+	padding: 8px 8px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 #toggler2 {
-	
-    position: absolute;
-    margin-left: -5px;
-    margin-top: -100px;
-    font-size: 1.4em;
-    z-index: 9999;
-    background-color: #fff;
-    padding: 8px 8px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	margin-left: -5px;
+	margin-top: -100px;
+	font-size: 1.4em;
+	z-index: 9999;
+	background-color: #fff;
+	padding: 8px 8px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .info {
 	padding: 6px 8px;
 	font-size: 1em;
 	background: white;
-	background: rgba(255,255,255,0.8);
-	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
 	/* min-width: 250px;
 	min-height: 50px; */
 }
+
 .info h4 {
 	margin: 0 0 5px;
 	color: #777;
@@ -261,7 +275,8 @@ hr {
 	display: none;
 }
 
-.leaflet-popup-pane, .leaflet-control {
-    cursor: auto;
-    text-align: left;
+.leaflet-popup-pane,
+.leaflet-control {
+	cursor: auto;
+	text-align: left;
 }
