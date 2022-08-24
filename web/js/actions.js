@@ -11,7 +11,6 @@ function onEachFeature(feature, layer) {
 	layer.on({
 		mouseover: highlightFeature,
 		mouseout: resetHighlight,
-		// click: zoomToFeature
 		click: selectFeature
 	});
 
@@ -82,16 +81,6 @@ function resetHighlight(e) {
 
 	// }
 }
-
-/* **************************** 
-
-	On mouse click
-
-***************************** */ 
-function zoomToFeature(e) {
-	chs.map.fitBounds(e.target.getBounds());
-}
-
 
 /* **************************** 
 

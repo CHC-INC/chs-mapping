@@ -3,8 +3,8 @@
 
 	Sidebar
 
-***************************** */ 
-function createSidebar(){
+***************************** */
+function createSidebar() {
 
 	$('.sidebar').html('')
 
@@ -12,7 +12,7 @@ function createSidebar(){
 	
 		search by agency
 	
-	*/ 
+	*/
 	$('.sidebar').append(`<div class="dropdown" id="dropdown-agency"></div>`)
 	$('#dropdown-agency').selectivity({
 		allowClear: true,
@@ -20,7 +20,7 @@ function createSidebar(){
 		placeholder: 'Search by Agency',
 		showSearchInputInDropdown: true,
 		// multiple: true
-	}).on("change",function(data){
+	}).on("change", function (data) {
 		zoomToAgency(data.value)
 	});
 
@@ -28,14 +28,14 @@ function createSidebar(){
 	
 		search by block code
 	
-	*/ 
+	*/
 	$('.sidebar').append(`<div class="dropdown" id="dropdown-blocks"></div>`)
 	$('#dropdown-blocks').selectivity({
 		allowClear: true,
 		items: chs.panels.list_block_codes,
 		placeholder: 'Search by block code',
 		showSearchInputInDropdown: true
-	}).on("change",function(data){
+	}).on("change", function (data) {
 		zoomToFIPS(data.value)
 	});
 
@@ -59,12 +59,12 @@ function createSidebar(){
 		}).on("change",function(data){
 			addCategoricalLayer(data.value)
 		});
-		*/ 
+		*/
 	/*
 	
 		themes
 	
-	*/ 
+	*/
 	$('.sidebar').append(`<div class="dropdown" id="dropdown-layers"></div>`)
 
 	$('#dropdown-layers').selectivity({
@@ -83,16 +83,14 @@ function createSidebar(){
 		],
 		placeholder: 'Themes',
 		showSearchInputInDropdown: false
-	}).on("change",function(data){
+	}).on("change", function (data) {
 		// choropleth or categorical?
-		
-		if(chs.data.categorical_variables.filter(item => item.id === data.value).length > 0)
-		{
+
+		if (chs.data.categorical_variables.filter(item => item.id === data.value).length > 0) {
 			addCategoricalLayer(data.value)
 		}
-		else
-		{
-			addChoroplethLayer({field:data.value})
+		else {
+			addChoroplethLayer({ field: data.value })
 		}
 	});
 
@@ -100,7 +98,7 @@ function createSidebar(){
 	
 		Boundaries
 	
-	*/ 
+	*/
 	$('.sidebar').append(`<div class="dropdown" id="dropdown-boundaries"></div>`)
 
 	$('#dropdown-boundaries').selectivity({
@@ -112,7 +110,7 @@ function createSidebar(){
 		}],
 		placeholder: 'Boundaries',
 		showSearchInputInDropdown: false
-	}).on("change",function(data){
+	}).on("change", function (data) {
 		addBoundaryLayer(data.value)
 	});
 
@@ -122,9 +120,9 @@ function createSidebar(){
 
 	Selection panel
 
-***************************** */ 
+***************************** */
 
-function createInfoPanel(){
+function createInfoPanel() {
 
 	chs.panels.info.onAdd = function (map) {
 		this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
@@ -137,16 +135,16 @@ function createInfoPanel(){
 		// let count = chs.mapLayers.highlighted.getLayers().length;
 		let count = chs.mapLayers.selected_geoids.length;
 
-		if(count > 0){
-			if(count === 1){
+		if (count > 0) {
+			if (count === 1) {
 				this._div.innerHTML = `${count} feature selected`
 			}
-			else{
+			else {
 				this._div.innerHTML = `${count} features selected`
 			}
 			this._div.innerHTML += ` <button style="" onclick="clearHighlightedFeatures()">clear</button>`
 		}
-		else{
+		else {
 			hover = true;
 			this._div.innerHTML = 'Click on a block group to select it';
 		}
@@ -160,13 +158,13 @@ function createInfoPanel(){
 		// {
 		// 	this._div.innerHTML = 'Hover over a block group';
 		// }
-	};	
+	};
 
 	chs.panels.info.addTo(chs.map);
 }
 
-function clearHighlightedFeatures(){
-	hover=true;
+function clearHighlightedFeatures() {
+	hover = true;
 	$('#charts').empty();
 	chs.mapLayers.selected_geoids = [];
 	chs.mapLayers.highlighted.clearLayers();
@@ -177,120 +175,120 @@ function clearHighlightedFeatures(){
 
 	Legend
 
-***************************** */ 
-function createCategoricalLegend(){
+***************************** */
+function createCategoricalLegend() {
 	// legend.onAdd = function (map) {
-		var div = L.DomUtil.create('div', 'legend-inner');
-		
-		let title = chs.data.categorical_variables.filter(item => item.id === chs.mapOptions.category_field)[0].text
-		let html = `<h4>${title}</h4>`
+	var div = L.DomUtil.create('div', 'legend-inner');
 
-		html += `<table>`
+	let title = chs.data.categorical_variables.filter(item => item.id === chs.mapOptions.category_field)[0].text
+	let html = `<h4>${title}</h4>`
 
-		/*
-		
-			colors and values
-		
-		*/ 
-		chs.mapOptions.category_array.forEach(function(item,index){
-			
-			// html += `<tr><td><i style="margin-left:20px;background:${cat_colors[index]}"></i></td>
-			// <td><span style="font-size:0.8em;">${item}</span></td></tr>`
-			// toggle version for later implementation
-			html += `<tr><td><i style="margin-left:20px;background:${cat_colors[index]}"></i></td><td><i id="agency-toggle-${index}" onclick='toggleAgency(${index})' class="fa fa-toggle-on" aria-hidden="true" style="font-size:1.3em"></i></td>
+	html += `<table>`
+
+	/*
+	
+		colors and values
+	
+	*/
+	chs.mapOptions.category_array.forEach(function (item, index) {
+
+		// html += `<tr><td><i style="margin-left:20px;background:${cat_colors[index]}"></i></td>
+		// <td><span style="font-size:0.8em;">${item}</span></td></tr>`
+		// toggle version for later implementation
+		html += `<tr><td><i style="margin-left:20px;background:${cat_colors[index]}"></i></td><td><i id="agency-toggle-${index}" onclick='toggleAgency(${index})' class="fa fa-toggle-on" aria-hidden="true" style="font-size:1.3em"></i></td>
 			<td><span style="font-size:0.8em;">${item}</span></td></tr>`
-		})
+	})
 
-		// div.innerHTML = html;
-
-
-		// $('.legend').html(div)
-
-		/*
-		
-			opacity
-		
-		*/ 
-		html += `<table style="margin-left:20px;" leaflet-browser-print-pages-hide><tr><td style="vertical-align: top;font-size:0.8em;">Opacity</td><td style="vertical-align: middle;"><input type="range" min="1" max="100" value="${chs.mapOptions.fillOpacity*100}" class="slider" id="myRange"></td></tr></table>`;
-
-		div.innerHTML = html;
+	// div.innerHTML = html;
 
 
-		$('.legend').html(div)
-		
-		var slider = document.getElementById("myRange");
-		slider.oninput = function(){
-			chs.mapOptions.fillOpacity = this.value/100
-			chs.mapLayers.baselayer.setStyle({opacity:chs.mapOptions.fillOpacity,fillOpacity:chs.mapOptions.fillOpacity})
-		}
+	// $('.legend').html(div)
+
+	/*
+	
+		opacity
+	
+	*/
+	html += `<table style="margin-left:20px;" leaflet-browser-print-pages-hide><tr><td style="vertical-align: top;font-size:0.8em;">Opacity</td><td style="vertical-align: middle;"><input type="range" min="1" max="100" value="${chs.mapOptions.fillOpacity * 100}" class="slider" id="myRange"></td></tr></table>`;
+
+	div.innerHTML = html;
+
+
+	$('.legend').html(div)
+
+	var slider = document.getElementById("myRange");
+	slider.oninput = function () {
+		chs.mapOptions.fillOpacity = this.value / 100
+		chs.mapLayers.baselayer.setStyle({ opacity: chs.mapOptions.fillOpacity, fillOpacity: chs.mapOptions.fillOpacity })
+	}
 
 
 
 }
 
-function createLegend(){
+function createLegend() {
 	// legend.onAdd = function (map) {
-		var div = L.DomUtil.create('div', 'legend-inner'),
+	var div = L.DomUtil.create('div', 'legend-inner'),
 		breaks = chs.mapOptions.brew.getBreaks(),
 		from, to;
-		let variable = chs.data.variables.find( ({ id }) => id === chs.mapOptions.field)
-		let html = `<h4>${variable.text}</h4>`
+	let variable = chs.data.variables.find(({ id }) => id === chs.mapOptions.field)
+	let html = `<h4>${variable.text}</h4>`
 
-		html += `<table>`
+	html += `<table>`
 
-		/*
-		
-			colors and values
-		
-		*/ 
-		for (var i = 0; i < breaks.length; i++) {
-			from = breaks[i];
-			to = breaks[i + 1];
-			if(to) {
-				if(variable.percent === 'TRUE'){
-					html += `<tr><td><i style="margin-left:20px;background:${chs.mapOptions.brew.getColorInRange(to)}"></i></td>
+	/*
+	
+		colors and values
+	
+	*/
+	for (var i = 0; i < breaks.length; i++) {
+		from = breaks[i];
+		to = breaks[i + 1];
+		if (to) {
+			if (variable.percent === 'TRUE') {
+				html += `<tr><td><i style="margin-left:20px;background:${chs.mapOptions.brew.getColorInRange(to)}"></i></td>
 					<td><span style="font-size:0.8em;">${from.toFixed(0)}% &ndash; ${to.toFixed(0)}%</span></td></tr>`
-				}
-				else{
-					html += `<tr><td><i style="margin-left:20px;background:${chs.mapOptions.brew.getColorInRange(to)}"></i></td>
+			}
+			else {
+				html += `<tr><td><i style="margin-left:20px;background:${chs.mapOptions.brew.getColorInRange(to)}"></i></td>
 					<td><span style="font-size:0.8em;">${from.toFixed(0)} &ndash; ${to.toFixed(0)}</span></td></tr>`
-				}
-			}	
+			}
 		}
-		
-		/*
-		
-			highest values
-		
-		*/ 
-		html += `</table>`;
-		// html += `<tr><td style="vertical-align: middle;"><i style="margin-left:22px;font-size:1.2em;color:red" class="fa fa-chevron-circle-up" aria-hidden="true"></i></td><td style="vertical-align: middle;font-size:0.8em;">highest values</td><td><i id="hi-toggle" onclick="toggleMaxGeos()" class="fa fa-toggle-on" aria-hidden="true" style="font-size:1.3em"></i></td></tr></table>`;
+	}
 
-		/*
-		
-		break options
-		
-		*/ 
-		html += `<span style="margin-left:20px;" class='legend-scheme' onclick="addChoroplethLayer({scheme:'quantiles'})" leaflet-browser-print-pages-hide>quantiles</span>`;
-		html += `<span class='legend-scheme' onclick="addChoroplethLayer({scheme:'equal_interval'})" leaflet-browser-print-pages-hide>equal interval</span>`;
-		
-		/*
-		
-			opacity
-		
-		*/ 
-		html += `<table style="margin-left:20px;" leaflet-browser-print-pages-hide><tr><td style="vertical-align: top;font-size:0.8em;">Opacity</td><td style="vertical-align: middle;"><input type="range" min="1" max="100" value="${chs.mapOptions.fillOpacity*100}" class="slider" id="myRange"></td></tr></table>`;
+	/*
+	
+		highest values
+	
+	*/
+	html += `</table>`;
+	// html += `<tr><td style="vertical-align: middle;"><i style="margin-left:22px;font-size:1.2em;color:red" class="fa fa-chevron-circle-up" aria-hidden="true"></i></td><td style="vertical-align: middle;font-size:0.8em;">highest values</td><td><i id="hi-toggle" onclick="toggleMaxGeos()" class="fa fa-toggle-on" aria-hidden="true" style="font-size:1.3em"></i></td></tr></table>`;
 
-		div.innerHTML = html;
+	/*
+	
+	break options
+	
+	*/
+	html += `<span style="margin-left:20px;" class='legend-scheme' onclick="addChoroplethLayer({scheme:'quantiles'})" leaflet-browser-print-pages-hide>quantiles</span>`;
+	html += `<span class='legend-scheme' onclick="addChoroplethLayer({scheme:'equal_interval'})" leaflet-browser-print-pages-hide>equal interval</span>`;
+
+	/*
+	
+		opacity
+	
+	*/
+	html += `<table style="margin-left:20px;" leaflet-browser-print-pages-hide><tr><td style="vertical-align: top;font-size:0.8em;">Opacity</td><td style="vertical-align: middle;"><input type="range" min="1" max="100" value="${chs.mapOptions.fillOpacity * 100}" class="slider" id="myRange"></td></tr></table>`;
+
+	div.innerHTML = html;
 
 
-		$('.legend').html(div)
+	$('.legend').html(div)
 
-		var slider = document.getElementById("myRange");
-		slider.oninput = function(){
-			chs.mapOptions.fillOpacity = this.value/100
-			chs.mapLayers.baselayer.setStyle({opacity:chs.mapOptions.fillOpacity,fillOpacity:chs.mapOptions.fillOpacity})
-		}
+	var slider = document.getElementById("myRange");
+	slider.oninput = function () {
+		chs.mapOptions.fillOpacity = this.value / 100
+		chs.mapLayers.baselayer.setStyle({ opacity: chs.mapOptions.fillOpacity, fillOpacity: chs.mapOptions.fillOpacity })
+	}
 
 
 }
@@ -300,14 +298,14 @@ function createLegend(){
 
 	Dashboard
 
-***************************** */ 
-function createChart(GEOIDs){
+***************************** */
+function createChart(GEOIDs) {
 
 	/*
 	
 		set the chart variables
 	
-	*/ 
+	*/
 	let people_in_poverty = 0;
 	let total_pop_poverty = 0;
 
@@ -343,8 +341,8 @@ function createChart(GEOIDs){
 	
 		for each geoid, summarize the data
 	
-	*/ 
-	GEOIDs.forEach(function(geoid){
+	*/
+	GEOIDs.forEach(function (geoid) {
 
 		properties = chs.data.data.filter(item => item.GEOID === geoid)[0]
 
@@ -357,17 +355,17 @@ function createChart(GEOIDs){
 		
 			poverty
 		
-		*/ 
+		*/
 		people_in_poverty += parseInt(properties.Poverty)
 		total_pop_poverty += parseInt(properties.B17021_001E)
 		// people_in_poverty += parseInt(properties.B17021_002E)
 		// total_pop_poverty += parseInt(properties.B17021_001E)
-		
+
 		/*
 		
 			insured
 		
-		*/ 
+		*/
 		people_uninsured += parseInt(properties.Uninsured)
 		// people_uninsured += parseInt(properties.B27010_017E)+parseInt(properties.B27010_033E)+parseInt(properties.B27010_050E)+parseInt(properties.B27010_066E)
 		total_pop_uninsured += parseInt(properties.B27010_001E)
@@ -376,7 +374,7 @@ function createChart(GEOIDs){
 		
 			english
 		
-		*/ 
+		*/
 		people_english += parseInt(properties.Limited_Eng)
 		// people_english += parseInt(properties.B16004_007E) + parseInt(properties.B16004_008E) +
 		// 	parseInt(properties.B16004_012E) + parseInt(properties.B16004_013E) +
@@ -396,7 +394,7 @@ function createChart(GEOIDs){
 		
 			race
 		
-		*/ 
+		*/
 		people_hisp += parseInt(properties.Hisp);
 		people_NonHisp_black += parseInt(properties.NonHisp_black);
 		people_NonHisp_white += parseInt(properties.NonHisp_white);
@@ -412,7 +410,7 @@ function createChart(GEOIDs){
 		
 			gender
 		
-		*/ 
+		*/
 		people_male += parseInt(properties.Male);
 		people_female += parseInt(properties.Female);
 		// people_male += parseInt(properties.B01001_002E);
@@ -423,7 +421,7 @@ function createChart(GEOIDs){
 		
 			age
 		
-		*/ 
+		*/
 		people_age_5under += parseInt(properties.Age_5under)
 		people_age_5to14 += parseInt(properties.Age_5to14)
 		people_age_15to17 += parseInt(properties.Age_15to17)
@@ -444,44 +442,43 @@ function createChart(GEOIDs){
 	
 		calculate the percent of total
 	
-	*/ 
-	let percent_poverty = people_in_poverty/total_pop_poverty * 100;
-	let Uninsured_per = people_uninsured/total_pop_uninsured * 100;
-	let Limited_Eng_per = people_english/total_pop_english * 100;
+	*/
+	let percent_poverty = people_in_poverty / total_pop_poverty * 100;
+	let Uninsured_per = people_uninsured / total_pop_uninsured * 100;
+	let Limited_Eng_per = people_english / total_pop_english * 100;
 
-	let Hisp_per = people_hisp/total_pop_race * 100;
-	let NonHisp_black_per = people_NonHisp_black/total_pop_race * 100;
-	let NonHisp_white_per = people_NonHisp_white/total_pop_race * 100;
-	let NonHisp_asian_per = people_NonHisp_asian/total_pop_race * 100;
+	let Hisp_per = people_hisp / total_pop_race * 100;
+	let NonHisp_black_per = people_NonHisp_black / total_pop_race * 100;
+	let NonHisp_white_per = people_NonHisp_white / total_pop_race * 100;
+	let NonHisp_asian_per = people_NonHisp_asian / total_pop_race * 100;
 
-	let Male_per = people_male/total_pop_gender * 100;
-	let Female_per = people_female/total_pop_gender * 100;
+	let Male_per = people_male / total_pop_gender * 100;
+	let Female_per = people_female / total_pop_gender * 100;
 
-	let age_5under_per = people_age_5under/total_pop_age * 100; 
-	let age_5to14_per = people_age_5to14/total_pop_age * 100; 
-	let age_15to17_per = people_age_15to17/total_pop_age * 100; 
-	let age_18to20_per = people_age_18to20/total_pop_age * 100; 
-	let age_21to64_per = people_age_21to64/total_pop_age * 100; 
-	let age_65above_per = people_age_65above/total_pop_age * 100; 
+	let age_5under_per = people_age_5under / total_pop_age * 100;
+	let age_5to14_per = people_age_5to14 / total_pop_age * 100;
+	let age_15to17_per = people_age_15to17 / total_pop_age * 100;
+	let age_18to20_per = people_age_18to20 / total_pop_age * 100;
+	let age_21to64_per = people_age_21to64 / total_pop_age * 100;
+	let age_65above_per = people_age_65above / total_pop_age * 100;
 	/*
 	
 		show difference if block code exists
 	
-	*/ 
-	if(GEOIDs.length == 1){
-	
-		if(properties.Block_Code != ''){
+	*/
+	if (GEOIDs.length == 1) {
+
+		if (properties.Block_Code != '') {
 			additional_html = `
 			<span style="font-size:1.6em;padding: 4px;margin:4px;">Block code: ${properties.Block_Code}</span>
 			`
 		}
-		else{
+		else {
 			additional_html = '<span style="font-size:1.2em;padding: 4px;margin:4px;"><i>No block code</i></span>'
 		}
 
 	}
-	else
-	{
+	else {
 		additional_html = 'You have selected ' + GEOIDs.length + ' block groups'
 	}
 
@@ -489,7 +486,7 @@ function createChart(GEOIDs){
 	
 		create the html
 	
-	*/ 
+	*/
 	$('#charts').html(`
 	<div style="text-align:center">
 		<h4>
@@ -509,69 +506,69 @@ function createChart(GEOIDs){
 	
 		Poverty
 	
-	*/ 
-	
+	*/
+
 	// let percent_poverty = parseInt(properties.B17021_002E) / parseInt(properties.B17021_001E) * 100
 
-	var series = [Math.round(percent_poverty),100-Math.round(percent_poverty)]
+	var series = [Math.round(percent_poverty), 100 - Math.round(percent_poverty)]
 	var labels = ['Below poverty level', 'Above poverty level']
 	var wafflevalues = {};
 	wafflevalues.title = 'Poverty';
 	wafflevalues.data = series
 	wafflevalues.labels = labels
-	$('#dash1').html('<div class="col-sm" style="text-align:center">'+createWaffleChart(wafflevalues)+'</div>');
+	$('#dash1').html('<div class="col-sm" style="text-align:center">' + createWaffleChart(wafflevalues) + '</div>');
 
 	/*
 	
 		uninsured
 	
-	*/ 
-	var series = [Math.round(Uninsured_per),100-Math.round(Uninsured_per)]
+	*/
+	var series = [Math.round(Uninsured_per), 100 - Math.round(Uninsured_per)]
 	var labels = ['Uninsured', 'Insured']
 	var wafflevalues = {};
 	wafflevalues.title = 'Uninsured';
 	wafflevalues.data = series
 	wafflevalues.labels = labels
-	$('#dash2').html('<div class="col-sm" style="text-align:center">'+createWaffleChart(wafflevalues)+'</div>');
+	$('#dash2').html('<div class="col-sm" style="text-align:center">' + createWaffleChart(wafflevalues) + '</div>');
 
 	/*
 	
 		English
 	
-	*/ 
-	var series = [Math.round(Limited_Eng_per),100-Math.round(Limited_Eng_per)]
+	*/
+	var series = [Math.round(Limited_Eng_per), 100 - Math.round(Limited_Eng_per)]
 	var labels = ['Limited English', 'Not Limited']
 	var wafflevalues = {};
 	wafflevalues.title = 'English';
 	wafflevalues.data = series
 	wafflevalues.labels = labels
-	$('#dash3').html('<div class="col-sm" style="text-align:center">'+createWaffleChart(wafflevalues)+'</div>');
+	$('#dash3').html('<div class="col-sm" style="text-align:center">' + createWaffleChart(wafflevalues) + '</div>');
 
 	/*
 	
 		Gender
 	
-	*/ 
-	var series = [Math.round(Male_per),Math.round(Female_per)]
+	*/
+	var series = [Math.round(Male_per), Math.round(Female_per)]
 	var labels = ['Male', 'Female']
 	var wafflevalues = {};
 	wafflevalues.title = 'Gender';
 	wafflevalues.data = series
 	wafflevalues.labels = labels
-	$('#dash5').html('<div class="col-sm" style="text-align:center">'+createWaffleChart(wafflevalues)+'</div>');
+	$('#dash5').html('<div class="col-sm" style="text-align:center">' + createWaffleChart(wafflevalues) + '</div>');
 
 
 	/*
 	
 		Race
 	
-	*/ 
+	*/
 	var series = [
 		Math.round(Hisp_per),
 		Math.round(NonHisp_white_per),
 		Math.round(NonHisp_black_per),
 		Math.round(NonHisp_asian_per),
-		100-Math.round(Hisp_per)-Math.round(NonHisp_white_per)-Math.round(NonHisp_black_per)-Math.round(NonHisp_asian_per)
+		100 - Math.round(Hisp_per) - Math.round(NonHisp_white_per) - Math.round(NonHisp_black_per) - Math.round(NonHisp_asian_per)
 	]
 	var labels = [
 		'Hispanic',
@@ -586,12 +583,12 @@ function createChart(GEOIDs){
 	wafflevalues.title = 'Race';
 	wafflevalues.data = series
 	wafflevalues.labels = labels
-	$('#dash4').append('<div class="col-sm" style="text-align:center">'+createWaffleChart(wafflevalues)+'</div>');
+	$('#dash4').append('<div class="col-sm" style="text-align:center">' + createWaffleChart(wafflevalues) + '</div>');
 	/*
 	
 		age
 	
-	*/ 
+	*/
 	var series = [
 		Math.round(age_5under_per),
 		Math.round(age_5to14_per),
@@ -614,22 +611,21 @@ function createChart(GEOIDs){
 	wafflevalues.title = 'Age';
 	wafflevalues.data = series
 	wafflevalues.labels = labels
-	$('#dash6').append('<div class="col-sm" style="text-align:center">'+createWaffleChart(wafflevalues)+'</div>');
+	$('#dash6').append('<div class="col-sm" style="text-align:center">' + createWaffleChart(wafflevalues) + '</div>');
 
 }
 
 
-function createWaffleChart(values)
-{
+function createWaffleChart(values) {
 	// var values = [40,20,10,5];
 	var sum = 0;
-	$.each(values.data,function(i,val){
+	$.each(values.data, function (i, val) {
 		sum += val;
 	})
 
 	var normalizedValues = [];
-	$.each(values.data,function(i,val){
-		normalizedValues.push(Math.round(val/sum*100))
+	$.each(values.data, function (i, val) {
+		normalizedValues.push(Math.round(val / sum * 100))
 	})
 	var count = 0;
 
@@ -640,24 +636,23 @@ function createWaffleChart(values)
 	// waffle it
 	waffle += '<div class="row waffle-container" style="margin: 5px;text-align:center">';
 
-	
-	
+
+
 	/*
 	
 		title
 	
-	*/ 
-	waffle += '<h4>'+values.title+'</h4>';
+	*/
+	waffle += '<h4>' + values.title + '</h4>';
 
 	/*
 	
 		waffle
 	
-	*/ 
-	$.each(normalizedValues,function(i,val){
-		for (var j = 0; j < val; j++)
-		{
-			waffle += '<div class="waffle-border" style="float:left;"><div class="waffle-box" style="background-color:'+chs.palette[i]+'"></div></div>';
+	*/
+	$.each(normalizedValues, function (i, val) {
+		for (var j = 0; j < val; j++) {
+			waffle += '<div class="waffle-border" style="float:left;"><div class="waffle-box" style="background-color:' + chs.palette[i] + '"></div></div>';
 		}
 	})
 	// waffle += '</div>';
@@ -667,12 +662,12 @@ function createWaffleChart(values)
 	
 		legend
 	
-	*/ 
+	*/
 	// stats and values
 	waffle += '<table class="table table-sm table-condensed smallfont" style="text-align:left;">';
 
 	for (var i = 0; i < values.data.length; i++) {
-		waffle += '<tr><td><div class="waffle-box-empty smallfont" style="background-color:'+chs.palette[i]+'"> &nbsp&nbsp&nbsp&nbsp</div></td><td>'+values.labels[i]+' ('+normalizedValues[i]+'%)</td><td><div class="waffle-border" style="float:left;"></div></td></tr>';
+		waffle += '<tr><td><div class="waffle-box-empty smallfont" style="background-color:' + chs.palette[i] + '"> &nbsp&nbsp&nbsp&nbsp</div></td><td>' + values.labels[i] + ' (' + normalizedValues[i] + '%)</td><td><div class="waffle-border" style="float:left;"></div></td></tr>';
 		// waffle += '<tr><td width="60%"><div class="waffle-box-empty smallfont" style="background-color:'+mdbla.chs.palette[i]+'"> &nbsp&nbsp&nbsp&nbsp'+values.labels[i]+'</div></td><td class="smallfont" width="40%" align="right">'+values.data[i]+' ('+normalizedValues[i]+'%)</td><td><div class="waffle-border" style="float:left;"></div></td></tr>';
 	}
 
@@ -682,46 +677,44 @@ function createWaffleChart(values)
 }
 
 
-function toggleDashboard(){
-	if(chs.panels.hideDashboard){
-		
+function toggleDashboard() {
+	if (chs.panels.hideDashboard) {
+
 		$('#charts').hide()
-		$('body').css('grid-template-columns','300px 1fr 1px')
+		$('body').css('grid-template-columns', '300px 1fr 1px')
 		chs.map.invalidateSize()
 		chs.panels.hideDashboard = false;
 	}
-	else
-	{
+	else {
 		$('#charts').show()
-		$('body').css('grid-template-columns','300px 1fr 400px')
+		$('body').css('grid-template-columns', '300px 1fr 400px')
 		chs.map.invalidateSize()
 		chs.panels.hideDashboard = true;
 	}
 }
 
-function toggleTOC(){
+function toggleTOC() {
 
 	// check dashboard toggle
-	if(chs.panels.hideDashboard){
+	if (chs.panels.hideDashboard) {
 		dashboard_width = '400px';
 	}
-	else{
+	else {
 		dashboard_width = '1px';
 	}
 
-	if(chs.panels.hideTOC){
-		
+	if (chs.panels.hideTOC) {
+
 		$('#sidebar').hide()
 		$('#legend').hide()
-		$('body').css('grid-template-columns',`1px 1fr ${dashboard_width}`)
+		$('body').css('grid-template-columns', `1px 1fr ${dashboard_width}`)
 		chs.map.invalidateSize()
 		chs.panels.hideTOC = false;
 	}
-	else
-	{
+	else {
 		$('#sidebar').show()
 		$('#legend').show()
-		$('body').css('grid-template-columns',`300px 1fr ${dashboard_width}`)
+		$('body').css('grid-template-columns', `300px 1fr ${dashboard_width}`)
 		chs.map.invalidateSize()
 		chs.panels.hideTOC = true;
 	}

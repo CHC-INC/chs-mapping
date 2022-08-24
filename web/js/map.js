@@ -23,13 +23,13 @@ function getData() {
 		function to parse csv files
 	
 	*/
-	function parseCsv(url, stepArr) {
+	function parseCsv(url) {
 		return new Promise(function (resolve, reject) {
 			Papa.parse(url, {
 				download: true,
 				header: true,
 				complete: resolve
-			});
+			})
 		});
 	}
 
@@ -49,12 +49,8 @@ function getData() {
 		list of data to parse
 	
 	*/
-	// const csvdata = parseCsv(chs.data.csv_path)
-	const csvdata2 = parseCsv(chs.data.csv_path2)
 	const geojsondata = getGeoJson(chs.data.bgs_path)
-	const googledata = parseCsv(chs.data.google_path)
-	const googledata2 = parseCsv(chs.data.google_path2) // gis boundaries
-	const googledata3 = parseCsv(chs.data.google_path3) // variables 
+	const csvdata = parseCsv(chs.data.csv_path)
 
 	/*
 	
@@ -64,8 +60,7 @@ function getData() {
 	console.log('start promise...')
 	var t0 = performance.now()
 	Promise.all(
-		// [geojsondata,csvdata,csvdata2,googledata]
-		[geojsondata, csvdata2, googledata, googledata2, googledata3]
+		[geojsondata, csvdata]
 	).then(
 		function (results) {
 			var t1 = performance.now()
@@ -76,13 +71,7 @@ function getData() {
 			
 			*/
 			chs.data.bgs = results[0]
-			// chs.data.csv = results[1]
-			chs.data.csv2 = results[1]
-			chs.data.google = results[2]
-			chs.data.google2 = results[3] // gis boundaries
-			chs.data.google3 = results[4]
-			chs.data.boundaries = chs.data.google2.data
-			chs.data.variables = chs.data.google3.data
+			chs.data.csv = results[1]
 
 			/*
 			
@@ -339,7 +328,6 @@ function addChoroplethLayer(args) {
 		args = args || {};
 		chs.mapOptions.field = args.field || chs.mapOptions.field;
 		chs.mapOptions.num_classes = args.num_classes || chs.mapOptions.num_classes;
-		chs.mapOptions.choroplethColors = args.palette || getRandomPalette();
 		chs.mapOptions.scheme = args.scheme || chs.mapOptions.scheme;
 		if (chs.data.variables.filter(item => item.id === chs.mapOptions.field)[0].pop) {
 			chs.mapOptions.pop = chs.data.variables.filter(item => item.id === chs.mapOptions.field)[0].pop
@@ -374,7 +362,7 @@ function addChoroplethLayer(args) {
 
 		chs.mapOptions.brew.setSeries(values);
 		chs.mapOptions.brew.setNumClasses(chs.mapOptions.num_classes);
-		chs.mapOptions.brew.setColorCode(chs.mapOptions.choroplethColors);
+		chs.mapOptions.brew.setColorCode("RdYlGn");
 		chs.mapOptions.brew.classify(chs.mapOptions.scheme);
 
 		/*
@@ -408,9 +396,6 @@ function addChoroplethLayer(args) {
 
 		// create the legend
 		createLegend();
-
-		// add markers for hi/lo values
-		// mapHiLo();
 	}
 
 }
@@ -487,7 +472,9 @@ function addCategoricalLayer(field) {
 		
 		*/
 		chs.data.data.forEach(function (item) {
-			chs.mapOptions.category_array.push(item[chs.mapOptions.category_field])
+			if (item[chs.mapOptions.category_field] !== '') {
+				chs.mapOptions.category_array.push(item[chs.mapOptions.category_field])
+			}
 		})
 
 		/*
@@ -496,12 +483,7 @@ function addCategoricalLayer(field) {
 		
 		*/
 		// get rid of duplicates
-		chs.mapOptions.category_array = [...new Set(chs.mapOptions.category_array)]
-
-		// get rid of empty values
-		if (chs.mapOptions.category_array[0] != undefined) {
-			chs.mapOptions.category_array = chs.mapOptions.category_array.filter((entry) => { return entry.trim() != '' })
-		}
+		chs.mapOptions.category_array = [...new Set(chs.mapOptions.category_array)].filter(Boolean)
 
 		// sort it
 		chs.mapOptions.category_array.sort();
@@ -686,17 +668,10 @@ function joinCSV() {
 		do the joins
 	
 	*/
-	// chs.mapLayers.baselayer.eachLayer(function(layer) {
-	// 	featureJoinByProperty(layer.feature.properties, chs.data.csv.data, "GEOID");
-	// });
 
+	// console.log(chs.mapLayers.baselayer, chs.data.csv.data)
 	chs.mapLayers.baselayer.eachLayer(function (layer) {
-		featureJoinByProperty(layer.feature.properties, chs.data.csv2.data, "GEOID");
-	});
-
-	// google sheet for "live" data 
-	chs.mapLayers.baselayer.eachLayer(function (layer) {
-		featureJoinByProperty(layer.feature.properties, chs.data.google.data, "GEOID");
+		featureJoinByProperty(layer.feature.properties, chs.data.csv.data, "GEOID");
 	});
 
 	/*
@@ -735,82 +710,9 @@ function createGeoidList() {
 	chs.panels.list_block_codes.sort(function (a, b) {
 		return a.block_code - b.block_code;
 	})
-
-	// geojson_data_tracts.features.forEach(function(item){
-	// 	geoid_list_tracts.push(item.properties.GEOID)
-	// chs.data.bgs.objects.bg.geometries.forEach(function(item){
-	// 	object = {
-	// 		id: item.properties.GEOID,
-	// 		// text: item.properties.GEOID,
-	// 		text: `${item.properties.Block_Code} (${item.properties.CSA_Name})`
-	// 	}
-	// 	chs.panels.list_block_codes.push(object)
-	// });
-
-	// if geojson
-	// chs.data.bgs.features.forEach(function(item){
-	// 	object = {
-	// 		id: item.properties.GEOID,
-	// 		text: `${item.properties.Block_Code} (${item.properties.CSA_Name})`
-	// 	}
-	// 	chs.panels.list_block_codes.push(object)
-	// });
-
 }
 
 
-function mapHiLo() {
-
-	// deleteMaxGeos()
-	chs.mapOptions.max_geos_toggle = true;
-	let max_value = Math.max(...chs.mapOptions.brew.getSeries())
-	let min_value = Math.min(...chs.mapOptions.brew.getSeries())
-
-	chs.mapOptions.max_geos = chs.mapLayers.baselayer.getLayers().filter(item => parseFloat(item.feature.properties[chs.mapOptions.field]) === max_value)
-
-	chs.mapOptions.max_geos.forEach(function (feature, layer) {
-		feature.bindTooltip(`<i style="font-size:2em;color:red" class="fa fa-chevron-circle-up" aria-hidden="true"></i>`, {
-			permanent: true,
-			opacity: 0.8,
-			className: 'tooltip'
-		});
-	});
-
-	// let min_geos = chs.mapLayers.baselayer.getLayers().filter(item => parseFloat(item.feature.properties[chs.mapOptions.field]) === min_value)
-	// min_geos.forEach(function(item){
-	// 	let marker = L.marker(item.getCenter(),{icon:chs.mapLayers.loIcon}).bindPopup(`${min_value} %`).on('mouseover',function(){
-	// 		this.openPopup()
-	// 	})
-	// 	chs.mapLayers.hilo_markers.addLayer(marker).bindPopup(``)
-	// })
-
-
-	// min_geos.forEach(function(feature,layer){
-	// 	feature.bindTooltip(`<i style="font-size:2em;color:red" class="fa fa-chevron-circle-up" aria-hidden="true"></i>`,{
-	// 		permanent:true,
-	// 		opacity:0.8,
-	// 		className: 'tooltip'
-	// 	});
-	// });
-
-	chs.mapLayers.hilo_markers.addTo(chs.map)
-}
-
-function toggleMaxGeos() {
-
-	if (chs.mapOptions.max_geos_toggle) {
-		chs.mapOptions.max_geos.forEach(function (layer) {
-			layer.unbindTooltip();
-		})
-		$('#hi-toggle').removeClass('fa-toggle-on').addClass('fa-toggle-off')
-		chs.mapOptions.max_geos_toggle = false;
-	}
-	else {
-		mapHiLo()
-		$('#hi-toggle').removeClass('fa-toggle-off').addClass('fa-toggle-on')
-		chs.mapOptions.max_geos_toggle = true;
-	}
-}
 function toggleBoundaryLabels() {
 
 	if (chs.mapOptions.boundary_label_toggle) {
@@ -831,13 +733,6 @@ function toggleBoundaryLabels() {
 		})
 		chs.mapOptions.boundary_label_toggle = true;
 	}
-}
-
-function getRandomPalette() {
-	// let pal = chs.mapOptions.brew.getColorCodesByType().seq
-	let pal = ["OrRd", "PuBu", "BuPu", "Oranges", "BuGn", "YlOrBr", "YlGn", "Reds", "RdPu", "Greens", "YlGnBu", "Purples", "GnBu", "YlOrRd", "PuRd", "Blues", "PuBuGn", "Spectral", "RdYlGn", "RdBu", "PiYG", "PRGn", "RdYlBu", "BrBG", "RdGy", "PuOr"]
-	let random_num = Math.floor(Math.random() * pal.length + 1)
-	return (pal[random_num])
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////

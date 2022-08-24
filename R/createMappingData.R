@@ -6,7 +6,7 @@ vaccinations_city <-
   read.csv(
     "http://publichealth.lacounty.gov/media/coronavirus/vaccine/data/tables/cair_pm_hosp_geocoded_city_totals.csv"
   ) %>%
-  select(1, 4) %>%
+  select('City.Community', X6..mos.Pop..Vaccinated.....2) %>%
   rename(city = 1,
          Current_Vaccination = 2) %>%
   filter(Current_Vaccination < 1) %>%
@@ -32,9 +32,14 @@ outreach <-
     ZIP = ZIPCODE
   )
 
+# Grab acs population data by block groups
+demographics <- read.csv("R/raw/acs_bg.csv", colClasses = "character") %>%
+  select(-vac_per)
+
 # Merge all data and output for consumption by website
 city_bg_crosswalk %>%
   left_join(outreach, by = "GEOID") %>%
+  left_join(demographics, by = "GEOID") %>%
   left_join(vaccinations_city, by = c("community" = "city")) %>%
   select(-community) %>%
   mutate(Current_Vaccination_Date = format(Sys.Date(), "%b %d, %Y")) %>%
