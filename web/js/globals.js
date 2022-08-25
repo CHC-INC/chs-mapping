@@ -56,20 +56,6 @@ chs.mapLayers = {
 	highlighted_layer: '',
 	selected_geoids: [],
 	geocodepin: undefined,
-	hiIcon: L.icon({
-		iconUrl: 'images/hi.png',
-
-		iconSize: [40, 45], // size of the icon
-		iconAnchor: [20, 45], // point of the icon which will correspond to marker's location
-		popupAnchor: [0, -35]
-	}),
-
-	loIcon: L.icon({
-		iconUrl: 'images/lo.png',
-
-		iconSize: [40, 45], // size of the icon
-		iconAnchor: [20, 45], // point of the icon which will correspond to marker's location
-	}),
 }
 
 /*
@@ -94,10 +80,6 @@ chs.palette = ['#6A3D9A', '#FF7F00', '#33A02C', '#1F78B4', '#E31A1C'];
 	data
 */
 chs.data = {
-	bgs: '',
-	google: '',
-	csv: '',
-	csv2: '',
 	bgs_path: 'boundaries/bg_topo.json',
 	csv_path: '../data/merged_vaccination_data.csv',
 	boundaries: [

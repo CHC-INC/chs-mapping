@@ -358,8 +358,6 @@ function createChart(GEOIDs) {
 		*/
 		people_in_poverty += parseInt(properties.Poverty)
 		total_pop_poverty += parseInt(properties.B17021_001E)
-		// people_in_poverty += parseInt(properties.B17021_002E)
-		// total_pop_poverty += parseInt(properties.B17021_001E)
 
 		/*
 		
@@ -367,7 +365,6 @@ function createChart(GEOIDs) {
 		
 		*/
 		people_uninsured += parseInt(properties.Uninsured)
-		// people_uninsured += parseInt(properties.B27010_017E)+parseInt(properties.B27010_033E)+parseInt(properties.B27010_050E)+parseInt(properties.B27010_066E)
 		total_pop_uninsured += parseInt(properties.B27010_001E)
 
 		/*
@@ -376,18 +373,6 @@ function createChart(GEOIDs) {
 		
 		*/
 		people_english += parseInt(properties.Limited_Eng)
-		// people_english += parseInt(properties.B16004_007E) + parseInt(properties.B16004_008E) +
-		// 	parseInt(properties.B16004_012E) + parseInt(properties.B16004_013E) +
-		// 	parseInt(properties.B16004_017E) + parseInt(properties.B16004_018E) +
-		// 	parseInt(properties.B16004_022E) + parseInt(properties.B16004_023E) +
-		// 	parseInt(properties.B16004_029E) + parseInt(properties.B16004_030E) +
-		// 	parseInt(properties.B16004_034E) + parseInt(properties.B16004_035E) +
-		// 	parseInt(properties.B16004_039E) + parseInt(properties.B16004_040E) +
-		// 	parseInt(properties.B16004_044E) + parseInt(properties.B16004_045E) +
-		// 	parseInt(properties.B16004_051E) + parseInt(properties.B16004_052E) +
-		// 	parseInt(properties.B16004_056E) + parseInt(properties.B16004_057E) +
-		// 	parseInt(properties.B16004_061E) + parseInt(properties.B16004_062E) +
-		// 	parseInt(properties.B16004_066E) + parseInt(properties.B16004_067E)
 		total_pop_english += parseInt(properties.B16004_001E)
 
 		/*
@@ -400,11 +385,6 @@ function createChart(GEOIDs) {
 		people_NonHisp_white += parseInt(properties.NonHisp_white);
 		people_NonHisp_asian += parseInt(properties.NonHisp_asian);
 		total_pop_race += parseInt(properties.Pop_total);
-		// people_hisp += parseInt(properties.B03002_012E);
-		// people_NonHisp_black += parseInt(properties.B03002_004E);
-		// people_NonHisp_white += parseInt(properties.B03002_003E);
-		// people_NonHisp_asian += parseInt(properties.B03002_006E);
-		// total_pop_race += parseInt(properties.B03002_001E);
 
 		/*
 		
@@ -413,8 +393,6 @@ function createChart(GEOIDs) {
 		*/
 		people_male += parseInt(properties.Male);
 		people_female += parseInt(properties.Female);
-		// people_male += parseInt(properties.B01001_002E);
-		// people_female += parseInt(properties.B01001_026E);
 		total_pop_gender += parseInt(properties.Pop_total);
 
 		/*
@@ -429,13 +407,6 @@ function createChart(GEOIDs) {
 		people_age_21to64 += parseInt(properties.Age_21to64)
 		people_age_65above += parseInt(properties.Age_65above)
 		total_pop_age += parseInt(properties.Pop_total)
-		// people_age_5under += parseInt(properties.B01001_003E) + parseInt(properties.B01001_027E)
-		// people_age_5to14 += parseInt(properties.B01001_004E) + parseInt(properties.B01001_005E) + parseInt(properties.B01001_028E) + parseInt(properties.B01001_029E)
-		// people_age_15to17 += parseInt(properties.B01001_006E) + parseInt(properties.B01001_030E)
-		// people_age_18to20 += parseInt(properties.B01001_007E) + parseInt(properties.B01001_008E) + parseInt(properties.B01001_031E) + parseInt(properties.B01001_032E)
-		// people_age_21to64 += parseInt(properties.B01001_009E) + parseInt(properties.B01001_010E) + parseInt(properties.B01001_011E) + parseInt(properties.B01001_012E) + parseInt(properties.B01001_013E) + parseInt(properties.B01001_014E) + parseInt(properties.B01001_015E) + parseInt(properties.B01001_016E) + parseInt(properties.B01001_017E) + parseInt(properties.B01001_018E) + parseInt(properties.B01001_019E) + parseInt(properties.B01001_033E) + parseInt(properties.B01001_034E) + parseInt(properties.B01001_035E) + parseInt(properties.B01001_036E) + parseInt(properties.B01001_037E) + parseInt(properties.B01001_038E) + parseInt(properties.B01001_039E) + parseInt(properties.B01001_040E) + parseInt(properties.B01001_041E) + parseInt(properties.B01001_042E) + parseInt(properties.B01001_043E)
-		// people_age_65above += parseInt(properties.B01001_020E) + parseInt(properties.B01001_021E) + parseInt(properties.B01001_022E) + parseInt(properties.B01001_023E) + parseInt(properties.B01001_024E) + parseInt(properties.B01001_025E) + parseInt(properties.B01001_044E) + parseInt(properties.B01001_045E) + parseInt(properties.B01001_046E) + parseInt(properties.B01001_047E) + parseInt(properties.B01001_048E) + parseInt(properties.B01001_049E)
-		// total_pop_age += parseInt(properties.B03002_001E)
 	})
 
 	/*

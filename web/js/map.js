@@ -71,7 +71,12 @@ function getData() {
 			
 			*/
 			chs.data.bgs = results[0]
-			chs.data.csv = results[1]
+			chs.data.csv = {}
+
+
+			results[1].data.forEach(row => {
+				chs.data.csv[row.GEOID] = row
+			})
 
 			/*
 			
@@ -120,20 +125,7 @@ function addDefaultBaseLayer() {
 		fillOpacity: chs.mapOptions.fillOpacity,
 		opacity: chs.mapOptions.fillOpacity,
 		onEachFeature: onEachFeature,
-	}
-	).addTo(chs.map)
-
-	// add tooltip
-
-	// chs.mapLayers.baselayer.getLayers().forEach(function(layer){
-	// 	layer.bindTooltip(layer.feature.properties['GEOID'],{
-	// 		permanent:false,
-	// 		opacity:0.8,
-	// 		className: 'tooltip'
-	// 	});
-	// })
-
-
+	}).addTo(chs.map)
 }
 
 /* **************************** 
@@ -268,10 +260,6 @@ function createMap() {
 	L.control.browserPrint({
 		printModes: ["Portrait", "Landscape"]
 	}).addTo(chs.map)
-	// L.Control.BrowserPrint.Utils.registerRenderer(L.Tooltip, 'L.Tooltip');
-	// chs.map.on('zoomend', function() {
-	// 	onZoomEnd();
-	// });
 }
 
 function onZoomEnd() {
@@ -438,8 +426,7 @@ function addTooltip() {
 	Create categorical map
 
 ***************************** */
-// let cat_colors = ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#cab2d6','#6a3d9a','#ffff99','#b15928']
-let cat_colors = d3.scale.category20().range()
+let cat_colors = ["#1f77b4", "#aec7e8", "#ff7f0e", "#ffbb78", "#2ca02c", "#98df8a", "#d62728", "#ff9896", "#9467bd", "#c5b0d5", "#8c564b", "#c49c94", "#e377c2", "#f7b6d2", "#7f7f7f", "#c7c7c7", "#bcbd22", "#dbdb8d", "#17becf", "#9edae5"];
 
 function addCategoricalLayer(field) {
 
@@ -518,8 +505,6 @@ function addCategoricalLayer(field) {
 
 function getCategoryStyle(feature) {
 	let index = chs.mapOptions.category_array.indexOf(feature.properties[chs.mapOptions.category_field])
-	// let cat = parseInt(feature.properties.Priority_Decile)
-
 
 	return {
 		stroke: true,
@@ -654,7 +639,6 @@ function getStyle(feature) {
 		weight: 0.8,
 		fill: true,
 		fillColor: chs.mapOptions.brew.getColorInRange(value),
-		// fillColor: chs.mapOptions.brew.getColorInRange(feature.properties[chs.mapOptions.field]),
 		fillOpacity: chs.mapOptions.fillOpacity,
 		opacity: chs.mapOptions.fillOpacity,
 	}
@@ -668,20 +652,15 @@ function joinCSV() {
 		do the joins
 	
 	*/
-
-	// console.log(chs.mapLayers.baselayer, chs.data.csv.data)
-	chs.mapLayers.baselayer.eachLayer(function (layer) {
-		featureJoinByProperty(layer.feature.properties, chs.data.csv.data, "GEOID");
-	});
-
-	/*
-	
-		add it to global data var
-	
-	*/
 	chs.data.data = []
 	chs.mapLayers.baselayer.eachLayer(function (layer) {
-		chs.data.data.push(layer.feature.properties)
+		const properties = chs.data.csv[layer.feature.properties.GEOID];
+		if (properties) {
+			for (key in properties) {
+				layer.feature.properties[key] = properties[key];
+			}
+			chs.data.data.push(layer.feature.properties)
+		}
 	});
 }
 
@@ -734,27 +713,3 @@ function toggleBoundaryLabels() {
 		chs.mapOptions.boundary_label_toggle = true;
 	}
 }
-
-/////////////////////////////////////////////////////////////////////////////////////////////
-//join function//
-/////////////////////////////////////////////////////////////////////////////////////////////
-
-//input arguments:
-//fProps: geoJson feature properties object
-//dTable: array of objects containing properties to be joined
-//joinKey: property to use to perform the join
-function featureJoinByProperty(fProps, dTable, joinKey) {
-	var keyVal = fProps[joinKey];
-	var match = {};
-	for (var i = 0; i < dTable.length; i++) {
-		if (dTable[i][joinKey] === keyVal) {
-			match = dTable[i];
-			for (key in match) {
-				if (!(key in fProps)) {
-					fProps[key] = match[key];
-				}
-			}
-		}
-	}
-}
-
