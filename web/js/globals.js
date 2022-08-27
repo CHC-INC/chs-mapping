@@ -86,58 +86,58 @@ chs.data = {
 		{
 			"text": "Service Planning Areas (2012)",
 			"id": "SPA",
-			"path": "boundaries/spa.geojson",
+			"path": "boundaries/spa_topo.json",
 			"name_field": "name",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		},
 		{
 			"text": "LA County Supervisors District (2011)",
 			"id": "sd",
-			"path": "boundaries/sd.geojson",
+			"path": "boundaries/sd_2011_topo.json",
 			"name_field": "name",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		},
 		{
 			"text": "LA County Supervisors District (2021)",
 			"id": "sd2021",
-			"path": "boundaries/super2021.geojson",
+			"path": "boundaries/sd_2021_topo.json",
 			"name_field": "DistName",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		},
 		{
 			"text": "Cities/Communities",
 			"id": "neighborhoods",
-			"path": "boundaries/latimes_place_lacounty.geojson",
+			"path": "boundaries/cities_topo.json",
 			"name_field": "name",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		},
 		{
 			"text": "LA County Regions",
 			"id": "regions",
-			"path": "boundaries/regions.geojson",
+			"path": "boundaries/regions_topo.json",
 			"name_field": "name",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		},
 		{
 			"text": "LA City Council District (2012)",
 			"id": "council",
-			"path": "boundaries/council.geojson",
+			"path": "boundaries/council_topo.json",
 			"name_field": "name",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		},
 		{
 			"text": "Zipcodes",
 			"id": "zipcodes",
-			"path": "boundaries/zipcodes.geojson",
+			"path": "boundaries/zipcodes_topo.json",
 			"name_field": "ZIPCODE",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		},
 		{
 			"text": "LA Census Tracts",
@@ -150,10 +150,10 @@ chs.data = {
 		{
 			"text": "LAUSD Local Districts",
 			"id": "lausd",
-			"path": "boundaries/LAUSD_Local_Districts.geojson",
+			"path": "boundaries/lausd_topo.json",
 			"name_field": "SHORTNAME",
 			"label": "TRUE",
-			"type": "geojson"
+			"type": "topojson"
 		}
 	],
 	categorical_variables: [
@@ -257,7 +257,7 @@ chs.data = {
 		},
 		{
 			"geography": "bg",
-			"text": "Percent Vaccinated",
+			"text": "Percent Boosted",
 			"id": "Current_Vaccination",
 			"pop": "",
 			"type": "choropleth",
