@@ -169,6 +169,10 @@ function addTooltip() {
 }
 
 function selectFeature(e) {
+    if (e.type !== 'click' && window.innerWidth < 600) {
+        return
+    }
+
     var layer = e.target;
 
     let properties = layer.feature.properties;
