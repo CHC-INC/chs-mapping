@@ -31,7 +31,6 @@ chs.mapOptions = {
 	category_array_toggle: [],
 	category_on_array: [], // another array to list only categories that are turned on
 	scheme: 'quantiles',
-	brew: new classyBrew(),
 	choroplethColors: '',
 	max_geos: '', //filtered layer of polygons with max values
 	max_geos_toggle: true,
@@ -41,7 +40,6 @@ chs.mapOptions = {
 		[34.840471137173814, -117.64558196067811],
 		[33.65310164305273, -118.95295500755311]
 	],
-
 }
 
 /*
@@ -82,6 +80,7 @@ chs.palette = ['#6A3D9A', '#FF7F00', '#33A02C', '#1F78B4', '#E31A1C'];
 chs.data = {
 	bgs_path: 'boundaries/bg_topo.json',
 	csv_path: '../data/merged_vaccination_data.csv',
+	csv_locate_path: '../data/merged_vaccination_locate_data.csv',
 	boundaries: [
 		{
 			"text": "Service Planning Areas (2012)",

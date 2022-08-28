@@ -3,13 +3,8 @@
 	Initialize
 
 ***************************** */
-
-$(document).ready(function () {
-
-	console.log('getting the data...')
-	getData();
-
-});
+console.log('getting the data...')
+getData();
 
 /* **************************** 
 
@@ -38,7 +33,7 @@ function getData() {
 		function to parse geojson files
 	
 	*/
-	function getGeoJson(url) {
+	async function getGeoJson(url) {
 		return new Promise(function (resolve, reject) {
 			$.getJSON(url, resolve)
 		})
@@ -135,6 +130,7 @@ function addDefaultBaseLayer() {
 ***************************** */
 function createMap() {
 	chs.map = L.map('map')
+	chs.mapOptions.brew = new classyBrew();
 
 	/*
 	
@@ -143,7 +139,7 @@ function createMap() {
 	*/
 	let satellite = L.tileLayer('https://api.mapbox.com/styles/v1/yohman/ckon2lqfc00bu17nrdwdtsmke/tiles/512/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoieW9obWFuIiwiYSI6IkxuRThfNFkifQ.u2xRJMiChx914U7mOZMiZw',
 		{
-			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox/yohman</a>',
+			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 			maxZoom: 18,
 			tileSize: 512,
 			zoomOffset: -1,
@@ -167,7 +163,7 @@ function createMap() {
 	*/
 	let satellitecolor = L.tileLayer('https://api.mapbox.com/styles/v1/yohman/ckrh25hug05w018ndot6lycob/tiles/512/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoieW9obWFuIiwiYSI6IkxuRThfNFkifQ.u2xRJMiChx914U7mOZMiZw',
 		{
-			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox/yohman</a>',
+			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 			maxZoom: 18,
 			tileSize: 512,
 			zoomOffset: -1,
@@ -213,18 +209,10 @@ function createMap() {
 		geocoder: new L.Control.Geocoder.mapbox({
 			apiKey: 'pk.eyJ1IjoiY2h3b2lwcm9qZWN0IiwiYSI6ImNrdTRjZXkwaTRwaWwycXBtY290MjA5d3gifQ.iyENw-MBBY3_9tMPv7frFg',
 			geocodingQueryParams: {
-				// countrycodes: 'us',
 				bounded: 1,
 				viewbox: '-119.064863, 35.0780436,-117.04887, 33.19587'
 			}
 		})
-		// geocoder: new L.Control.Geocoder.Nominatim({
-		// 	geocodingQueryParams: {
-		// 		// countrycodes: 'us',
-		// 		bounded: 1,
-		// 		viewbox: '-119.064863, 35.0780436,-117.04887, 33.19587'
-		// 	}
-		// })
 	}).addTo(chs.map);
 
 	geocoder.on('markgeocode', function (event) {
@@ -401,14 +389,11 @@ function addTooltip() {
 			set the content html
 		
 		*/
-		// let html = `<div style="font-size:1.4em">`
 		let html = (layer.feature.properties['Block_Code'] != '') ? `<div style="font-size:1.6em;border-bottom:1px solid #aaa;font-weight: bold;padding:4px;margin-bottom:8px;">Block code: ${layer.feature.properties['Block_Code']}</div>` : '';
 		html += (layer.feature.properties['CSA_Name'] != '') ? `${layer.feature.properties['CSA_Name']}<br>` : '';
 		html += (layer.feature.properties['Current_Agency'] != '') ? `${layer.feature.properties['Current_Agency']}<br>` : '';
 		html += (layer.feature.properties['Current_Outreach'] != '') ? `Outreach count: ${layer.feature.properties['Current_Outreach']}<br>` : '';
 		html += (layer.feature.properties['Current_Outreach_Date'] != '') ? `Last outreach: ${layer.feature.properties['Current_Outreach_Date']}<br>` : '';
-		// html += (layer.feature.properties['CHW_commun']!='') ? `CHW: ${layer.feature.properties['CHW_commun']}<br>` : '';
-		// html += '</div>'
 
 		if (html != '') {
 			html = `<div style="font-size:1.4em">${html}</div>`

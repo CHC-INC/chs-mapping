@@ -2,7 +2,7 @@
 
 	Feature actions
 
-***************************** */ 
+***************************** */
 let hover = true;
 
 // Function that defines what will happen on user interactions with each feature
@@ -20,22 +20,22 @@ function onEachFeature(feature, layer) {
 
 	On mouse over
 
-***************************** */ 
+***************************** */
 function highlightFeature(e) {
 	var layer = e.target;
-	
+
 	// style to use on mouse over
 	layer.setStyle({
 		weight: 2,
 		color: 'red',
 		// fillOpacity: 0.6
 	});
-	
+
 	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
 		layer.bringToFront();
 	}
-	
-	if(hover){
+
+	if (hover) {
 		createChart([layer.feature.properties.GEOID])
 	}
 }
@@ -44,20 +44,20 @@ function highlightFeature(e) {
 
 	On mouse out
 
-***************************** */ 
+***************************** */
 function resetHighlight(e) {
-	if(hover){
+	if (hover) {
 		$('#charts').empty();
 		// figure out what agency it is, and then if it is on/off
-		if(chs.mapOptions.category_array.length > 0){
+		if (chs.mapOptions.category_array.length > 0) {
 			agency = e.target.feature.properties.Current_Agency
 			// find out where it is in the array
 			thisindex = chs.mapOptions.category_array.indexOf(agency)
 			//is it on?
 			console.log(chs.mapOptions.category_array_toggle[thisindex])
 			// if it is off, color it original white
-			if(chs.mapOptions.category_array_toggle[thisindex] == false){
-				e.target.setStyle({				
+			if (chs.mapOptions.category_array_toggle[thisindex] == false) {
+				e.target.setStyle({
 					stroke: true,
 					color: 'white',
 					weight: 0.8,
@@ -67,7 +67,7 @@ function resetHighlight(e) {
 					onEachFeature: onEachFeature,
 				})
 			}
-			else{
+			else {
 				chs.mapLayers.baselayer.resetStyle(e.target);
 			}
 		}
@@ -75,7 +75,7 @@ function resetHighlight(e) {
 			chs.mapLayers.baselayer.resetStyle(e.target);
 		}
 	}
-	else{
+	else {
 		chs.mapLayers.baselayer.resetStyle(e.target);
 	}
 
@@ -86,19 +86,19 @@ function resetHighlight(e) {
 
 	Other actions
 
-***************************** */ 
-function selectFeature(e){
+***************************** */
+function selectFeature(e) {
 	/*
 	
 		when feature is selected, turn hover action off
 	
-	*/ 
+	*/
 	hover = false;
 
 	var layer = e.target;
 
 	// this is the selected feature
-	let properties = e.target.feature.properties;	
+	let properties = e.target.feature.properties;
 
 	let this_geoid = properties.GEOID;
 
@@ -106,37 +106,37 @@ function selectFeature(e){
 	
 		add selected geoid's into an array
 	
-	*/ 
+	*/
 	// var chs.mapLayers.selected_geoids = []
 	// chs.mapLayers.highlighted.getLayers().forEach(function(item){
 	// })
-	
+
 	/*
 	
 		put selected feature into highlight variable
 	
-	*/ 
-	highlight=chs.mapLayers.highlighted_layer.getLayers().filter(item => item.feature.properties.GEOID === this_geoid)[0];
-	
+	*/
+	highlight = chs.mapLayers.highlighted_layer.getLayers().filter(item => item.feature.properties.GEOID === this_geoid)[0];
+
 	/*
 	
 		if feature has already been selected, de-select it
 	
-	*/ 
-	if(chs.mapLayers.selected_geoids.indexOf(this_geoid)>-1){
+	*/
+	if (chs.mapLayers.selected_geoids.indexOf(this_geoid) > -1) {
 		chs.mapLayers.highlighted.removeLayer(highlight)
-		chs.mapLayers.selected_geoids.splice(chs.mapLayers.selected_geoids.indexOf(this_geoid),1)
+		chs.mapLayers.selected_geoids.splice(chs.mapLayers.selected_geoids.indexOf(this_geoid), 1)
 	}
 	/*
 	
 		if feature is new, add it to the selected geoids
 	
-	*/ 
-	else{
+	*/
+	else {
 		chs.mapLayers.selected_geoids.push(this_geoid)
-			
+
 		chs.mapLayers.highlighted.addLayer(highlight)
-		
+
 		chs.map.fitBounds(chs.mapLayers.highlighted.getBounds())
 		// style to use on mouse over
 		chs.mapLayers.highlighted.setStyle({
@@ -148,7 +148,7 @@ function selectFeature(e){
 		chs.mapLayers.highlighted.bringToFront();
 		chs.mapLayers.highlighted.addTo(chs.map)
 	}
-	
+
 	chs.panels.info.update(layer.feature.properties)
 
 
@@ -156,17 +156,17 @@ function selectFeature(e){
 	
 		create charts
 	
-	*/ 
+	*/
 	createChart(chs.mapLayers.selected_geoids)
 }
 
-function zoomToFIPS(fips){
+function zoomToFIPS(fips) {
 
-	if(chs.mapLayers.highlighted){
+	if (chs.mapLayers.highlighted) {
 		chs.mapLayers.highlighted.clearLayers()
 	}
 
-	highlight=chs.mapLayers.highlighted_layer.getLayers().filter(item => item.feature.properties.GEOID === fips)[0];
+	highlight = chs.mapLayers.highlighted_layer.getLayers().filter(item => item.feature.properties.GEOID === fips)[0];
 
 	chs.mapLayers.highlighted.addLayer(highlight)
 	chs.map.fitBounds(chs.mapLayers.highlighted.getBounds())
@@ -185,47 +185,46 @@ function zoomToFIPS(fips){
 	
 		create chart
 	
-	*/ 
+	*/
 	// find the data for this fips
 	properties = chs.mapLayers.baselayer.getLayers().filter(item => item.feature.properties.GEOID === fips)[0].feature.properties
 
 	createChart([properties.GEOID])
-	
+
 }
 
-function zoomToAgency(agency){
+function zoomToAgency(agency) {
 
-	if(chs.mapLayers.highlighted){
+	if (chs.mapLayers.highlighted) {
 		chs.mapLayers.highlighted.clearLayers()
 	}
 	clearHighlightedFeatures()
 
-	if(agency)
-	{
+	if (agency) {
 		hover = false;
-	
+
 		// get list of fips for this agency
-		highlight_agency_bgs=chs.mapLayers.highlighted_layer.getLayers().filter(item => item.feature.properties.Current_Agency === agency)
-	
+		highlight_agency_bgs = chs.mapLayers.highlighted_layer.getLayers().filter(item => item.feature.properties.Current_Agency === agency)
+
 		/*
 		
 			loop through each feature in agency
 		
-		*/ 
-		highlight_agency_bgs.forEach(function(item){
+		*/
+		highlight_agency_bgs.forEach(function (item) {
 			// add it to the selected geoids
 			chs.mapLayers.selected_geoids.push(item.feature.properties.GEOID)
-	
+
 			// highlight it
 			chs.mapLayers.highlighted.addLayer(item)
-	
+
 			// add it to the info panel
 			chs.panels.info.update(item.feature.properties)
-	
+
 		})
 		// chs.mapLayers.highlighted.addLayer(highlight)
 		chs.map.fitBounds(chs.mapLayers.highlighted.getBounds())
-	
+
 		// style to use on mouse over
 		chs.mapLayers.highlighted.setStyle({
 			weight: 2,
@@ -235,17 +234,17 @@ function zoomToAgency(agency){
 		});
 		chs.mapLayers.highlighted.bringToFront();
 		chs.mapLayers.highlighted.addTo(chs.map)
-	
+
 		/*
 		
 			create chart
 		
-		*/ 
+		*/
 		createChart(chs.mapLayers.selected_geoids)
 
 	}
 	else {
 		$('#charts').empty();
 	}
-	
+
 }

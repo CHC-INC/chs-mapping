@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 body,
 html {
 	margin: 0;
@@ -23,7 +25,7 @@ h4 {
 	background-color: gainsboro;
 }
 
-body {
+.index {
 	display: grid;
 	grid-template-rows: 60px 225px 1fr;
 	grid-template-columns: 300px 1fr 400px;
@@ -32,6 +34,12 @@ body {
 		"sidebar content dashboard"
 		"legend content dashboard"
 		"footer footer footer";
+}
+
+.locate {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 a {
@@ -46,16 +54,15 @@ a {
 	font-size: 2em;
 }
 
+
+
 .legend {
-	/* background-color: gainsboro; */
 	grid-area: legend;
 }
 
 .legend-inner {
 	font-size: 0.8em;
 	padding: 12px;
-	/* background-color: gainsboro; */
-	/* grid-area: legend; */
 }
 
 .nav {
@@ -78,14 +85,11 @@ a {
 	color: #333;
 }
 
-/* 
-.dashboard {
-	grid-area: dashboard;
-} */
 .content {
 	grid-area: content;
 	resize: horizontal;
 	overflow: auto;
+	flex-grow: 1;
 }
 
 .footer {
@@ -93,27 +97,6 @@ a {
 	padding: 10px;
 	background-color: rgb(255, 255, 255);
 	display: flex;
-}
-
-/* legend styles */
-.info {
-	/* text-align: center; */
-
-	padding: 10px;
-	font-size: 0.8em;
-	padding: 20px;
-	/* font: 14px/16px Arial, Helvetica, sans-serif;
-	background: white;
-	background: rgba(255,255,255,0.8);
-	box-shadow: 0 0 15px rgba(0,0,0,0.2);
-	border-radius: 5px;
-	/* width: 250px; */
-	/* min-height: 50px; */
-}
-
-.info h4 {
-	margin: 0 0 5px;
-	color: #777;
 }
 
 .legend {
@@ -127,7 +110,6 @@ a {
 	height: 18px;
 	float: left;
 	margin-right: 8px;
-	/* opacity: 0.7; */
 }
 
 .item {
@@ -135,6 +117,10 @@ a {
 	margin: 3px;
 	padding: 10px;
 	cursor: pointer;
+}
+
+.item:hover {
+	background-color: #111;
 }
 
 .map-item {
@@ -145,9 +131,7 @@ a {
 	background-color: #444;
 }
 
-.item:hover {
-	background-color: #111;
-}
+
 
 .legend-scheme {
 	border-radius: 2px;
@@ -193,7 +177,6 @@ a {
 }
 
 .waffle-column {
-	/*width: 15px;*/
 	float: left;
 }
 
@@ -210,7 +193,6 @@ a {
 
 .waffle-box-empty {
 	width: 8px;
-	/* height: 20px; */
 	background: rgba(49, 79, 79, 0.2);
 }
 
@@ -263,8 +245,6 @@ hr {
 	background: rgba(255, 255, 255, 0.8);
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
-	/* min-width: 250px;
-	min-height: 50px; */
 }
 
 .info h4 {
@@ -284,4 +264,26 @@ hr {
 .leaflet-control {
 	cursor: auto;
 	text-align: left;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+	.index {
+		grid-template-rows: 40px 225px 1fr;
+	}
+
+	.header {
+		font-size: 1em
+	}
+
+	.footer {
+		padding: 4px 8px 2px;
+		justify-content: space-around;
+	}
+
+	.footer img {
+		max-width: 120px;
+		max-height: 30px;
+		object-fit: contain;
+	}
 }

@@ -37,10 +37,15 @@ demographics <- read.csv("R/raw/acs_bg.csv", colClasses = "character") %>%
   select(-vac_per)
 
 # Merge all data and output for consumption by website
-city_bg_crosswalk %>%
+final <- city_bg_crosswalk %>%
   left_join(outreach, by = "GEOID") %>%
   left_join(demographics, by = "GEOID") %>%
   left_join(vaccinations_city, by = c("community" = "city")) %>%
   select(-community) %>%
-  mutate(Current_Vaccination_Date = format(Sys.Date(), "%b %d, %Y")) %>%
-  write.csv("data/merged_vaccination_data.csv", row.names = FALSE, na="")
+  mutate(Current_Vaccination_Date = format(Sys.Date(), "%b %d, %Y"))
+
+write.csv(final, "data/merged_vaccination_data.csv", row.names = FALSE, na="")
+
+final %>% 
+  select(GEOID, CSA_Name, Block_Code, Current_Agency, Current_Outreach, Current_Outreach_Date) %>%
+  write.csv("data/merged_vaccination_locate_data.csv", row.names = FALSE, na="")

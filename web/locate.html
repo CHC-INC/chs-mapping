@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CHS Mapping: Locator</title>
+    <meta charset="utf-8" />
+
+    <!-- document style sheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- leaflet geocoder -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+    <!-- leaflet user locator -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js"
+        charset="utf-8"></script>
+
+    <!-- papa parse for csv's -->
+    <script src="js/external/papaparse.min.js"></script>
+
+    <!-- topjson support -->
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    <script>
+        //extend Leaflet to create a GeoJSON layer from a TopoJSON file
+        L.TopoJSON = L.GeoJSON.extend({
+            addData: function (data) {
+                var geojson, key;
+                if (data.type === "Topology") {
+                    for (key in data.objects) {
+                        if (data.objects.hasOwnProperty(key)) {
+                            geojson = topojson.feature(data, data.objects[key]);
+                            L.GeoJSON.prototype.addData.call(this, geojson);
+                        }
+                    }
+                    return this;
+                }
+                L.GeoJSON.prototype.addData.call(this, data);
+                return this;
+            }
+        });
+        L.topoJson = function (data, options) {
+            return new L.TopoJSON(data, options);
+        };
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-34YX8KWMKK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-34YX8KWMKK');
+    </script>
+</head>
+
+<body class="locate">
+    <div class="header">
+        Community Health Worker Outreach Initiative
+    </div>
+
+    <div class="content">
+        <div id="map">
+            <i class="fa fa-location-arrow fa-spin" aria-hidden="true"></i>
+            <br>
+            ...loading map
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://chc-inc.org/" target="_blank">
+            <img src="images/CHC.jpg" height="30">
+        </a>
+        <a href="http://publichealth.lacounty.gov/" target="_blank">
+            <img src="images/PublicHealthLogoHE.jpg" height="40">
+        </a>
+    </div>
+
+    <!-- project javascript -->
+    <script src="js/globals.js"></script>
+    <script src="js/locate.js"></script>
+</body>
+
+</html>
