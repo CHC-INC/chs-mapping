@@ -155,6 +155,7 @@ function addTooltip() {
         html += (layer.feature.properties['Current_Agency'] != '') ? `${layer.feature.properties['Current_Agency']}<br>` : '';
         html += (layer.feature.properties['Current_Outreach'] != '') ? `Outreach count: ${layer.feature.properties['Current_Outreach']}<br>` : '';
         html += (layer.feature.properties['Current_Outreach_Date'] != '') ? `Last outreach: ${layer.feature.properties['Current_Outreach_Date']}<br>` : '';
+        html += (layer.feature.properties['ZIP'] != '') ? `Zip Code: ${layer.feature.properties['ZIP']}` : '';
 
         if (html != '') {
             html = `<div style="font-size:1.4em">${html}</div>`

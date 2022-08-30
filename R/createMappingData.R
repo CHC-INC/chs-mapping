@@ -41,11 +41,11 @@ final <- city_bg_crosswalk %>%
   left_join(outreach, by = "GEOID") %>%
   left_join(demographics, by = "GEOID") %>%
   left_join(vaccinations_city, by = c("community" = "city")) %>%
-  select(-community) %>%
+  select(-community, -Priority_Decile) %>%
   mutate(Current_Vaccination_Date = format(Sys.Date(), "%b %d, %Y"))
 
 write.csv(final, "data/merged_vaccination_data.csv", row.names = FALSE, na="")
 
 final %>% 
-  select(GEOID, CSA_Name, Block_Code, Current_Agency, Current_Outreach, Current_Outreach_Date) %>%
+  select(GEOID, CSA_Name, Block_Code, Current_Agency, Current_Outreach, Current_Outreach_Date, ZIP) %>%
   write.csv("data/merged_vaccination_locate_data.csv", row.names = FALSE, na="")

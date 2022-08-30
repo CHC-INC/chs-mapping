@@ -91,14 +91,6 @@ chs.data = {
 			"type": "topojson"
 		},
 		{
-			"text": "LA County Supervisors District (2011)",
-			"id": "sd",
-			"path": "boundaries/sd_2011_topo.json",
-			"name_field": "name",
-			"label": "TRUE",
-			"type": "topojson"
-		},
-		{
 			"text": "LA County Supervisors District (2021)",
 			"id": "sd2021",
 			"path": "boundaries/sd_2021_topo.json",
@@ -110,22 +102,6 @@ chs.data = {
 			"text": "Cities/Communities",
 			"id": "neighborhoods",
 			"path": "boundaries/cities_topo.json",
-			"name_field": "name",
-			"label": "TRUE",
-			"type": "topojson"
-		},
-		{
-			"text": "LA County Regions",
-			"id": "regions",
-			"path": "boundaries/regions_topo.json",
-			"name_field": "name",
-			"label": "TRUE",
-			"type": "topojson"
-		},
-		{
-			"text": "LA City Council District (2012)",
-			"id": "council",
-			"path": "boundaries/council_topo.json",
 			"name_field": "name",
 			"label": "TRUE",
 			"type": "topojson"
@@ -144,14 +120,6 @@ chs.data = {
 			"path": "boundaries/ct_s_topo.json",
 			"name_field": "geoid10",
 			"label": "FALSE",
-			"type": "topojson"
-		},
-		{
-			"text": "LAUSD Local Districts",
-			"id": "lausd",
-			"path": "boundaries/lausd_topo.json",
-			"name_field": "SHORTNAME",
-			"label": "TRUE",
 			"type": "topojson"
 		}
 	],
@@ -267,15 +235,6 @@ chs.data = {
 			"geography": "bg",
 			"text": "Outreach count",
 			"id": "Current_Outreach",
-			"pop": "",
-			"type": "choropleth",
-			"percent": "FALSE",
-			"show": "TRUE"
-		},
-		{
-			"geography": "bg",
-			"text": "Priority Decile",
-			"id": "Priority_Decile",
 			"pop": "",
 			"type": "choropleth",
 			"percent": "FALSE",
