@@ -231,7 +231,7 @@
 "060371132371","Los Angeles - Chatsworth",7734,,,"March 25, 2022",91311
 "060371132372","Los Angeles - Chatsworth",10366,,1,"March 25, 2022",91311
 "060371133011","Los Angeles - Northridge",10220,,,"March 25, 2022",91324
-"060371133012","Los Angeles - Northridge",6658,"LA Conservation Corps",1,"March 25, 2022",91324
+"060371133012","Los Angeles - Northridge",6658,,1,"March 25, 2022",91324
 "060371133031","Los Angeles - Chatsworth",8948,,,"March 25, 2022",91311
 "060371133032","Los Angeles - Chatsworth",8697,,,"March 25, 2022",91311
 "060371133211","Los Angeles - Chatsworth",4796,,,"March 25, 2022",91311
@@ -261,13 +261,13 @@
 "060371152022","Los Angeles - Northridge",8532,,,"March 25, 2022",91324
 "060371152023","Los Angeles - Northridge",6784,,,"March 25, 2022",91325
 "060371153011","Los Angeles - Northridge",8848,,,"March 25, 2022",91324
-"060371153012","Los Angeles - Northridge",6871,"LA Conservation Corps",,"March 25, 2022",91324
-"060371153021","Los Angeles - Northridge",3689,"LA Conservation Corps",1,"March 25, 2022",91324
+"060371153012","Los Angeles - Northridge",6871,,,"March 25, 2022",91324
+"060371153021","Los Angeles - Northridge",3689,,1,"March 25, 2022",91324
 "060371154011","Los Angeles - Northridge",4854,,,"March 25, 2022",91325
 "060371154012","Los Angeles - Northridge",4808,,,"March 25, 2022",91325
 "060371154031","Los Angeles - Northridge",4600,,2,"March 25, 2022",91325
-"060371154041","Los Angeles - Northridge",6653,"LA Conservation Corps",1,"March 25, 2022",91324
-"060371154042","Los Angeles - Northridge",5586,"LA Conservation Corps",1,"March 25, 2022",91324
+"060371154041","Los Angeles - Northridge",6653,,1,"March 25, 2022",91324
+"060371154042","Los Angeles - Northridge",5586,,1,"March 25, 2022",91324
 "060371171011","Los Angeles - North Hills",7022,,,"March 25, 2022",91343
 "060371171012","Los Angeles - North Hills",3043,"Providence Little Company of Mary Foundation",32,"March 25, 2022",91343
 "060371171021","Los Angeles - North Hills",5022,,,"March 25, 2022",91343
@@ -527,16 +527,16 @@
 "060371274001","Los Angeles - Van Nuys",4694,,,"March 25, 2022",91406
 "060371274002","Los Angeles - Lake Balboa",5561,,,"March 25, 2022",91406
 "060371274003","Los Angeles - Lake Balboa",3600,,,"March 25, 2022",91406
-"060371274004","Los Angeles - Van Nuys",1694,"LA Conservation Corps",1,"March 25, 2022",91406
+"060371274004","Los Angeles - Van Nuys",1694,,1,"March 25, 2022",91406
 "060371275201","Los Angeles - Van Nuys",1022,"Clinica Mrs. Oscar A. Romero",28,"March 25, 2022",91406
 "060371275202","Los Angeles - Van Nuys",2118,"Clinica Mrs. Oscar A. Romero",64,"March 25, 2022",91406
-"060371276031","Los Angeles - Lake Balboa",2610,"LA Conservation Corps",,"March 25, 2022",91406
-"060371276032","Los Angeles - Lake Balboa",2584,"LA Conservation Corps",,"March 25, 2022",91406
-"060371276041","Los Angeles - Lake Balboa",2611,"LA Conservation Corps",,"March 25, 2022",91406
+"060371276031","Los Angeles - Lake Balboa",2610,,,"March 25, 2022",91406
+"060371276032","Los Angeles - Lake Balboa",2584,,,"March 25, 2022",91406
+"060371276041","Los Angeles - Lake Balboa",2611,,,"March 25, 2022",91406
 "060371276051","Los Angeles - Lake Balboa",8860,,,"March 25, 2022",91406
-"060371276052","Los Angeles - Lake Balboa",1678,"LA Conservation Corps",,"March 25, 2022",91406
+"060371276052","Los Angeles - Lake Balboa",1678,,,"March 25, 2022",91406
 "060371276061","Los Angeles - Lake Balboa",3636,,1,"March 25, 2022",91406
-"060371276062","Los Angeles - Lake Balboa",2594,"LA Conservation Corps",1,"March 25, 2022",91406
+"060371276062","Los Angeles - Lake Balboa",2594,,1,"March 25, 2022",91406
 "060371277111","Los Angeles - Van Nuys",3149,"Southern California Crossroads",551,"March 25, 2022",91406
 "060371277112","Los Angeles - Van Nuys",6038,,,"March 25, 2022",91411
 "060371277121","Los Angeles - Van Nuys",3182,"Southern California Crossroads",741,"March 25, 2022",91406
@@ -629,8 +629,8 @@
 "060371321011","Los Angeles - Lake Balboa",5719,,6,"March 25, 2022",91406
 "060371321012","Los Angeles - Lake Balboa",3696,,,"March 25, 2022",91406
 "060371321013","Los Angeles - Lake Balboa",5842,,,"March 25, 2022",91406
-"060371321021","Los Angeles - Van Nuys",2586,"LA Conservation Corps",2,"March 25, 2022",91406
-"060371321022","Los Angeles - Lake Balboa",3685,"LA Conservation Corps",,"March 25, 2022",91406
+"060371321021","Los Angeles - Van Nuys",2586,,2,"March 25, 2022",91406
+"060371321022","Los Angeles - Lake Balboa",3685,,,"March 25, 2022",91406
 "060371321023","Los Angeles - Lake Balboa",4829,,14,"March 25, 2022",91406
 "060371323001","Los Angeles - Reseda",2539,,,"March 25, 2022",91335
 "060371323002","Los Angeles - Reseda",4568,,,"March 25, 2022",91335
@@ -655,12 +655,12 @@
 "060371340011","Los Angeles - Canoga Park",2412,,,"March 25, 2022",91303
 "060371340012","Los Angeles - Canoga Park",4329,,,"March 25, 2022",91303
 "060371340021","Los Angeles - Winnetka",5676,,,"March 25, 2022",91306
-"060371340022","Los Angeles - Winnetka",3553,"LA Conservation Corps",1,"March 25, 2022",91306
-"060371341011","Los Angeles - Winnetka",3558,"LA Conservation Corps",1,"March 25, 2022",91306
+"060371340022","Los Angeles - Winnetka",3553,,1,"March 25, 2022",91306
+"060371341011","Los Angeles - Winnetka",3558,,1,"March 25, 2022",91306
 "060371341012","Los Angeles - Winnetka",6667,,,"March 25, 2022",91306
 "060371341031","Los Angeles - Winnetka",4586,,,"March 25, 2022",91306
 "060371341032","Los Angeles - Winnetka",5600,,,"March 25, 2022",91306
-"060371341041","Los Angeles - Winnetka",2618,"LA Conservation Corps",1,"March 25, 2022",91306
+"060371341041","Los Angeles - Winnetka",2618,,1,"March 25, 2022",91306
 "060371341042","Los Angeles - Winnetka",4753,,,"March 25, 2022",91306
 "060371342011","Los Angeles - Winnetka",5240,,,"March 25, 2022",91306
 "060371342012","Los Angeles - Canoga Park",6241,,,"March 25, 2022",91304
@@ -687,11 +687,11 @@
 "060371345202","Los Angeles - Canoga Park",2411,"DPH",68,"March 25, 2022",91303
 "060371345211","Los Angeles - Canoga Park",1508,,2,"March 25, 2022",91303
 "060371345221","Los Angeles - Canoga Park",2410,"DPH",83,"March 25, 2022",91303
-"060371347101","Los Angeles - Winnetka",1677,"LA Conservation Corps",1,"March 25, 2022",91306
-"060371347102","Los Angeles - Winnetka",3587,"LA Conservation Corps",1,"March 25, 2022",91306
+"060371347101","Los Angeles - Winnetka",1677,,1,"March 25, 2022",91306
+"060371347102","Los Angeles - Winnetka",3587,,1,"March 25, 2022",91306
 "060371347201","Los Angeles - Winnetka",4760,,,"March 25, 2022",91306
-"060371347202","Los Angeles - Winnetka",3753,"LA Conservation Corps",1,"March 25, 2022",91306
-"060371347203","Los Angeles - Winnetka",3672,"LA Conservation Corps",1,"March 25, 2022",91306
+"060371347202","Los Angeles - Winnetka",3753,,1,"March 25, 2022",91306
+"060371347203","Los Angeles - Winnetka",3672,,1,"March 25, 2022",91306
 "060371348001","Los Angeles - Winnetka",6873,,,"March 25, 2022",91306
 "060371348002","Los Angeles - Winnetka",4786,,,"March 25, 2022",91306
 "060371348003","Los Angeles - Winnetka",6810,,,"March 25, 2022",91306
@@ -701,17 +701,17 @@
 "060371349012","Los Angeles - Reseda",10383,,,"March 25, 2022",91335
 "060371349013","Los Angeles - Woodland Hills",9826,,,"March 25, 2022",91367
 "060371349031","Los Angeles - Canoga Park",3418,"DPH",78,"March 25, 2022",91303
-"060371349041","Los Angeles - Winnetka",3674,"LA Conservation Corps",1,"March 25, 2022",91306
+"060371349041","Los Angeles - Winnetka",3674,,1,"March 25, 2022",91306
 "060371349042","Los Angeles - Winnetka",5782,,,"March 25, 2022",91306
-"060371349051","Los Angeles - Woodland Hills",7958,"LA Conservation Corps",,"March 25, 2022",91367
+"060371349051","Los Angeles - Woodland Hills",7958,,,"March 25, 2022",91367
 "060371351021","Los Angeles - West Hills",9568,,,"March 25, 2022",91307
-"060371351022","Los Angeles - Woodland Hills",7638,"LA Conservation Corps",,"March 25, 2022",91367
+"060371351022","Los Angeles - Woodland Hills",7638,,,"March 25, 2022",91367
 "060371351023","Los Angeles - West Hills",8962,,,"March 25, 2022",91307
 "060371351111","Los Angeles - Canoga Park",9129,,,"March 25, 2022",91303
 "060371351112","Los Angeles - Canoga Park",6240,,,"March 25, 2022",91303
 "060371351113","Los Angeles - Canoga Park",8142,,,"March 25, 2022",91303
-"060371351131","Los Angeles - Woodland Hills",6634,"LA Conservation Corps",,"March 25, 2022",91367
-"060371351141","Los Angeles - Woodland Hills",5241,"LA Conservation Corps",,"March 25, 2022",91367
+"060371351131","Los Angeles - Woodland Hills",6634,,,"March 25, 2022",91367
+"060371351141","Los Angeles - Woodland Hills",5241,,,"March 25, 2022",91367
 "060371351142","Los Angeles - Canoga Park",5242,,,"March 25, 2022",91303
 "060371352011","Los Angeles - West Hills",9607,,,"March 25, 2022",91307
 "060371352012","Los Angeles - Woodland Hills",10280,,,"March 25, 2022",91367
@@ -726,7 +726,7 @@
 "060371352036","Los Angeles - West Hills",10433,,,"March 25, 2022",91307
 "060371370001","Los Angeles - Woodland Hills",7791,,,"March 25, 2022",91367
 "060371370002","Los Angeles - Woodland Hills",7735,,,"March 25, 2022",91367
-"060371371031","Los Angeles - Woodland Hills",6729,"LA Conservation Corps",,"March 25, 2022",91367
+"060371371031","Los Angeles - Woodland Hills",6729,,,"March 25, 2022",91367
 "060371371032","Los Angeles - Woodland Hills",8182,,,"March 25, 2022",91367
 "060371371041","Los Angeles - Woodland Hills",10384,,,"March 25, 2022",91367
 "060371371042","Los Angeles - Woodland Hills",8859,,,"March 25, 2022",91367
@@ -742,11 +742,11 @@
 "060371374021","Los Angeles - Woodland Hills",9227,,,"March 25, 2022",91364
 "060371374022","Los Angeles - Woodland Hills",9898,,,"March 25, 2022",91364
 "060371374023","Los Angeles - Woodland Hills",10124,,,"March 25, 2022",91364
-"060371375011","Los Angeles - Woodland Hills",7584,"LA Conservation Corps",,"March 25, 2022",91364
-"060371375012","Los Angeles - Woodland Hills",7640,"LA Conservation Corps",,"March 25, 2022",91364
+"060371375011","Los Angeles - Woodland Hills",7584,,,"March 25, 2022",91364
+"060371375012","Los Angeles - Woodland Hills",7640,,,"March 25, 2022",91364
 "060371375021","Los Angeles - Woodland Hills",9581,,,"March 25, 2022",91364
 "060371375022","Los Angeles - Woodland Hills",8951,,,"March 25, 2022",91364
-"060371375023","Los Angeles - Woodland Hills",7615,"LA Conservation Corps",,"March 25, 2022",91364
+"060371375023","Los Angeles - Woodland Hills",7615,,,"March 25, 2022",91364
 "060371375041","Los Angeles - Woodland Hills",9206,,,"March 25, 2022",91364
 "060371380001","Los Angeles - Woodland Hills",8614,,,"March 25, 2022",91364
 "060371380002","Los Angeles - Woodland Hills",9575,,,"March 25, 2022",91364
@@ -912,15 +912,15 @@
 "060371852021","Los Angeles - Mt. Washington",6757,,,"March 25, 2022",90065
 "060371852022","Los Angeles - Mt. Washington",5599,,,"March 25, 2022",90065
 "060371852023","Los Angeles - Mt. Washington",5898,,,"March 25, 2022",90065
-"060371852031","Los Angeles - Mt. Washington",2587,"LA Conservation Corps",2,"March 25, 2022",90065
-"060371852032","Los Angeles - Mt. Washington",2609,"LA Conservation Corps",2,"March 25, 2022",90065
-"060371852033","Los Angeles - Mt. Washington",4815,"LA Conservation Corps",2,"March 25, 2022",90065
+"060371852031","Los Angeles - Mt. Washington",2587,,2,"March 25, 2022",90065
+"060371852032","Los Angeles - Mt. Washington",2609,,2,"March 25, 2022",90065
+"060371852033","Los Angeles - Mt. Washington",4815,,2,"March 25, 2022",90065
 "060371852041","Los Angeles - Mt. Washington",6972,,,"March 25, 2022",90065
 "060371852042","Los Angeles - Mt. Washington",7608,,,"March 25, 2022",90065
-"060371853101","Los Angeles - Mt. Washington",3577,"LA Conservation Corps",5,"March 25, 2022",90065
-"060371853102","Los Angeles - Mt. Washington",2636,"LA Conservation Corps",2,"March 25, 2022",90065
-"060371853201","Los Angeles - Elysian Valley",2552,"LA Conservation Corps",17,"March 25, 2022",90065
-"060371853202","Los Angeles - Elysian Valley",2603,"LA Conservation Corps",37,"March 25, 2022",90065
+"060371853101","Los Angeles - Mt. Washington",3577,,5,"March 25, 2022",90065
+"060371853102","Los Angeles - Mt. Washington",2636,,2,"March 25, 2022",90065
+"060371853201","Los Angeles - Elysian Valley",2552,,17,"March 25, 2022",90065
+"060371853202","Los Angeles - Elysian Valley",2603,,37,"March 25, 2022",90065
 "060371861001","Los Angeles - Glassell Park",6577,,,"March 25, 2022",90065
 "060371861002","Los Angeles - Glassell Park",6744,,,"March 25, 2022",90065
 "060371861003","Los Angeles - Glassell Park",6691,,,"March 25, 2022",90065
@@ -932,16 +932,16 @@
 "060371862032","Los Angeles - Glassell Park",5878,,,"March 25, 2022",90042
 "060371863011","Los Angeles - Glassell Park",7616,,,"March 25, 2022",91205
 "060371863012","Los Angeles - Glassell Park",2644,,,"March 25, 2022",90065
-"060371863013","Los Angeles - Glassell Park",1695,"LA Conservation Corps",3,"March 25, 2022",90065
+"060371863013","Los Angeles - Glassell Park",1695,,3,"March 25, 2022",90065
 "060371863021","Los Angeles - Glassell Park",4728,,4042,"March 25, 2022",90065
 "060371863022","Los Angeles - Glassell Park",5681,,,"March 25, 2022",90065
 "060371863023","Los Angeles - Glassell Park",4674,,,"March 25, 2022",90065
-"060371864011","Los Angeles - Glassell Park",2579,"LA Conservation Corps",19,"March 25, 2022",90065
+"060371864011","Los Angeles - Glassell Park",2579,,19,"March 25, 2022",90065
 "060371864012","Los Angeles - Glassell Park",4733,,,"March 25, 2022",90065
-"060371864031","Los Angeles - Glassell Park",2613,"LA Conservation Corps",,"March 25, 2022",90065
-"060371864032","Los Angeles - Glassell Park",3590,"LA Conservation Corps",14,"March 25, 2022",90065
-"060371864041","Los Angeles - Glassell Park",3622,"LA Conservation Corps",17,"March 25, 2022",90065
-"060371864042","Los Angeles - Glassell Park",5655,"LA Conservation Corps",25,"March 25, 2022",90065
+"060371864031","Los Angeles - Glassell Park",2613,,,"March 25, 2022",90065
+"060371864032","Los Angeles - Glassell Park",3590,,14,"March 25, 2022",90065
+"060371864041","Los Angeles - Glassell Park",3622,,17,"March 25, 2022",90065
+"060371864042","Los Angeles - Glassell Park",5655,,25,"March 25, 2022",90065
 "060371871011","Los Angeles - Atwater Village",5903,,,"March 25, 2022",90039
 "060371871012","Los Angeles - Atwater Village",4809,,,"March 25, 2022",90039
 "060371871021","Los Angeles - Atwater Village",5629,,,"March 25, 2022",90039
@@ -1199,23 +1199,23 @@
 "060372011201","Los Angeles - El Sereno",3588,,,"March 25, 2022",90032
 "060372011202","Los Angeles - El Sereno",5724,,,"March 25, 2022",90032
 "060372011203","Los Angeles - El Sereno",3709,,,"March 25, 2022",90032
-"060372012001","Los Angeles - El Sereno",3730,"LA Conservation Corps",23,"March 25, 2022",90032
-"060372013011","Los Angeles - El Sereno",3613,"LA Conservation Corps",17,"March 25, 2022",90032
-"060372013012","Los Angeles - El Sereno",3589,"LA Conservation Corps",9,"March 25, 2022",90032
+"060372012001","Los Angeles - El Sereno",3730,,23,"March 25, 2022",90032
+"060372013011","Los Angeles - El Sereno",3613,,17,"March 25, 2022",90032
+"060372013012","Los Angeles - El Sereno",3589,,9,"March 25, 2022",90032
 "060372013021","Los Angeles - Highland Park",5246,,,"March 25, 2022",90042
 "060372013022","Los Angeles - Highland Park",7240,,,"March 25, 2022",90042
 "060372013023","Los Angeles - Highland Park",7241,,1,"March 25, 2022",90042
 "060372013024","Los Angeles - Highland Park",6243,,,"March 25, 2022",90042
-"060372014011","Los Angeles - El Sereno",2650,"LA Conservation Corps",41,"March 25, 2022",90032
+"060372014011","Los Angeles - El Sereno",2650,,41,"March 25, 2022",90032
 "060372014012","Los Angeles - El Sereno",4609,,1,"March 25, 2022",90032
 "060372014021","Los Angeles - El Sereno",3734,,1,"March 25, 2022",90032
 "060372014022","Los Angeles - El Sereno",4687,,,"March 25, 2022",90032
 "060372014023","Los Angeles - El Sereno",3659,,,"March 25, 2022",90032
-"060372015011","Los Angeles - El Sereno",2564,"LA Conservation Corps",15,"March 25, 2022",90032
+"060372015011","Los Angeles - El Sereno",2564,,15,"March 25, 2022",90032
 "060372015012","Los Angeles - El Sereno",4821,,,"March 25, 2022",90032
-"060372015013","Los Angeles - El Sereno",2596,"LA Conservation Corps",24,"March 25, 2022",90032
-"060372015031","Los Angeles - El Sereno",2573,"LA Conservation Corps",29,"March 25, 2022",90032
-"060372015032","Los Angeles - El Sereno",2572,"LA Conservation Corps",33,"March 25, 2022",90032
+"060372015013","Los Angeles - El Sereno",2596,,24,"March 25, 2022",90032
+"060372015031","Los Angeles - El Sereno",2573,,29,"March 25, 2022",90032
+"060372015032","Los Angeles - El Sereno",2572,,33,"March 25, 2022",90032
 "060372015041","Los Angeles - El Sereno",4641,,,"March 25, 2022",90032
 "060372016011","Los Angeles - El Sereno",4645,,,"March 25, 2022",90032
 "060372016021","Los Angeles - El Sereno",4680,,,"March 25, 2022",90032
@@ -1896,13 +1896,13 @@
 "060372376002","Los Angeles - Harvard Park",2232,"Resilient",,"March 25, 2022",90044
 "060372376003","Los Angeles - Harvard Park",2088,"Resilient",,"March 25, 2022",90003
 "060372376004","Los Angeles - Harvard Park",1135,"Resilient",,"March 25, 2022",90044
-"060372377101","Los Angeles - Vermont Knolls",2581,"LA Conservation Corps",9,"March 25, 2022",90044
-"060372377102","Los Angeles - Vermont Knolls",2551,"LA Conservation Corps",3,"March 25, 2022",90044
-"060372377201","Los Angeles - Vermont Knolls",1690,"LA Conservation Corps",4,"March 25, 2022",90044
-"060372377202","Los Angeles - Vermont Knolls",1683,"LA Conservation Corps",5,"March 25, 2022",90044
-"060372378001","Los Angeles - Vermont Knolls",3671,"LA Conservation Corps",11,"March 25, 2022",90044
-"060372378002","Los Angeles - Vermont Knolls",3727,"LA Conservation Corps",2,"March 25, 2022",90044
-"060372378003","Los Angeles - Vermont Knolls",4596,"LA Conservation Corps",2,"March 25, 2022",90044
+"060372377101","Los Angeles - Vermont Knolls",2581,,9,"March 25, 2022",90044
+"060372377102","Los Angeles - Vermont Knolls",2551,,3,"March 25, 2022",90044
+"060372377201","Los Angeles - Vermont Knolls",1690,,4,"March 25, 2022",90044
+"060372377202","Los Angeles - Vermont Knolls",1683,,5,"March 25, 2022",90044
+"060372378001","Los Angeles - Vermont Knolls",3671,,11,"March 25, 2022",90044
+"060372378002","Los Angeles - Vermont Knolls",3727,,2,"March 25, 2022",90044
+"060372378003","Los Angeles - Vermont Knolls",4596,,2,"March 25, 2022",90044
 "060372378004","Los Angeles - Vermont Knolls",8767,,,"March 25, 2022",90047
 "060372379001","Los Angeles - Manchester Square",9793,,,"March 25, 2022",90047
 "060372379002","Los Angeles - Manchester Square",6899,,,"March 25, 2022",90047
@@ -2019,16 +2019,16 @@
 "060372411202","Los Angeles - Century Palms/Cove",2031,"DPH",77,"March 25, 2022",90003
 "060372411203","Los Angeles - Century Palms/Cove",7005,,,"March 25, 2022",90061
 "060372411204","Los Angeles - Century Palms/Cove",4114,,,"March 25, 2022",90061
-"060372412011","Los Angeles - Figueroa Park Square",3717,"LA Conservation Corps",2,"March 25, 2022",90044
-"060372412012","Los Angeles - Figueroa Park Square",2592,"LA Conservation Corps",4,"March 25, 2022",90044
+"060372412011","Los Angeles - Figueroa Park Square",3717,,2,"March 25, 2022",90044
+"060372412012","Los Angeles - Figueroa Park Square",2592,,4,"March 25, 2022",90044
 "060372412013","Los Angeles - Century Palms/Cove",2561,,,"March 25, 2022",90003
 "060372412021","Los Angeles - Figueroa Park Square",8655,,,"March 25, 2022",90044
-"060372412022","Los Angeles - Figueroa Park Square",2626,"LA Conservation Corps",10,"March 25, 2022",90044
+"060372412022","Los Angeles - Figueroa Park Square",2626,,10,"March 25, 2022",90044
 "060372412023","Los Angeles - Century Palms/Cove",6857,,,"March 25, 2022",90061
-"060372412024","Los Angeles - Figueroa Park Square",1696,"LA Conservation Corps",8,"March 25, 2022",90044
-"060372412025","Los Angeles - Figueroa Park Square",2559,"LA Conservation Corps",2,"March 25, 2022",90044
-"060372413001","Los Angeles - Figueroa Park Square",2631,"LA Conservation Corps",4,"March 25, 2022",90044
-"060372413002","Los Angeles - Figueroa Park Square",2597,"LA Conservation Corps",3,"March 25, 2022",90044
+"060372412024","Los Angeles - Figueroa Park Square",1696,,8,"March 25, 2022",90044
+"060372412025","Los Angeles - Figueroa Park Square",2559,,2,"March 25, 2022",90044
+"060372413001","Los Angeles - Figueroa Park Square",2631,,4,"March 25, 2022",90044
+"060372413002","Los Angeles - Figueroa Park Square",2597,,3,"March 25, 2022",90044
 "060372414001","Los Angeles - Century Palms/Cove",1159,"DPH",32,"March 25, 2022",90061
 "060372414002","Los Angeles - Century Palms/Cove",2176,"DPH",55,"March 25, 2022",90061
 "060372420001","Los Angeles - Watts",2028,"Southern California Crossroads",1873,"March 25, 2022",90002
@@ -2330,8 +2330,8 @@
 "060372760003","Los Angeles - Westchester",8873,,,"March 25, 2022",90045
 "060372760004","Los Angeles - Westchester",7671,,1,"March 25, 2022",90045
 "060372760005","Los Angeles - Westchester",9788,,1,"March 25, 2022",90045
-"060372761001","Los Angeles - Westchester",6618,"LA Conservation Corps",3,"March 25, 2022",90045
-"060372761002","Los Angeles - Westchester",6853,"LA Conservation Corps",23,"March 25, 2022",90045
+"060372761001","Los Angeles - Westchester",6618,,3,"March 25, 2022",90045
+"060372761002","Los Angeles - Westchester",6853,,23,"March 25, 2022",90045
 "060372761003","Los Angeles - Westchester",8765,,,"March 25, 2022",90056
 "060372764001","Los Angeles - Westchester",9784,,,"March 25, 2022",90045
 "060372764002","Los Angeles - Westchester",9783,,,"March 25, 2022",90045
@@ -2356,7 +2356,7 @@
 "060372771001","Los Angeles - Westchester",8773,,,"March 25, 2022",90045
 "060372771002","Los Angeles - Westchester",9770,,,"March 25, 2022",90045
 "060372771003","Los Angeles - Westchester",9774,,,"March 25, 2022",90045
-"060372772001","Los Angeles - Westchester",4747,"LA Conservation Corps",3,"March 25, 2022",90045
+"060372772001","Los Angeles - Westchester",4747,,3,"March 25, 2022",90045
 "060372772002","Los Angeles - Westchester",8943,,,"March 25, 2022",90045
 "060372774001","Los Angeles - Westchester",5801,,,"March 25, 2022",90045
 "060372774002","Los Angeles - Westchester",7925,,,"March 25, 2022",90045
@@ -2365,8 +2365,8 @@
 "060372781021","Los Angeles - Playa Del Rey",10340,,,"March 25, 2022",90293
 "060372781022","Los Angeles - Playa Del Rey",10325,,,"March 25, 2022",90094
 "060372781023","Los Angeles - Playa Del Rey",10381,,,"March 25, 2022",90293
-"060372911101","Los Angeles - Harbor Gateway",2637,"LA Conservation Corps",2,"March 25, 2022",90044
-"060372911102","Los Angeles - Harbor Gateway",4626,"LA Conservation Corps",13,"March 25, 2022",90044
+"060372911101","Los Angeles - Harbor Gateway",2637,,2,"March 25, 2022",90044
+"060372911102","Los Angeles - Harbor Gateway",4626,,13,"March 25, 2022",90044
 "060372911201","Los Angeles - Harbor Gateway",4591,,,"March 25, 2022",90247
 "060372911301","Los Angeles - Harbor Gateway",6557,,,"March 25, 2022",90248
 "060372911302","Los Angeles - Harbor Gateway",5697,,,"March 25, 2022",90247
@@ -2765,13 +2765,13 @@
 "060374004042","City of Glendora",8789,,1,"March 25, 2022",91741
 "060374004043","City of Glendora",9185,,,"March 25, 2022",91741
 "060374005011","City of Glendora",9243,,,"March 25, 2022",91741
-"060374006021","City of Azusa",8675,"D2D",,"March 25, 2022",91702
-"060374006022","City of Azusa",6759,"D2D",3,"March 25, 2022",91702
-"060374006023","City of Azusa",6627,"D2D",,"March 25, 2022",91702
-"060374006031","City of Azusa",7569,"D2D",2,"March 25, 2022",91010
-"060374006032","City of Azusa",6609,"D2D",,"March 25, 2022",91702
-"060374006041","City of Azusa",8758,"D2D",,"March 25, 2022",91702
-"060374006042","City of Azusa",6709,"D2D",,"March 25, 2022",91702
+"060374006021","City of Azusa",8675,,,"March 25, 2022",91702
+"060374006022","City of Azusa",6759,,3,"March 25, 2022",91702
+"060374006023","City of Azusa",6627,,,"March 25, 2022",91702
+"060374006031","City of Azusa",7569,,2,"March 25, 2022",91010
+"060374006032","City of Azusa",6609,,,"March 25, 2022",91702
+"060374006041","City of Azusa",8758,,,"March 25, 2022",91702
+"060374006042","City of Azusa",6709,,,"March 25, 2022",91702
 "060374008001","City of Glendora",7679,,63,"March 25, 2022",91702
 "060374009001","City of Glendora",9527,,,"March 25, 2022",91741
 "060374009002","City of Glendora",6882,,,"March 25, 2022",91740
@@ -2842,41 +2842,41 @@
 "060374021011","City of Pomona",6025,,3,"March 25, 2022",91767
 "060374021012","City of Pomona",3226,"East Valley Community Health Center, Inc.",9,"March 25, 2022",91767
 "060374021013","City of Pomona",5145,,,"March 25, 2022",91767
-"060374021021","City of Pomona",5169,"D2D",18,"March 25, 2022",91767
+"060374021021","City of Pomona",5169,,18,"March 25, 2022",91767
 "060374021022","City of Pomona",6021,,3,"March 25, 2022",91767
-"060374021023","City of Pomona",5159,"D2D",,"March 25, 2022",91767
-"060374022001","City of Pomona",5125,"D2D",1,"March 25, 2022",91767
-"060374022002","City of Pomona",7060,"D2D",,"March 25, 2022",91768
+"060374021023","City of Pomona",5159,,,"March 25, 2022",91767
+"060374022001","City of Pomona",5125,,1,"March 25, 2022",91767
+"060374022002","City of Pomona",7060,,,"March 25, 2022",91768
 "060374022003","City of Pomona",6067,,1,"March 25, 2022",91768
-"060374023011","City of Pomona",5028,"D2D",13,"March 25, 2022",91768
+"060374023011","City of Pomona",5028,,13,"March 25, 2022",91768
 "060374023012","City of Pomona",2323,"East Valley Community Health Center, Inc.",11,"March 25, 2022",91768
-"060374023031","City of Pomona",4061,"D2D",8,"March 25, 2022",91768
+"060374023031","City of Pomona",4061,,8,"March 25, 2022",91768
 "060374023032","City of Pomona",2318,"East Valley Community Health Center, Inc.",14,"March 25, 2022",91768
 "060374023033","City of Pomona",2394,"East Valley Community Health Center, Inc.",273,"March 25, 2022",91768
-"060374023034","City of Pomona",6089,"D2D",,"March 25, 2022",91768
+"060374023034","City of Pomona",6089,,,"March 25, 2022",91768
 "060374023041","City of Pomona",2171,"East Valley Community Health Center, Inc.",9,"March 25, 2022",91768
 "060374023042","City of Pomona",3036,"East Valley Community Health Center, Inc.",15,"March 25, 2022",91768
 "060374024021","City of Pomona",7069,"DPH",14,"March 25, 2022",91766
-"060374024022","City of Pomona",4151,"D2D",,"March 25, 2022",91766
-"060374024023","City of Pomona",4010,"D2D",,"March 25, 2022",91766
+"060374024022","City of Pomona",4151,,,"March 25, 2022",91766
+"060374024023","City of Pomona",4010,,,"March 25, 2022",91766
 "060374024024","City of Pomona",5128,,,"March 25, 2022",91768
-"060374024031","City of Pomona",7094,"D2D",,"March 25, 2022",91768
-"060374024032","City of Pomona",6026,"D2D",1,"March 25, 2022",91768
+"060374024031","City of Pomona",7094,,,"March 25, 2022",91768
+"060374024032","City of Pomona",6026,,1,"March 25, 2022",91768
 "060374024041","Unincorporated - Pomona",6101,,2,"March 25, 2022",91768
-"060374024051","City of Pomona",6037,"D2D",,"March 25, 2022",91768
+"060374024051","City of Pomona",6037,,,"March 25, 2022",91768
 "060374024052","City of Pomona",3064,"East Valley Community Health Center, Inc.",18,"March 25, 2022",91768
-"060374024053","City of Pomona",5017,"D2D",,"March 25, 2022",91768
+"060374024053","City of Pomona",5017,,,"March 25, 2022",91768
 "060374024061","City of Pomona",2381,"East Valley Community Health Center, Inc.",21,"March 25, 2022",91768
 "060374024062","City of Pomona",3301,"East Valley Community Health Center, Inc.",25,"March 25, 2022",91768
 "060374025011","City of Pomona",5121,"DPH",8,"March 25, 2022",91766
 "060374025012","City of Pomona",3015,"DPH",149,"March 25, 2022",91766
-"060374025021","City of Pomona",4121,"D2D",12,"March 25, 2022",91766
+"060374025021","City of Pomona",4121,,12,"March 25, 2022",91766
 "060374025022","City of Pomona",3123,"DPH",149,"March 25, 2022",91766
 "060374026001","City of Pomona",7004,,,"March 25, 2022",91767
 "060374026002","City of Pomona",2043,"East Valley Community Health Center, Inc.",9,"March 25, 2022",91767
 "060374026003","City of Pomona",3167,"East Valley Community Health Center, Inc.",16,"March 25, 2022",91767
-"060374026004","City of Pomona",4013,"D2D",11,"March 25, 2022",91767
-"060374026005","City of Pomona",5109,"D2D",1,"March 25, 2022",91767
+"060374026004","City of Pomona",4013,,11,"March 25, 2022",91767
+"060374026005","City of Pomona",5109,,1,"March 25, 2022",91767
 "060374027021","City of Pomona",4071,,6,"March 25, 2022",91767
 "060374027022","City of Pomona",2075,"DPH",79,"March 25, 2022",91767
 "060374027023","City of Pomona",3191,"DPH",62,"March 25, 2022",91767
@@ -2884,7 +2884,7 @@
 "060374027031","City of Pomona",5018,,,"March 25, 2022",91767
 "060374027032","City of Pomona",5114,,8,"March 25, 2022",91767
 "060374027051","City of Pomona",4172,,,"March 25, 2022",91767
-"060374027052","City of Pomona",5035,"D2D",4,"March 25, 2022",91767
+"060374027052","City of Pomona",5035,,4,"March 25, 2022",91767
 "060374027061","City of Pomona",4065,,6,"March 25, 2022",91767
 "060374027062","City of Pomona",4018,,,"March 25, 2022",91767
 "060374027063","City of Pomona",5001,,,"March 25, 2022",91767
@@ -2895,14 +2895,14 @@
 "060374028032","City of Pomona",3238,"DPH",337,"March 25, 2022",91766
 "060374028041","City of Pomona",2242,"DPH",205,"March 25, 2022",91766
 "060374028042","City of Pomona",3241,"DPH",386,"March 25, 2022",91766
-"060374029021","City of Pomona",4049,"D2D",15,"March 25, 2022",91766
+"060374029021","City of Pomona",4049,,15,"March 25, 2022",91766
 "060374029022","City of Pomona",3208,"DPH",623,"March 25, 2022",91766
-"060374029031","City of Pomona",4139,"D2D",1,"March 25, 2022",91766
-"060374029041","City of Pomona",6048,"D2D",3,"March 25, 2022",91766
-"060374029042","City of Pomona",5149,"D2D",8,"March 25, 2022",91766
+"060374029031","City of Pomona",4139,,1,"March 25, 2022",91766
+"060374029041","City of Pomona",6048,,3,"March 25, 2022",91766
+"060374029042","City of Pomona",5149,,8,"March 25, 2022",91766
 "060374030001","City of Pomona",4085,"East Valley Community Health Center, Inc.",191,"March 25, 2022",91766
-"060374030002","City of Pomona",7045,"D2D",6,"March 25, 2022",91766
-"060374030003","City of Pomona",4179,"D2D",37,"March 25, 2022",91766
+"060374030002","City of Pomona",7045,,6,"March 25, 2022",91766
+"060374030003","City of Pomona",4179,,37,"March 25, 2022",91766
 "060374032001","City of Pomona",7074,,,"March 25, 2022",91768
 "060374033031","City of Industry",7881,,,"March 25, 2022",91789
 "060374033041","Unincorporated - Rowland Heights",9691,,,"March 25, 2022",91789
@@ -2915,12 +2915,12 @@
 "060374033162","City of Diamond Bar",9519,,,"March 25, 2022",91765
 "060374033163","City of Diamond Bar",9530,,,"March 25, 2022",91765
 "060374033171","City of Pomona",7057,,1,"March 25, 2022",91766
-"060374033172","City of Pomona",7006,"D2D",,"March 25, 2022",91766
+"060374033172","City of Pomona",7006,,,"March 25, 2022",91766
 "060374033173","City of Pomona",8065,,,"March 25, 2022",91766
-"060374033181","City of Pomona",8022,"D2D",,"March 25, 2022",91766
-"060374033182","City of Pomona",5142,"D2D",,"March 25, 2022",91766
+"060374033181","City of Pomona",8022,,,"March 25, 2022",91766
+"060374033182","City of Pomona",5142,,,"March 25, 2022",91766
 "060374033183","City of Pomona",6002,,1,"March 25, 2022",91766
-"060374033184","City of Pomona",8036,"D2D",,"March 25, 2022",91766
+"060374033184","City of Pomona",8036,,,"March 25, 2022",91766
 "060374033191","City of Diamond Bar",7604,,6,"March 25, 2022",91765
 "060374033192","City of Diamond Bar",9247,,,"March 25, 2022",91765
 "060374033201","City of Diamond Bar",9219,,,"March 25, 2022",91765
@@ -2989,35 +2989,35 @@
 "060374039021","City of Glendora",5799,,,"March 25, 2022",91740
 "060374039022","City of Glendora",6685,,,"March 25, 2022",91740
 "060374039023","City of Glendora",9239,,,"March 25, 2022",91740
-"060374040001","City of Azusa",5647,"D2D",,"March 25, 2022",91702
-"060374040002","City of Azusa",9799,"D2D",,"March 25, 2022",91702
-"060374040003","Unincorporated - Azusa",7738,"D2D",,"March 25, 2022",91722
-"060374040004","Unincorporated - Azusa",4653,"D2D",,"March 25, 2022",91722
-"060374041001","Unincorporated - Azusa",7720,"D2D",,"March 25, 2022",91702
-"060374041002","Unincorporated - Azusa",5619,"D2D",,"March 25, 2022",91702
-"060374041003","Unincorporated - Azusa",5564,"D2D",,"March 25, 2022",91702
-"060374041004","Unincorporated - Azusa",4751,"D2D",,"March 25, 2022",91702
+"060374040001","City of Azusa",5647,,,"March 25, 2022",91702
+"060374040002","City of Azusa",9799,,,"March 25, 2022",91702
+"060374040003","Unincorporated - Azusa",7738,,,"March 25, 2022",91722
+"060374040004","Unincorporated - Azusa",4653,,,"March 25, 2022",91722
+"060374041001","Unincorporated - Azusa",7720,,,"March 25, 2022",91702
+"060374041002","Unincorporated - Azusa",5619,,,"March 25, 2022",91702
+"060374041003","Unincorporated - Azusa",5564,,,"March 25, 2022",91702
+"060374041004","Unincorporated - Azusa",4751,,,"March 25, 2022",91702
 "060374042011","City of Azusa",3710,"DPH",74,"March 25, 2022",91702
-"060374042012","City of Azusa",4703,"D2D",,"March 25, 2022",91702
-"060374042021","City of Azusa",4798,"D2D",15,"March 25, 2022",91702
-"060374042022","Unincorporated - Azusa",7860,"D2D",7,"March 25, 2022",91702
-"060374043011","City of Azusa",4702,"D2D",,"March 25, 2022",91702
-"060374043012","City of Azusa",3751,"D2D",,"March 25, 2022",91702
-"060374043013","City of Azusa",3747,"D2D",,"March 25, 2022",91702
-"060374043014","City of Azusa",3748,"D2D",,"March 25, 2022",91702
-"060374043021","City of Azusa",4792,"D2D",,"March 25, 2022",91702
-"060374043022","City of Azusa",5633,"D2D",,"March 25, 2022",91702
-"060374044011","City of Azusa",4800,"D2D",1,"March 25, 2022",91702
-"060374044012","City of Azusa",5652,"D2D",,"March 25, 2022",91702
-"060374044013","City of Azusa",5691,"D2D",,"March 25, 2022",91702
-"060374044021","City of Azusa",6642,"D2D",,"March 25, 2022",91702
-"060374044022","City of Azusa",5669,"D2D",,"March 25, 2022",91702
-"060374044023","City of Azusa",4701,"D2D",,"March 25, 2022",91702
-"060374044024","City of Azusa",5763,"D2D",,"March 25, 2022",91702
-"060374045011","City of Azusa",5572,"D2D",103,"March 25, 2022",91702
-"060374045031","City of Azusa",3752,"D2D",,"March 25, 2022",91702
-"060374045041","City of Azusa",3632,"D2D",,"March 25, 2022",91702
-"060374045042","City of Azusa",3616,"D2D",,"March 25, 2022",91702
+"060374042012","City of Azusa",4703,,,"March 25, 2022",91702
+"060374042021","City of Azusa",4798,,15,"March 25, 2022",91702
+"060374042022","Unincorporated - Azusa",7860,,7,"March 25, 2022",91702
+"060374043011","City of Azusa",4702,,,"March 25, 2022",91702
+"060374043012","City of Azusa",3751,,,"March 25, 2022",91702
+"060374043013","City of Azusa",3747,,,"March 25, 2022",91702
+"060374043014","City of Azusa",3748,,,"March 25, 2022",91702
+"060374043021","City of Azusa",4792,,,"March 25, 2022",91702
+"060374043022","City of Azusa",5633,,,"March 25, 2022",91702
+"060374044011","City of Azusa",4800,,1,"March 25, 2022",91702
+"060374044012","City of Azusa",5652,,,"March 25, 2022",91702
+"060374044013","City of Azusa",5691,,,"March 25, 2022",91702
+"060374044021","City of Azusa",6642,,,"March 25, 2022",91702
+"060374044022","City of Azusa",5669,,,"March 25, 2022",91702
+"060374044023","City of Azusa",4701,,,"March 25, 2022",91702
+"060374044024","City of Azusa",5763,,,"March 25, 2022",91702
+"060374045011","City of Azusa",5572,,103,"March 25, 2022",91702
+"060374045031","City of Azusa",3752,,,"March 25, 2022",91702
+"060374045041","City of Azusa",3632,,,"March 25, 2022",91702
+"060374045042","City of Azusa",3616,,,"March 25, 2022",91702
 "060374046001","City of Irwindale",7612,,2,"March 25, 2022",91706
 "060374046002","City of Irwindale",7952,,18,"March 25, 2022",91706
 "060374047011","City of Baldwin Park",4090,,15,"March 25, 2022",91706
@@ -3906,9 +3906,9 @@
 "060375009002","City of Pico Rivera",2546,"DPH",7,"March 25, 2022",90660
 "060375009003","City of Pico Rivera",3530,"DPH",,"March 25, 2022",90660
 "060375009004","City of Pico Rivera",4569,,,"March 25, 2022",90660
-"060375010011","Unincorporated - West Whittier/Los Nietos",3722,"LA Conservation Corps",2,"March 25, 2022",90606
-"060375010012","Unincorporated - West Whittier/Los Nietos",3723,"LA Conservation Corps",6,"March 25, 2022",90606
-"060375010013","Unincorporated - West Whittier/Los Nietos",2563,"LA Conservation Corps",10,"March 25, 2022",90606
+"060375010011","Unincorporated - West Whittier/Los Nietos",3722,,2,"March 25, 2022",90606
+"060375010012","Unincorporated - West Whittier/Los Nietos",3723,,6,"March 25, 2022",90606
+"060375010013","Unincorporated - West Whittier/Los Nietos",2563,,10,"March 25, 2022",90606
 "060375010021","Unincorporated - West Whittier/Los Nietos",5785,,,"March 25, 2022",90606
 "060375010022","Unincorporated - West Whittier/Los Nietos",4739,,,"March 25, 2022",90606
 "060375010023","Unincorporated - West Whittier/Los Nietos",8569,,,"March 25, 2022",90606
@@ -3930,9 +3930,9 @@
 "060375015032","City of Whittier",5880,,,"March 25, 2022",90601
 "060375015033","City of Whittier",7751,,,"March 25, 2022",90601
 "060375015034","City of Whittier",4757,,1,"March 25, 2022",90601
-"060375015041","City of Whittier",3634,"LA Conservation Corps",4,"March 25, 2022",90602
+"060375015041","City of Whittier",3634,,4,"March 25, 2022",90602
 "060375015042","City of Whittier",4605,,,"March 25, 2022",90601
-"060375015043","City of Whittier",3694,"LA Conservation Corps",15,"March 25, 2022",90602
+"060375015043","City of Whittier",3694,,15,"March 25, 2022",90602
 "060375016001","City of Whittier",7626,,,"March 25, 2022",91745
 "060375016002","City of Whittier",8623,,,"March 25, 2022",90602
 "060375016003","City of Whittier",5904,,,"March 25, 2022",90602
@@ -3946,7 +3946,7 @@
 "060375018022","City of Whittier",10605,,,"March 25, 2022",90602
 "060375018023","City of Whittier",9214,,,"March 25, 2022",90602
 "060375018031","City of Whittier",4611,,5,"March 25, 2022",90602
-"060375018032","City of Whittier",2624,"LA Conservation Corps",6,"March 25, 2022",90602
+"060375018032","City of Whittier",2624,,6,"March 25, 2022",90602
 "060375018041","City of Whittier",5628,,,"March 25, 2022",90602
 "060375018042","City of Whittier",4630,,,"March 25, 2022",90602
 "060375019001","City of Whittier",6571,,,"March 25, 2022",90605
@@ -3963,17 +3963,17 @@
 "060375021001","Unincorporated - West Whittier/Los Nietos",4839,,,"March 25, 2022",90606
 "060375021002","City of Whittier",4691,,,"March 25, 2022",90606
 "060375021003","Unincorporated - West Whittier/Los Nietos",5694,,,"March 25, 2022",90606
-"060375022001","Unincorporated - West Whittier/Los Nietos",2632,"LA Conservation Corps",8,"March 25, 2022",90606
+"060375022001","Unincorporated - West Whittier/Los Nietos",2632,,8,"March 25, 2022",90606
 "060375022002","Unincorporated - West Whittier/Los Nietos",4748,,,"March 25, 2022",90606
 "060375022003","Unincorporated - West Whittier/Los Nietos",7906,,,"March 25, 2022",90606
 "060375022004","Unincorporated - West Whittier/Los Nietos",7705,,,"March 25, 2022",90606
-"060375022005","Unincorporated - West Whittier/Los Nietos",3740,"LA Conservation Corps",25,"March 25, 2022",90606
+"060375022005","Unincorporated - West Whittier/Los Nietos",3740,,25,"March 25, 2022",90606
 "060375023011","Unincorporated - West Whittier/Los Nietos",4699,,,"March 25, 2022",90606
-"060375023012","Unincorporated - West Whittier/Los Nietos",3583,"LA Conservation Corps",2,"March 25, 2022",90606
+"060375023012","Unincorporated - West Whittier/Los Nietos",3583,,2,"March 25, 2022",90606
 "060375023013","Unincorporated - West Whittier/Los Nietos",5715,,,"March 25, 2022",90606
-"060375023014","Unincorporated - West Whittier/Los Nietos",3602,"LA Conservation Corps",11,"March 25, 2022",90606
+"060375023014","Unincorporated - West Whittier/Los Nietos",3602,,11,"March 25, 2022",90606
 "060375023015","Unincorporated - West Whittier/Los Nietos",7695,,,"March 25, 2022",90606
-"060375023021","City of Santa Fe Springs",2645,"LA Conservation Corps",15,"March 25, 2022",90606
+"060375023021","City of Santa Fe Springs",2645,,15,"March 25, 2022",90606
 "060375024011","City of Pico Rivera",2543,"DPH",,"March 25, 2022",90660
 "060375024012","City of Pico Rivera",3543,,1,"March 25, 2022",90660
 "060375024013","City of Pico Rivera",4562,,,"March 25, 2022",90660
@@ -4007,16 +4007,16 @@
 "060375029013","Unincorporated - South Whittier",5621,,,"March 25, 2022",90605
 "060375029021","City of Santa Fe Springs",6625,,,"March 25, 2022",90605
 "060375029022","City of Santa Fe Springs",6647,,,"March 25, 2022",90670
-"060375029023","Unincorporated - South Whittier",3704,"LA Conservation Corps",4,"March 25, 2022",90605
-"060375030001","Unincorporated - South Whittier",2622,"LA Conservation Corps",2,"March 25, 2022",90605
+"060375029023","Unincorporated - South Whittier",3704,,4,"March 25, 2022",90605
+"060375030001","Unincorporated - South Whittier",2622,,2,"March 25, 2022",90605
 "060375030002","Unincorporated - South Whittier",4615,,,"March 25, 2022",90605
 "060375030003","Unincorporated - South Whittier",5620,,,"March 25, 2022",90605
 "060375031031","Unincorporated - South Whittier",4692,,,"March 25, 2022",90605
 "060375031032","Unincorporated - South Whittier",4755,,,"March 25, 2022",90605
 "060375031033","Unincorporated - South Whittier",7739,,,"March 25, 2022",90605
 "060375031034","Unincorporated - South Whittier",4828,,1,"March 25, 2022",90605
-"060375031041","Unincorporated - South Whittier",3702,"LA Conservation Corps",6,"March 25, 2022",90605
-"060375031042","Unincorporated - South Whittier",3720,"LA Conservation Corps",17,"March 25, 2022",90605
+"060375031041","Unincorporated - South Whittier",3702,,6,"March 25, 2022",90605
+"060375031042","Unincorporated - South Whittier",3720,,17,"March 25, 2022",90605
 "060375031051","Unincorporated - South Whittier",5881,,,"March 25, 2022",90604
 "060375031052","Unincorporated - South Whittier",3658,,,"March 25, 2022",90604
 "060375031061","Unincorporated - South Whittier",7948,,,"March 25, 2022",90604
@@ -4093,23 +4093,23 @@
 "060375300042","City of Montebello",4617,,,"March 25, 2022",90640
 "060375300051","City of Montebello",6815,,9,"March 25, 2022",90640
 "060375300052","City of Montebello",5830,,,"March 25, 2022",90640
-"060375300061","City of Montebello",2641,"LA Conservation Corps",22,"March 25, 2022",90640
-"060375300062","City of Montebello",2643,"LA Conservation Corps",14,"March 25, 2022",90640
-"060375301011","City of Montebello",2577,"LA Conservation Corps",19,"March 25, 2022",90640
+"060375300061","City of Montebello",2641,,22,"March 25, 2022",90640
+"060375300062","City of Montebello",2643,,14,"March 25, 2022",90640
+"060375301011","City of Montebello",2577,,19,"March 25, 2022",90640
 "060375301012","City of Montebello",3614,,,"March 25, 2022",90640
-"060375301013","City of Montebello",2614,"LA Conservation Corps",,"March 25, 2022",90640
-"060375301014","City of Montebello",2612,"LA Conservation Corps",18,"March 25, 2022",90640
+"060375301013","City of Montebello",2614,,,"March 25, 2022",90640
+"060375301014","City of Montebello",2612,,18,"March 25, 2022",90640
 "060375301021","City of Montebello",4684,,1,"March 25, 2022",90640
-"060375301022","City of Montebello",2602,"LA Conservation Corps",58,"March 25, 2022",90640
+"060375301022","City of Montebello",2602,,58,"March 25, 2022",90640
 "060375301023","City of Montebello",4695,,1,"March 25, 2022",90640
 "060375301024","City of Montebello",3649,,,"March 25, 2022",90640
 "060375302021","City of Montebello",5602,,,"March 25, 2022",90640
 "060375302022","City of Montebello",5665,,,"March 25, 2022",90640
 "060375302023","City of Montebello",4725,,,"March 25, 2022",90640
-"060375302031","City of Montebello",2604,"LA Conservation Corps",22,"March 25, 2022",90640
+"060375302031","City of Montebello",2604,,22,"March 25, 2022",90640
 "060375302032","City of Montebello",5823,,1,"March 25, 2022",90640
 "060375302041","City of Montebello",5713,,,"March 25, 2022",90640
-"060375302042","City of Montebello",2555,"LA Conservation Corps",5,"March 25, 2022",90640
+"060375302042","City of Montebello",2555,,5,"March 25, 2022",90640
 "060375303011","Unincorporated - East Los Angeles",2051,"The Wellness Center",37,"March 25, 2022",90022
 "060375303012","Unincorporated - East Los Angeles",2237,"The Wellness Center",15,"March 25, 2022",90022
 "060375303021","Unincorporated - East Los Angeles",2128,"The Wellness Center",3,"March 25, 2022",90022
@@ -4190,26 +4190,26 @@
 "060375319021","Unincorporated - East Los Angeles",3247,"The Wellness Center",11,"March 25, 2022",90022
 "060375319022","Unincorporated - East Los Angeles",1333,"The Wellness Center",20,"March 25, 2022",90022
 "060375319023","Unincorporated - East Los Angeles",2199,"The Wellness Center",10,"March 25, 2022",90022
-"060375320011","City of Montebello",1691,"LA Conservation Corps",23,"March 25, 2022",90640
+"060375320011","City of Montebello",1691,,23,"March 25, 2022",90640
 "060375320012","City of Montebello",3706,,,"March 25, 2022",90640
 "060375320021","City of Montebello",3606,,1,"March 25, 2022",90640
 "060375320022","City of Montebello",3565,,1,"March 25, 2022",90640
 "060375321011","City of Montebello",3623,,,"March 25, 2022",90640
-"060375321012","City of Montebello",2558,"LA Conservation Corps",4,"March 25, 2022",90640
-"060375321013","City of Montebello",2640,"LA Conservation Corps",27,"March 25, 2022",90640
+"060375321012","City of Montebello",2558,,4,"March 25, 2022",90640
+"060375321013","City of Montebello",2640,,27,"March 25, 2022",90640
 "060375321021","City of Montebello",4781,,,"March 25, 2022",90640
 "060375321022","City of Montebello",3695,,,"March 25, 2022",90640
 "060375322001","City of Montebello",3737,,,"March 25, 2022",90640
 "060375322002","City of Montebello",3690,,,"March 25, 2022",90640
 "060375322003","City of Montebello",5701,,,"March 25, 2022",90640
-"060375323021","City of Commerce",4693,"LA Conservation Corps",278,"March 25, 2022",90040
+"060375323021","City of Commerce",4693,,278,"March 25, 2022",90040
 "060375323022","City of Commerce",5892,,423,"March 25, 2022",90023
-"060375323023","City of Commerce",4823,"LA Conservation Corps",466,"March 25, 2022",90040
-"060375323024","City of Commerce",3556,"LA Conservation Corps",28,"March 25, 2022",90040
-"060375323031","City of Commerce",6865,"LA Conservation Corps",151,"March 25, 2022",90040
-"060375323032","City of Commerce",5820,"LA Conservation Corps",27,"March 25, 2022",90040
+"060375323023","City of Commerce",4823,,466,"March 25, 2022",90040
+"060375323024","City of Commerce",3556,,28,"March 25, 2022",90040
+"060375323031","City of Commerce",6865,,151,"March 25, 2022",90040
+"060375323032","City of Commerce",5820,,27,"March 25, 2022",90040
 "060375323033","City of Commerce",6790,,26,"March 25, 2022",90040
-"060375323041","City of Commerce",3644,"LA Conservation Corps",42,"March 25, 2022",90040
+"060375323041","City of Commerce",3644,,42,"March 25, 2022",90040
 "060375323042","City of Commerce",7055,,385,"March 25, 2022",90040
 "060375324001","City of Vernon",5662,,4,"March 25, 2022",90058
 "060375325001","City of Huntington Park",3062,,67,"March 25, 2022",90255
@@ -4630,12 +4630,12 @@
 "060375436032","Unincorporated - West Carson",8540,,,"March 25, 2022",90710
 "060375436041","City of Carson",8644,,10,"March 25, 2022",90745
 "060375436042","City of Carson",6680,,,"March 25, 2022",90745
-"060375437011","City of Carson",4700,"LA Conservation Corps",7,"March 25, 2022",90745
-"060375437012","City of Carson",5729,"LA Conservation Corps",8,"March 25, 2022",90745
-"060375437021","City of Carson",3705,"LA Conservation Corps",5,"March 25, 2022",90745
-"060375437022","City of Carson",3660,"LA Conservation Corps",4,"March 25, 2022",90745
+"060375437011","City of Carson",4700,,7,"March 25, 2022",90745
+"060375437012","City of Carson",5729,,8,"March 25, 2022",90745
+"060375437021","City of Carson",3705,,5,"March 25, 2022",90745
+"060375437022","City of Carson",3660,,4,"March 25, 2022",90745
 "060375437023","City of Carson",4790,,,"March 25, 2022",90745
-"060375437024","City of Carson",3693,"LA Conservation Corps",27,"March 25, 2022",90745
+"060375437024","City of Carson",3693,,27,"March 25, 2022",90745
 "060375437025","City of Carson",7682,,,"March 25, 2022",90745
 "060375437031","City of Carson",6568,,18,"March 25, 2022",90745
 "060375438011","City of Carson",4818,,3,"March 25, 2022",90745
@@ -4644,12 +4644,12 @@
 "060375438021","City of Carson",7721,,,"March 25, 2022",90745
 "060375438022","City of Carson",5732,,35,"March 25, 2022",90745
 "060375438023","City of Carson",7798,,,"March 25, 2022",90745
-"060375438024","City of Carson",3718,"LA Conservation Corps",31,"March 25, 2022",90745
+"060375438024","City of Carson",3718,,31,"March 25, 2022",90745
 "060375439031","City of Carson",4836,,27,"March 25, 2022",90745
 "060375439032","City of Carson",4794,,,"March 25, 2022",90745
 "060375439051","City of Carson",6969,,6,"March 25, 2022",90745
-"060375439052","City of Carson",3572,"LA Conservation Corps",2,"March 25, 2022",90745
-"060375439053","City of Carson",3608,"LA Conservation Corps",7,"March 25, 2022",90745
+"060375439052","City of Carson",3572,,2,"March 25, 2022",90745
+"060375439053","City of Carson",3608,,7,"March 25, 2022",90745
 "060375440011","City of Carson",6607,,6,"March 25, 2022",90810
 "060375440012","City of Carson",5574,,,"March 25, 2022",90810
 "060375440013","City of Carson",6919,,,"March 25, 2022",90810
@@ -4764,17 +4764,17 @@
 "060375520011","City of Norwalk",4577,,1,"March 25, 2022",90650
 "060375520012","City of Norwalk",7681,,,"March 25, 2022",90650
 "060375520013","City of Norwalk",3712,,2,"March 25, 2022",90650
-"060375520021","City of Norwalk",3738,"LA Conservation Corps",4,"March 25, 2022",90650
-"060375520022","City of Norwalk",2615,"LA Conservation Corps",3,"March 25, 2022",90650
+"060375520021","City of Norwalk",3738,,4,"March 25, 2022",90650
+"060375520022","City of Norwalk",2615,,3,"March 25, 2022",90650
 "060375520023","City of Norwalk",4681,,,"March 25, 2022",90650
-"060375521001","City of Norwalk",3750,"LA Conservation Corps",1,"March 25, 2022",90650
-"060375521002","City of Norwalk",2560,"LA Conservation Corps",4,"March 25, 2022",90650
-"060375521003","City of Norwalk",3746,"LA Conservation Corps",2,"March 25, 2022",90650
-"060375521004","City of Norwalk",3679,"LA Conservation Corps",1,"March 25, 2022",90650
-"060375521005","City of Norwalk",3562,"LA Conservation Corps",2,"March 25, 2022",90650
+"060375521001","City of Norwalk",3750,,1,"March 25, 2022",90650
+"060375521002","City of Norwalk",2560,,4,"March 25, 2022",90650
+"060375521003","City of Norwalk",3746,,2,"March 25, 2022",90650
+"060375521004","City of Norwalk",3679,,1,"March 25, 2022",90650
+"060375521005","City of Norwalk",3562,,2,"March 25, 2022",90650
 "060375522001","City of Norwalk",4754,,207,"March 25, 2022",90650
-"060375522002","City of Norwalk",3559,"LA Conservation Corps",401,"March 25, 2022",90650
-"060375522003","City of Norwalk",3688,"LA Conservation Corps",2,"March 25, 2022",90650
+"060375522002","City of Norwalk",3559,,401,"March 25, 2022",90650
+"060375522003","City of Norwalk",3688,,2,"March 25, 2022",90650
 "060375523011","City of Norwalk",4837,,704,"March 25, 2022",90650
 "060375523012","City of Norwalk",3677,,,"March 25, 2022",90650
 "060375523013","City of Norwalk",4664,,413,"March 25, 2022",90650
@@ -4785,9 +4785,9 @@
 "060375524002","City of Norwalk",3655,,,"March 25, 2022",90650
 "060375524003","City of Norwalk",5585,,,"March 25, 2022",90650
 "060375526011","City of Norwalk",5734,,,"March 25, 2022",90650
-"060375526012","City of Norwalk",2580,"LA Conservation Corps",3,"March 25, 2022",90650
-"060375526013","City of Norwalk",1693,"LA Conservation Corps",2,"March 25, 2022",90650
-"060375526014","City of Norwalk",3604,"LA Conservation Corps",1,"March 25, 2022",90650
+"060375526012","City of Norwalk",2580,,3,"March 25, 2022",90650
+"060375526013","City of Norwalk",1693,,2,"March 25, 2022",90650
+"060375526014","City of Norwalk",3604,,1,"March 25, 2022",90650
 "060375526021","City of Norwalk",8184,,31,"March 25, 2022",90650
 "060375526022","City of Norwalk",3584,,2,"March 25, 2022",90650
 "060375526023","City of Norwalk",3735,,28,"March 25, 2022",90650
@@ -4795,15 +4795,15 @@
 "060375527002","City of Norwalk",7924,,,"March 25, 2022",90650
 "060375527003","City of Norwalk",5788,,,"March 25, 2022",90650
 "060375527004","City of Norwalk",5622,,,"March 25, 2022",90650
-"060375527005","City of Norwalk",3630,"LA Conservation Corps",1,"March 25, 2022",90650
+"060375527005","City of Norwalk",3630,,1,"March 25, 2022",90650
 "060375528001","City of Norwalk",4711,,,"March 25, 2022",90650
-"060375528002","City of Norwalk",3651,"LA Conservation Corps",3,"March 25, 2022",90650
+"060375528002","City of Norwalk",3651,,3,"March 25, 2022",90650
 "060375528003","City of Norwalk",4665,,,"March 25, 2022",90650
 "060375528004","City of Norwalk",5828,,,"March 25, 2022",90650
 "060375529001","City of Norwalk",4601,,2,"March 25, 2022",90650
 "060375529002","City of Norwalk",9896,,,"March 25, 2022",90650
-"060375529003","City of Norwalk",3743,"LA Conservation Corps",,"March 25, 2022",90650
-"060375529004","City of Norwalk",3561,"LA Conservation Corps",2,"March 25, 2022",90650
+"060375529003","City of Norwalk",3743,,,"March 25, 2022",90650
+"060375529004","City of Norwalk",3561,,2,"March 25, 2022",90650
 "060375529005","City of Norwalk",7787,,,"March 25, 2022",90650
 "060375530001","City of Norwalk",5643,,,"March 25, 2022",90650
 "060375530002","City of Norwalk",7797,,,"March 25, 2022",90650
@@ -5366,7 +5366,7 @@
 "060376003033","Unincorporated - Athens-Westmont",1085,"Soledad Enrichment Action, Inc (SEA)",219,"March 25, 2022",90044
 "060376003041","Unincorporated - Athens-Westmont",1204,"Soledad Enrichment Action, Inc (SEA)",413,"March 25, 2022",90044
 "060376003042","Unincorporated - Athens-Westmont",2131,"Soledad Enrichment Action, Inc (SEA)",54,"March 25, 2022",90044
-"060376003043","Unincorporated - Athens-Westmont",4098,"LA Conservation Corps",13,"March 25, 2022",90044
+"060376003043","Unincorporated - Athens-Westmont",4098,,13,"March 25, 2022",90044
 "060376004001","Unincorporated - Athens-Westmont",9043,,,"March 25, 2022",90047
 "060376004002","Unincorporated - Athens-Westmont",10034,,,"March 25, 2022",90047
 "060376004003","Unincorporated - Athens-Westmont",10043,"DPH",89,"March 25, 2022",90047
