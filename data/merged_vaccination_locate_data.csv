@@ -1459,7 +1459,7 @@
 "060372133202","Los Angeles - Koreatown",1106,,11,"March 25, 2022",90006
 "060372134011","Los Angeles - Pico-Union",1014,"Clinica Mrs. Oscar A. Romero",52,"March 25, 2022",90006
 "060372134012","Los Angeles - Pico-Union",1023,"Clinica Mrs. Oscar A. Romero",26,"March 25, 2022",90006
-"060372134021","Los Angeles - Pico-Union",1189,,10,"March 25, 2022",90006
+"060372134021","Los Angeles - Pico-Union",1189,"DPH",10,"March 25, 2022",90006
 "060372134022","Los Angeles - Pico-Union",2211,"Clinica Mrs. Oscar A. Romero",34,"March 25, 2022",90006
 "060372134023","Los Angeles - Pico-Union",1163,"Clinica Mrs. Oscar A. Romero",65,"March 25, 2022",90006
 "060372140001","Los Angeles - Melrose",10134,,,"March 25, 2022",90036
@@ -1543,11 +1543,11 @@
 "060372172002","Los Angeles - Mid-city",3731,,8,"March 25, 2022",90019
 "060372172003","Los Angeles - Mid-city",4840,,,"March 25, 2022",90019
 "060372172004","Los Angeles - Mid-city",7606,,,"March 25, 2022",90019
-"060372181101","Los Angeles - Victoria Park",2600,,,"March 25, 2022",90019
-"060372181102","Los Angeles - Victoria Park",4666,,1,"March 25, 2022",90019
-"060372181201","Los Angeles - Victoria Park",1675,,,"March 25, 2022",90019
-"060372181202","Los Angeles - Victoria Park",3567,,,"March 25, 2022",90019
-"060372181203","Los Angeles - Victoria Park",2556,,1,"March 25, 2022",90019
+"060372181101","Los Angeles - Victoria Park",2600,"DPH",,"March 25, 2022",90019
+"060372181102","Los Angeles - Victoria Park",4666,"DPH",1,"March 25, 2022",90019
+"060372181201","Los Angeles - Victoria Park",1675,"DPH",,"March 25, 2022",90019
+"060372181202","Los Angeles - Victoria Park",3567,"DPH",,"March 25, 2022",90019
+"060372181203","Los Angeles - Victoria Park",2556,"DPH",1,"March 25, 2022",90019
 "060372182101","Los Angeles - St Elmo Village",1593,"DPH",13,"March 25, 2022",90019
 "060372182102","Los Angeles - St Elmo Village",2485,"DPH",5,"March 25, 2022",90019
 "060372182103","Los Angeles - St Elmo Village",1594,"DPH",7,"March 25, 2022",90019
@@ -1577,11 +1577,11 @@
 "060372189001","Los Angeles - West Adams",3488,"Community Build Inc.",,"March 25, 2022",90018
 "060372189002","Los Angeles - West Adams",2503,"Community Build Inc.",1,"March 25, 2022",90018
 "060372189003","Los Angeles - West Adams",1622,"Community Build Inc.",5,"March 25, 2022",90018
-"060372190101","Los Angeles - Jefferson Park",2568,,3,"March 25, 2022",90018
-"060372190102","Los Angeles - Jefferson Park",2608,,2,"March 25, 2022",90018
-"060372190201","Los Angeles - Jefferson Park",3592,,,"March 25, 2022",90018
-"060372190202","Los Angeles - Jefferson Park",2575,,2,"March 25, 2022",90018
-"060372190203","Los Angeles - Jefferson Park",4724,,,"March 25, 2022",90018
+"060372190101","Los Angeles - Jefferson Park",2568,"DPH",3,"March 25, 2022",90018
+"060372190102","Los Angeles - Jefferson Park",2608,"DPH",2,"March 25, 2022",90018
+"060372190201","Los Angeles - Jefferson Park",3592,"DPH",,"March 25, 2022",90018
+"060372190202","Los Angeles - Jefferson Park",2575,"DPH",2,"March 25, 2022",90018
+"060372190203","Los Angeles - Jefferson Park",4724,"DPH",,"March 25, 2022",90018
 "060372193001","Los Angeles - Crenshaw District",3668,,1,"March 25, 2022",90018
 "060372193002","Los Angeles - Crenshaw District",2562,,,"March 25, 2022",90018
 "060372193003","Los Angeles - Crenshaw District",1686,,8,"March 25, 2022",90018
@@ -1607,10 +1607,10 @@
 "060372201001","Los Angeles - Baldwin Hills",7763,,,"March 25, 2022",90016
 "060372201002","Los Angeles - Baldwin Hills",4589,,,"March 25, 2022",90016
 "060372201003","Los Angeles - Baldwin Hills",4598,,,"March 25, 2022",90016
-"060372211101","Los Angeles - Pico-Union",1050,,25,"March 25, 2022",90006
-"060372211102","Los Angeles - Pico-Union",1017,,127,"March 25, 2022",90006
-"060372211201","Los Angeles - Pico-Union",1097,,67,"March 25, 2022",90006
-"060372211202","Los Angeles - Pico-Union",1311,,104,"March 25, 2022",90006
+"060372211101","Los Angeles - Pico-Union",1050,"DPH",25,"March 25, 2022",90006
+"060372211102","Los Angeles - Pico-Union",1017,"DPH",127,"March 25, 2022",90006
+"060372211201","Los Angeles - Pico-Union",1097,"DPH",67,"March 25, 2022",90006
+"060372211202","Los Angeles - Pico-Union",1311,"DPH",104,"March 25, 2022",90006
 "060372212101","Los Angeles - Harvard Heights",1554,,,"March 25, 2022",90006
 "060372212102","Los Angeles - Harvard Heights",2445,,,"March 25, 2022",90006
 "060372212201","Los Angeles - Harvard Heights",1558,,38,"March 25, 2022",90006
@@ -1665,9 +1665,9 @@
 "060372242001","Los Angeles - Pico-Union",1116,"DPH",2,"March 25, 2022",90015
 "060372242002","Los Angeles - Pico-Union",2139,"DPH",3,"March 25, 2022",90015
 "060372243101","Los Angeles - Pico-Union",1044,"DPH",158,"March 25, 2022",90006
-"060372243102","Los Angeles - Pico-Union",1111,,22,"March 25, 2022",90006
+"060372243102","Los Angeles - Pico-Union",1111,"DPH",22,"March 25, 2022",90006
 "060372243201","Los Angeles - Pico-Union",1025,"DPH",2,"March 25, 2022",90015
-"060372243202","Los Angeles - Pico-Union",1074,,32,"March 25, 2022",90015
+"060372243202","Los Angeles - Pico-Union",1074,"DPH",32,"March 25, 2022",90015
 "060372244101","Los Angeles - University Park",2496,"Community Build Inc.",2,"March 25, 2022",90007
 "060372244102","Los Angeles - University Park",1613,"Community Build Inc.",,"March 25, 2022",90007
 "060372244201","Los Angeles - University Park",1612,"Community Build Inc.",,"March 25, 2022",90007
@@ -1931,17 +1931,17 @@
 "060372384002","Los Angeles - Gramercy Place",4663,"DPH",34,"March 25, 2022",90047
 "060372384003","Los Angeles - Gramercy Place",10106,,4,"March 25, 2022",90047
 "060372384004","Los Angeles - Gramercy Place",10105,,,"March 25, 2022",90047
-"060372392011","Los Angeles - Florence-Firestone",1540,,,"March 25, 2022",90003
-"060372392012","Los Angeles - Florence-Firestone",1529,,,"March 25, 2022",90003
+"060372392011","Los Angeles - Florence-Firestone",1540,"DPH",,"March 25, 2022",90003
+"060372392012","Los Angeles - Florence-Firestone",1529,"DPH",,"March 25, 2022",90003
 "060372392013","Los Angeles - Harvard Park",2427,,,"March 25, 2022",90003
-"060372392021","Los Angeles - Florence-Firestone",3432,,8,"March 25, 2022",90001
+"060372392021","Los Angeles - Florence-Firestone",3432,"DPH",8,"March 25, 2022",90001
 "060372392022","Los Angeles - Florence-Firestone",1543,,,"March 25, 2022",90003
-"060372392023","Los Angeles - Florence-Firestone",1547,,,"March 25, 2022",90003
+"060372392023","Los Angeles - Florence-Firestone",1547,"DPH",,"March 25, 2022",90003
 "060372393101","Los Angeles - Harvard Park",1536,,,"March 25, 2022",90003
-"060372393102","Los Angeles - Florence-Firestone",1539,,,"March 25, 2022",90003
-"060372393103","Los Angeles - Florence-Firestone",2431,,1,"March 25, 2022",90003
-"060372393201","Los Angeles - Florence-Firestone",2435,,,"March 25, 2022",90003
-"060372393202","Los Angeles - Florence-Firestone",1528,,,"March 25, 2022",90003
+"060372393102","Los Angeles - Florence-Firestone",1539,"DPH",,"March 25, 2022",90003
+"060372393103","Los Angeles - Florence-Firestone",2431,"DPH",1,"March 25, 2022",90003
+"060372393201","Los Angeles - Florence-Firestone",2435,"DPH",,"March 25, 2022",90003
+"060372393202","Los Angeles - Florence-Firestone",1528,"DPH",,"March 25, 2022",90003
 "060372393301","Los Angeles - Florence-Firestone",4335,,,"March 25, 2022",90001
 "060372393302","Los Angeles - Florence-Firestone",2436,,1,"March 25, 2022",90003
 "060372395011","Los Angeles - Florence-Firestone",1537,,,"March 25, 2022",90001
@@ -2187,10 +2187,10 @@
 "060372696013","Los Angeles - Cadillac-Corning",4642,"DPH",12,"March 25, 2022",90035
 "060372696021","Los Angeles - Cadillac-Corning",4772,"DPH",8,"March 25, 2022",90034
 "060372696022","Los Angeles - Cadillac-Corning",4767,"DPH",11,"March 25, 2022",90035
-"060372697001","Los Angeles - Reynier Village",4717,,,"March 25, 2022",90034
-"060372697002","Los Angeles - Reynier Village",6583,,,"March 25, 2022",90034
-"060372697003","Los Angeles - Reynier Village",8529,,,"March 25, 2022",90034
-"060372697004","Los Angeles - Reynier Village",7817,,,"March 25, 2022",90034
+"060372697001","Los Angeles - Reynier Village",4717,"DPH",,"March 25, 2022",90034
+"060372697002","Los Angeles - Reynier Village",6583,"DPH",,"March 25, 2022",90034
+"060372697003","Los Angeles - Reynier Village",8529,"DPH",,"March 25, 2022",90034
+"060372697004","Los Angeles - Reynier Village",7817,"DPH",,"March 25, 2022",90034
 "060372698001","Los Angeles - Beverlywood",8724,,,"March 25, 2022",90034
 "060372698002","Los Angeles - Beverlywood",5901,,,"March 25, 2022",90034
 "060372699031","Los Angeles - Palms",6728,,1,"March 25, 2022",90034
