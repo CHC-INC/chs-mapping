@@ -3841,14 +3841,14 @@
 "060374824012","City of Rosemead",6578,,,"March 25, 2022",91770
 "060374824013","City of Rosemead",4720,,3,"March 25, 2022",91770
 "060374824021","City of Rosemead",5160,"Soledad Enrichment Action, Inc (SEA)",220,"March 25, 2022",91770
-"060374824022","Unincorporated - South San Gabriel",6085,,1,"March 25, 2022",91770
+"060374824022","Unincorporated - South San Gabriel",6085,"Soledad Enrichment Action, Inc (SEA)",1,"March 25, 2022",91770
 "060374825021","City of Rosemead",5656,,,"March 25, 2022",91770
 "060374825022","City of Rosemead",6639,,,"March 25, 2022",91770
 "060374825031","City of Rosemead",8832,,1,"March 25, 2022",91770
 "060374825032","City of Rosemead",5772,,1,"March 25, 2022",91770
 "060374825211","Unincorporated - South San Gabriel",5037,"Soledad Enrichment Action, Inc (SEA)",71,"March 25, 2022",91770
 "060374825212","Unincorporated - South San Gabriel",5099,"Soledad Enrichment Action, Inc (SEA)",130,"March 25, 2022",91770
-"060374825213","Unincorporated - South San Gabriel",7096,,20,"March 25, 2022",91770
+"060374825213","Unincorporated - South San Gabriel",7096,"Soledad Enrichment Action, Inc (SEA)",20,"March 25, 2022",91770
 "060374825221","City of Rosemead",6705,,,"March 25, 2022",91770
 "060374825222","City of Montebello",4698,,,"March 25, 2022",90640
 "060374825223","City of Montebello",5692,,,"March 25, 2022",90640
@@ -4116,7 +4116,7 @@
 "060375303022","Unincorporated - East Los Angeles",1362,"The Wellness Center",4,"March 25, 2022",90022
 "060375303023","Unincorporated - East Los Angeles",1393,"The Wellness Center",11,"March 25, 2022",90022
 "060375303024","Unincorporated - East Los Angeles",3253,"The Wellness Center",29,"March 25, 2022",90022
-"060375304001","Unincorporated - East Los Angeles",2642,,276,"March 25, 2022",90022
+"060375304001","Unincorporated - East Los Angeles",2642,"Soledad Enrichment Action, Inc (SEA)",276,"March 25, 2022",90022
 "060375304002","City of Monterey Park",5865,,125,"March 25, 2022",91754
 "060375305001","Unincorporated - East Los Angeles",2093,"Soledad Enrichment Action, Inc (SEA)",295,"March 25, 2022",90022
 "060375305002","Unincorporated - East Los Angeles",1306,"East LA Women's Center",789,"March 25, 2022",90022
@@ -4151,7 +4151,7 @@
 "060375312021","Unincorporated - East Los Angeles",1114,,3,"March 25, 2022",90023
 "060375312022","Unincorporated - East Los Angeles",1244,,46,"March 25, 2022",90023
 "060375313011","Unincorporated - East Los Angeles",2070,"East LA Women's Center",17,"March 25, 2022",90023
-"060375313012","Unincorporated - East Los Angeles",1390,,1,"March 25, 2022",90023
+"060375313012","Unincorporated - East Los Angeles",1390,"Soledad Enrichment Action, Inc (SEA)",1,"March 25, 2022",90023
 "060375313013","Unincorporated - East Los Angeles",1124,"East LA Women's Center",1836,"March 25, 2022",90023
 "060375313014","Unincorporated - East Los Angeles",2047,,6,"March 25, 2022",90023
 "060375313021","Unincorporated - East Los Angeles",1168,"East LA Women's Center",1267,"March 25, 2022",90023
@@ -4416,7 +4416,7 @@
 "060375360001","City of South Gate",3291,"Southern California Crossroads",893,"March 25, 2022",90280
 "060375360002","City of South Gate",2110,"Southern California Crossroads",1049,"March 25, 2022",90280
 "060375361021","City of South Gate",4069,,8,"March 25, 2022",90280
-"060375361022","City of South Gate",2115,"Soledad Enrichment Action, Inc (SEA)",1312,"March 25, 2022",90280
+"060375361022","City of South Gate",2115,,1312,"March 25, 2022",90280
 "060375361023","City of South Gate",5151,,,"March 25, 2022",90280
 "060375361031","City of South Gate",1199,"Soledad Enrichment Action, Inc (SEA)",1301,"March 25, 2022",90280
 "060375361032","City of South Gate",2240,"Soledad Enrichment Action, Inc (SEA)",3859,"March 25, 2022",90280
@@ -4426,10 +4426,10 @@
 "060375361043","City of South Gate",2032,"Soledad Enrichment Action, Inc (SEA)",1504,"March 25, 2022",90280
 "060375361044","City of South Gate",3100,"Soledad Enrichment Action, Inc (SEA)",1099,"March 25, 2022",90280
 "060375362001","City of South Gate",4041,,1,"March 25, 2022",90280
-"060375362002","City of South Gate",3272,"Soledad Enrichment Action, Inc (SEA)",1006,"March 25, 2022",90280
-"060375362003","City of South Gate",3234,"Soledad Enrichment Action, Inc (SEA)",1120,"March 25, 2022",90280
+"060375362002","City of South Gate",3272,,1006,"March 25, 2022",90280
+"060375362003","City of South Gate",3234,,1120,"March 25, 2022",90280
 "060375362004","City of South Gate",4052,,1,"March 25, 2022",90280
-"060375362005","City of South Gate",2208,"Soledad Enrichment Action, Inc (SEA)",1518,"March 25, 2022",90280
+"060375362005","City of South Gate",2208,,1518,"March 25, 2022",90280
 "060375400001","City of Lynwood",1412,"DPH",1533,"March 25, 2022",90262
 "060375400002","City of Lynwood",3202,"DPH",92,"March 25, 2022",90262
 "060375400003","City of Lynwood",3214,"DPH",33,"March 25, 2022",90262
@@ -5349,11 +5349,11 @@
 "060375990004","City of Avalon",6916,,,"March 25, 2022",90704
 "060375991001","Unincorporated - San Clemente Island",9919,,,"March 25, 2022",90704
 "060375991002","Unincorporated - Santa Catalina Island",7862,,,"March 25, 2022",90704
-"060376001001","Unincorporated - Athens-Westmont",1310,"Soledad Enrichment Action, Inc (SEA)",379,"March 25, 2022",90044
-"060376001002","Unincorporated - Athens-Westmont",1162,"Soledad Enrichment Action, Inc (SEA)",209,"March 25, 2022",90044
-"060376001003","Unincorporated - Athens-Westmont",1211,"Soledad Enrichment Action, Inc (SEA)",1559,"March 25, 2022",90044
-"060376002011","Unincorporated - Athens-Westmont",2299,"Soledad Enrichment Action, Inc (SEA)",1623,"March 25, 2022",90044
-"060376002012","Unincorporated - Athens-Westmont",1209,"Soledad Enrichment Action, Inc (SEA)",188,"March 25, 2022",90044
+"060376001001","Unincorporated - Athens-Westmont",1310,,379,"March 25, 2022",90044
+"060376001002","Unincorporated - Athens-Westmont",1162,,209,"March 25, 2022",90044
+"060376001003","Unincorporated - Athens-Westmont",1211,,1559,"March 25, 2022",90044
+"060376002011","Unincorporated - Athens-Westmont",2299,,1623,"March 25, 2022",90044
+"060376002012","Unincorporated - Athens-Westmont",1209,,188,"March 25, 2022",90044
 "060376002013","Unincorporated - Athens-Westmont",1098,"Southern California Crossroads",1099,"March 25, 2022",90044
 "060376002021","Unincorporated - Athens-Westmont",1315,"Southern California Crossroads",876,"March 25, 2022",90044
 "060376002022","Unincorporated - Athens-Westmont",3058,"Southern California Crossroads",646,"March 25, 2022",90047
@@ -5361,11 +5361,11 @@
 "060376003021","Unincorporated - Athens-Westmont",4070,"DPH",66,"March 25, 2022",90047
 "060376003022","Unincorporated - Athens-Westmont",7029,"DPH",15,"March 25, 2022",90047
 "060376003023","Unincorporated - Athens-Westmont",4222,"DPH",48,"March 25, 2022",90047
-"060376003031","Unincorporated - Athens-Westmont",1424,"Soledad Enrichment Action, Inc (SEA)",228,"March 25, 2022",90044
+"060376003031","Unincorporated - Athens-Westmont",1424,,228,"March 25, 2022",90044
 "060376003032","Unincorporated - Athens-Westmont",2188,"Southern California Crossroads",954,"March 25, 2022",90044
-"060376003033","Unincorporated - Athens-Westmont",1085,"Soledad Enrichment Action, Inc (SEA)",219,"March 25, 2022",90044
-"060376003041","Unincorporated - Athens-Westmont",1204,"Soledad Enrichment Action, Inc (SEA)",413,"March 25, 2022",90044
-"060376003042","Unincorporated - Athens-Westmont",2131,"Soledad Enrichment Action, Inc (SEA)",54,"March 25, 2022",90044
+"060376003033","Unincorporated - Athens-Westmont",1085,,219,"March 25, 2022",90044
+"060376003041","Unincorporated - Athens-Westmont",1204,,413,"March 25, 2022",90044
+"060376003042","Unincorporated - Athens-Westmont",2131,,54,"March 25, 2022",90044
 "060376003043","Unincorporated - Athens-Westmont",4098,,13,"March 25, 2022",90044
 "060376004001","Unincorporated - Athens-Westmont",9043,,,"March 25, 2022",90047
 "060376004002","Unincorporated - Athens-Westmont",10034,,,"March 25, 2022",90047
@@ -5519,7 +5519,7 @@
 "060376027002","City of Hawthorne",10065,,,"March 25, 2022",90250
 "060376027003","City of Hawthorne",4143,,,"March 25, 2022",90250
 "060376027004","City of Hawthorne",8066,,,"March 25, 2022",90250
-"060376028011","Unincorporated - Athens-Westmont",1314,"Soledad Enrichment Action, Inc (SEA)",319,"March 25, 2022",90044
+"060376028011","Unincorporated - Athens-Westmont",1314,,319,"March 25, 2022",90044
 "060376028012","Unincorporated - Athens-Westmont",4088,"DPH",20,"March 25, 2022",90047
 "060376028021","Unincorporated - Athens-Westmont",7116,"DPH",16,"March 25, 2022",90044
 "060376028022","Unincorporated - Athens-Westmont",5108,,80,"March 25, 2022",90044
