@@ -2895,14 +2895,14 @@
 "060374028032","City of Pomona",3238,"DPH",337,"March 25, 2022",91766
 "060374028041","City of Pomona",2242,"DPH",205,"March 25, 2022",91766
 "060374028042","City of Pomona",3241,"DPH",386,"March 25, 2022",91766
-"060374029021","City of Pomona",4049,,15,"March 25, 2022",91766
+"060374029021","City of Pomona",4049,"DPH",15,"March 25, 2022",91766
 "060374029022","City of Pomona",3208,"DPH",623,"March 25, 2022",91766
-"060374029031","City of Pomona",4139,,1,"March 25, 2022",91766
+"060374029031","City of Pomona",4139,"DPH",1,"March 25, 2022",91766
 "060374029041","City of Pomona",6048,,3,"March 25, 2022",91766
 "060374029042","City of Pomona",5149,,8,"March 25, 2022",91766
 "060374030001","City of Pomona",4085,"East Valley Community Health Center, Inc.",191,"March 25, 2022",91766
-"060374030002","City of Pomona",7045,,6,"March 25, 2022",91766
-"060374030003","City of Pomona",4179,,37,"March 25, 2022",91766
+"060374030002","City of Pomona",7045,"DPH",6,"March 25, 2022",91766
+"060374030003","City of Pomona",4179,"DPH",37,"March 25, 2022",91766
 "060374032001","City of Pomona",7074,,,"March 25, 2022",91768
 "060374033031","City of Industry",7881,,,"March 25, 2022",91789
 "060374033041","Unincorporated - Rowland Heights",9691,,,"March 25, 2022",91789
@@ -2989,18 +2989,18 @@
 "060374039021","City of Glendora",5799,,,"March 25, 2022",91740
 "060374039022","City of Glendora",6685,,,"March 25, 2022",91740
 "060374039023","City of Glendora",9239,,,"March 25, 2022",91740
-"060374040001","City of Azusa",5647,,,"March 25, 2022",91702
-"060374040002","City of Azusa",9799,,,"March 25, 2022",91702
-"060374040003","Unincorporated - Azusa",7738,,,"March 25, 2022",91722
-"060374040004","Unincorporated - Azusa",4653,,,"March 25, 2022",91722
-"060374041001","Unincorporated - Azusa",7720,,,"March 25, 2022",91702
-"060374041002","Unincorporated - Azusa",5619,,,"March 25, 2022",91702
-"060374041003","Unincorporated - Azusa",5564,,,"March 25, 2022",91702
-"060374041004","Unincorporated - Azusa",4751,,,"March 25, 2022",91702
+"060374040001","City of Azusa",5647,"DPH",,"March 25, 2022",91702
+"060374040002","City of Azusa",9799,"DPH",,"March 25, 2022",91702
+"060374040003","Unincorporated - Azusa",7738,"DPH",,"March 25, 2022",91722
+"060374040004","Unincorporated - Azusa",4653,"DPH",,"March 25, 2022",91722
+"060374041001","Unincorporated - Azusa",7720,"DPH",,"March 25, 2022",91702
+"060374041002","Unincorporated - Azusa",5619,"DPH",,"March 25, 2022",91702
+"060374041003","Unincorporated - Azusa",5564,"DPH",,"March 25, 2022",91702
+"060374041004","Unincorporated - Azusa",4751,"DPH",,"March 25, 2022",91702
 "060374042011","City of Azusa",3710,"DPH",74,"March 25, 2022",91702
-"060374042012","City of Azusa",4703,,,"March 25, 2022",91702
-"060374042021","City of Azusa",4798,,15,"March 25, 2022",91702
-"060374042022","Unincorporated - Azusa",7860,,7,"March 25, 2022",91702
+"060374042012","City of Azusa",4703,"DPH",,"March 25, 2022",91702
+"060374042021","City of Azusa",4798,"DPH",15,"March 25, 2022",91702
+"060374042022","Unincorporated - Azusa",7860,"DPH",7,"March 25, 2022",91702
 "060374043011","City of Azusa",4702,,,"March 25, 2022",91702
 "060374043012","City of Azusa",3751,,,"March 25, 2022",91702
 "060374043013","City of Azusa",3747,,,"March 25, 2022",91702
@@ -3168,11 +3168,11 @@
 "060374073023","Unincorporated - West Puente Valley",7712,,2,"March 25, 2022",91744
 "060374074001","City of West Covina",5524,"East Valley Community Health Center, Inc.",8,"March 25, 2022",91790
 "060374075011","City of La Puente",5611,,7,"March 25, 2022",91744
-"060374075012","Unincorporated - Valinda",4592,,,"March 25, 2022",91744
-"060374075013","Unincorporated - Valinda",3680,,,"March 25, 2022",91744
-"060374075021","Unincorporated - Valinda",5852,,,"March 25, 2022",91744
-"060374075022","Unincorporated - Valinda",4677,,,"March 25, 2022",91744
-"060374075023","Unincorporated - Valinda",5630,,,"March 25, 2022",91744
+"060374075012","Unincorporated - Valinda",4592,"DPH",,"March 25, 2022",91744
+"060374075013","Unincorporated - Valinda",3680,"DPH",,"March 25, 2022",91744
+"060374075021","Unincorporated - Valinda",5852,"DPH",,"March 25, 2022",91744
+"060374075022","Unincorporated - Valinda",4677,"DPH",,"March 25, 2022",91744
+"060374075023","Unincorporated - Valinda",5630,"DPH",,"March 25, 2022",91744
 "060374076011","City of La Puente",3108,"East Valley Community Health Center, Inc.",21,"March 25, 2022",91744
 "060374076012","City of La Puente",2246,"East Valley Community Health Center, Inc.",6,"March 25, 2022",91744
 "060374076013","City of La Puente",2102,"East Valley Community Health Center, Inc.",11,"March 25, 2022",91744
@@ -3190,9 +3190,9 @@
 "060374078012","Unincorporated - Valinda",4804,,13,"March 25, 2022",91744
 "060374078013","Unincorporated - Valinda",4662,,,"March 25, 2022",91744
 "060374078021","City of Industry",7613,,19,"March 25, 2022",91744
-"060374078022","Unincorporated - Valinda",5822,,,"March 25, 2022",91744
+"060374078022","Unincorporated - Valinda",5822,"DPH",,"March 25, 2022",91744
 "060374079001","Unincorporated - Valinda",5571,,1,"March 25, 2022",91744
-"060374079002","Unincorporated - Valinda",6562,,,"March 25, 2022",91744
+"060374079002","Unincorporated - Valinda",6562,"DPH",,"March 25, 2022",91744
 "060374080031","Unincorporated - Valinda",5520,"East Valley Community Health Center, Inc.",5,"March 25, 2022",91744
 "060374080032","City of West Covina",6538,"East Valley Community Health Center, Inc.",10,"March 25, 2022",91792
 "060374080041","City of West Covina",6524,"East Valley Community Health Center, Inc.",2,"March 25, 2022",91792
@@ -3210,11 +3210,11 @@
 "060374081362","City of West Covina",6525,"East Valley Community Health Center, Inc.",3,"March 25, 2022",91792
 "060374081371","City of West Covina",8947,,2,"March 25, 2022",91792
 "060374081372","City of West Covina",8738,,,"March 25, 2022",91792
-"060374081381","Unincorporated - San Jose Hills",3624,,3,"March 25, 2022",91744
-"060374081382","Unincorporated - San Jose Hills",3663,,33,"March 25, 2022",91744
-"060374081391","Unincorporated - San Jose Hills",4727,,,"March 25, 2022",91744
-"060374081392","Unincorporated - San Jose Hills",4732,,,"March 25, 2022",91744
-"060374081401","Unincorporated - San Jose Hills",5595,,2,"March 25, 2022",91744
+"060374081381","Unincorporated - San Jose Hills",3624,"DPH",3,"March 25, 2022",91744
+"060374081382","Unincorporated - San Jose Hills",3663,"DPH",33,"March 25, 2022",91744
+"060374081391","Unincorporated - San Jose Hills",4727,"DPH",,"March 25, 2022",91744
+"060374081392","Unincorporated - San Jose Hills",4732,"DPH",,"March 25, 2022",91744
+"060374081401","Unincorporated - San Jose Hills",5595,"DPH",2,"March 25, 2022",91744
 "060374081402","Unincorporated - San Jose Hills",4802,,,"March 25, 2022",91744
 "060374081411","Unincorporated - San Jose Hills",5594,,,"March 25, 2022",91744
 "060374081412","Unincorporated - San Jose Hills",4683,,,"March 25, 2022",91744
