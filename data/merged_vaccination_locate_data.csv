@@ -52,8 +52,8 @@
 "060371042011","Los Angeles - Pacoima",4006,,3,"March 25, 2022",91340
 "060371042012","Los Angeles - Pacoima",4185,,,"March 25, 2022",91331
 "060371042013","Los Angeles - Pacoima",4156,,,"March 25, 2022",91331
-"060371042031","Los Angeles - Pacoima",2009,"Providence Little Company of Mary Foundation",7,"March 25, 2022",91331
-"060371042032","Los Angeles - Pacoima",2358,"Providence Little Company of Mary Foundation",4,"March 25, 2022",91331
+"060371042031","Los Angeles - Pacoima",2009,,7,"March 25, 2022",91331
+"060371042032","Los Angeles - Pacoima",2358,,4,"March 25, 2022",91331
 "060371042041","Los Angeles - Pacoima",3662,,,"March 25, 2022",91331
 "060371042042","Los Angeles - Lakeview Terrace",6608,,,"March 25, 2022",91342
 "060371043101","Los Angeles - Pacoima",4154,,,"March 25, 2022",91331
@@ -64,12 +64,12 @@
 "060371043203","Los Angeles - Pacoima",1158,"Providence Little Company of Mary Foundation",5,"March 25, 2022",91331
 "060371043204","Los Angeles - Pacoima",6095,,,"March 25, 2022",91331
 "060371044011","Los Angeles - Pacoima",3051,"Providence Little Company of Mary Foundation",17,"March 25, 2022",91331
-"060371044012","Los Angeles - Pacoima",2040,"Providence Little Company of Mary Foundation",5,"March 25, 2022",91331
-"060371044031","Los Angeles - Pacoima",3158,"Providence Little Company of Mary Foundation",8,"March 25, 2022",91331
+"060371044012","Los Angeles - Pacoima",2040,,5,"March 25, 2022",91331
+"060371044031","Los Angeles - Pacoima",3158,,8,"March 25, 2022",91331
 "060371044032","Los Angeles - Pacoima",3052,"Providence Little Company of Mary Foundation",79,"March 25, 2022",91331
-"060371044041","Los Angeles - Pacoima",3099,"Providence Little Company of Mary Foundation",2,"March 25, 2022",91331
+"060371044041","Los Angeles - Pacoima",3099,,2,"March 25, 2022",91331
 "060371044042","Los Angeles - Pacoima",2055,"Providence Little Company of Mary Foundation",6,"March 25, 2022",91331
-"060371045001","Los Angeles - Pacoima",3021,"Providence Little Company of Mary Foundation",6,"March 25, 2022",91331
+"060371045001","Los Angeles - Pacoima",3021,,6,"March 25, 2022",91331
 "060371045002","Los Angeles - Pacoima",3098,"DPH",39,"March 25, 2022",91331
 "060371046101","Los Angeles - Pacoima",2364,"Providence Little Company of Mary Foundation",7,"March 25, 2022",91331
 "060371046102","Los Angeles - Pacoima",3107,"DPH",37,"March 25, 2022",91331
@@ -78,8 +78,8 @@
 "060371047011","Los Angeles - Pacoima",1367,"Providence Little Company of Mary Foundation",8,"March 25, 2022",91331
 "060371047012","Los Angeles - Pacoima",1138,"Providence Little Company of Mary Foundation",2684,"March 25, 2022",91331
 "060371047013","Los Angeles - Pacoima",3294,"Providence Little Company of Mary Foundation",20,"March 25, 2022",91331
-"060371047031","Los Angeles - Pacoima",3076,"Providence Little Company of Mary Foundation",3,"March 25, 2022",91331
-"060371047032","Los Angeles - Pacoima",3085,"Providence Little Company of Mary Foundation",10,"March 25, 2022",91331
+"060371047031","Los Angeles - Pacoima",3076,,3,"March 25, 2022",91331
+"060371047032","Los Angeles - Pacoima",3085,,10,"March 25, 2022",91331
 "060371047041","Los Angeles - Pacoima",4043,,,"March 25, 2022",91331
 "060371048101","Los Angeles - Pacoima",4031,,,"March 25, 2022",91331
 "060371048102","Los Angeles - Pacoima",5044,,5,"March 25, 2022",91331
@@ -274,7 +274,7 @@
 "060371171022","Los Angeles - North Hills",4208,,,"March 25, 2022",91343
 "060371172011","Los Angeles - North Hills",2319,"Providence Little Company of Mary Foundation",5,"March 25, 2022",91343
 "060371172012","Los Angeles - North Hills",5039,,,"March 25, 2022",91343
-"060371172021","Los Angeles - North Hills",6073,,,"March 25, 2022",91343
+"060371172021","Los Angeles - North Hills",6073,"Providence Little Company of Mary Foundation",,"March 25, 2022",91343
 "060371172022","Los Angeles - North Hills",8041,,,"March 25, 2022",91343
 "060371173011","Los Angeles - North Hills",8003,,,"March 25, 2022",91343
 "060371173012","Los Angeles - North Hills",5146,,,"March 25, 2022",91343
@@ -290,10 +290,10 @@
 "060371174043","Los Angeles - North Hills",5057,,,"March 25, 2022",91343
 "060371174051","Los Angeles - North Hills",1164,"Providence Little Company of Mary Foundation",12,"March 25, 2022",91343
 "060371174071","Los Angeles - North Hills",1061,"Providence Little Company of Mary Foundation",4,"March 25, 2022",91343
-"060371174081","Los Angeles - North Hills",2164,"Providence Little Company of Mary Foundation",6,"March 25, 2022",91343
+"060371174081","Los Angeles - North Hills",2164,,6,"March 25, 2022",91343
 "060371175101","Los Angeles - North Hills",2099,"Providence Little Company of Mary Foundation",6,"March 25, 2022",91343
 "060371175201","Los Angeles - North Hills",1268,"Providence Little Company of Mary Foundation",38,"March 25, 2022",91343
-"060371175301","Los Angeles - North Hills",1129,"Providence Little Company of Mary Foundation",23,"March 25, 2022",91343
+"060371175301","Los Angeles - North Hills",1129,,23,"March 25, 2022",91343
 "060371175302","Los Angeles - North Hills",2276,"Providence Little Company of Mary Foundation",5,"March 25, 2022",91343
 "060371190011","Los Angeles - Arleta",4570,,,"March 25, 2022",91331
 "060371190012","Los Angeles - Arleta",5541,,,"March 25, 2022",91331
@@ -310,11 +310,11 @@
 "060371192022","Los Angeles - Arleta",5538,,,"March 25, 2022",91331
 "060371192023","Los Angeles - Arleta",4559,,1,"March 25, 2022",91331
 "060371192024","Los Angeles - Arleta",2550,,1,"March 25, 2022",91331
-"060371193101","Los Angeles - Panorama City",1337,"Providence Little Company of Mary Foundation",5,"March 25, 2022",91402
+"060371193101","Los Angeles - Panorama City",1337,,5,"March 25, 2022",91402
 "060371193102","Los Angeles - Panorama City",4040,,,"March 25, 2022",91402
-"060371193201","Los Angeles - Panorama City",2079,"Providence Little Company of Mary Foundation",30,"March 25, 2022",91402
-"060371193401","Los Angeles - Panorama City",1007,"Providence Little Company of Mary Foundation",4,"March 25, 2022",91402
-"060371193411","Los Angeles - Panorama City",3072,"Providence Little Company of Mary Foundation",7,"March 25, 2022",91402
+"060371193201","Los Angeles - Panorama City",2079,,30,"March 25, 2022",91402
+"060371193401","Los Angeles - Panorama City",1007,,4,"March 25, 2022",91402
+"060371193411","Los Angeles - Panorama City",3072,,7,"March 25, 2022",91402
 "060371193421","Los Angeles - Panorama City",1363,"Providence Little Company of Mary Foundation",4,"March 25, 2022",91402
 "060371194001","Los Angeles - Arleta",4556,,,"March 25, 2022",91331
 "060371194002","Los Angeles - Arleta",4534,,,"March 25, 2022",91331
@@ -331,7 +331,7 @@
 "060371199001","Los Angeles - Panorama City",3218,"Providence Little Company of Mary Foundation",4,"March 25, 2022",91402
 "060371199002","Los Angeles - Panorama City",7020,,,"March 25, 2022",91402
 "060371199003","Los Angeles - Panorama City",4140,,,"March 25, 2022",91402
-"060371199004","Los Angeles - Panorama City",7019,,,"March 25, 2022",91402
+"060371199004","Los Angeles - Panorama City",7019,"Providence Little Company of Mary Foundation",,"March 25, 2022",91402
 "060371200101","Los Angeles - Panorama City",2227,"Clinica Mrs. Oscar A. Romero",28,"March 25, 2022",91402
 "060371200102","Los Angeles - Panorama City",3039,"Clinica Mrs. Oscar A. Romero",34,"March 25, 2022",91402
 "060371200201","Los Angeles - Panorama City",1126,"Clinica Mrs. Oscar A. Romero",54,"March 25, 2022",91402
@@ -346,9 +346,9 @@
 "060371201081","Los Angeles - Panorama City",1107,"Providence Little Company of Mary Foundation",9,"March 25, 2022",91402
 "060371201082","Los Angeles - Panorama City",1140,"Clinica Mrs. Oscar A. Romero",122,"March 25, 2022",91402
 "060371203001","Los Angeles - Panorama City",4132,,,"March 25, 2022",91402
-"060371203002","Los Angeles - Panorama City",4200,,,"March 25, 2022",91402
-"060371203003","Los Angeles - Panorama City",6020,,,"March 25, 2022",91402
-"060371203004","Los Angeles - Panorama City",4024,,,"March 25, 2022",91402
+"060371203002","Los Angeles - Panorama City",4200,"Providence Little Company of Mary Foundation",,"March 25, 2022",91402
+"060371203003","Los Angeles - Panorama City",6020,"Providence Little Company of Mary Foundation",,"March 25, 2022",91402
+"060371203004","Los Angeles - Panorama City",4024,"Providence Little Company of Mary Foundation",,"March 25, 2022",91402
 "060371204001","Los Angeles - Panorama City",2091,,,"March 25, 2022",91402
 "060371204002","Los Angeles - Panorama City",1433,,,"March 25, 2022",91402
 "060371204003","Los Angeles - Panorama City",4157,,,"March 25, 2022",91402
@@ -388,8 +388,8 @@
 "060371221201","Los Angeles - Sun Valley",4357,,,"March 25, 2022",91352
 "060371221202","Los Angeles - Sun Valley",3476,,,"March 25, 2022",91352
 "060371221211","Los Angeles - Sun Valley",2486,,70,"March 25, 2022",91352
-"060371221212","Los Angeles - Sun Valley",4356,,,"March 25, 2022",91352
-"060371221221","Los Angeles - Sun Valley",3478,,65,"March 25, 2022",91352
+"060371221212","Los Angeles - Sun Valley",4356,"Providence Little Company of Mary Foundation",,"March 25, 2022",91352
+"060371221221","Los Angeles - Sun Valley",3478,"Providence Little Company of Mary Foundation",65,"March 25, 2022",91352
 "060371221222","Los Angeles - Sun Valley",3475,,1,"March 25, 2022",91352
 "060371221223","Los Angeles - Sun Valley",5278,,,"March 25, 2022",91352
 "060371222001","Los Angeles - Sun Valley",3479,,,"March 25, 2022",91352
@@ -418,7 +418,7 @@
 "060371232061","Los Angeles - North Hollywood",2473,"DPH",27,"March 25, 2022",91605
 "060371233011","Los Angeles - North Hollywood",2476,"Southern California Crossroads",1583,"March 25, 2022",91605
 "060371233012","Los Angeles - North Hollywood",5267,,,"March 25, 2022",91605
-"060371233013","Los Angeles - North Hollywood",5264,,2,"March 25, 2022",91606
+"060371233013","Los Angeles - North Hollywood",5264,"Providence Little Company of Mary Foundation",2,"March 25, 2022",91606
 "060371233031","Los Angeles - North Hollywood",10132,,,"March 25, 2022",91606
 "060371233032","Los Angeles - North Hollywood",3452,"Southern California Crossroads",1845,"March 25, 2022",91605
 "060371233041","Los Angeles - North Hollywood",3472,"Southern California Crossroads",1266,"March 25, 2022",91605
@@ -472,7 +472,7 @@
 "060371242042","Los Angeles - North Hollywood",3461,"DPH",51,"March 25, 2022",91601
 "060371243001","Los Angeles - North Hollywood",5266,,,"March 25, 2022",91601
 "060371243002","Los Angeles - North Hollywood",3460,"DPH",63,"March 25, 2022",91601
-"060371243003","Los Angeles - North Hollywood",4352,,,"March 25, 2022",91601
+"060371243003","Los Angeles - North Hollywood",4352,"Providence Little Company of Mary Foundation",,"March 25, 2022",91601
 "060371244001","Los Angeles - North Hollywood",5262,,,"March 25, 2022",91607
 "060371244002","Los Angeles - North Hollywood",10133,,,"March 25, 2022",91607
 "060371244003","Los Angeles - Valley Village",5260,,11,"March 25, 2022",91607
@@ -590,8 +590,8 @@
 "060371289102","Los Angeles - Sherman Oaks",9718,,,"March 25, 2022",91403
 "060371289103","Los Angeles - Sherman Oaks",6717,,,"March 25, 2022",91403
 "060371310101","Los Angeles - Reseda",2533,,,"March 25, 2022",91335
-"060371310102","Los Angeles - Reseda",3527,,,"March 25, 2022",91335
-"060371310201","Los Angeles - Reseda",4537,,,"March 25, 2022",91335
+"060371310102","Los Angeles - Reseda",3527,"Providence Little Company of Mary Foundation",,"March 25, 2022",91335
+"060371310201","Los Angeles - Reseda",4537,"Providence Little Company of Mary Foundation",,"March 25, 2022",91335
 "060371310202","Los Angeles - Reseda",3538,,,"March 25, 2022",91335
 "060371310203","Los Angeles - Reseda",6550,,,"March 25, 2022",91335
 "060371311001","Los Angeles - Lake Balboa",10625,,,"March 25, 2022",91406
@@ -641,18 +641,18 @@
 "060371325022","Los Angeles - Reseda",4547,,,"March 25, 2022",91335
 "060371327001","Los Angeles - Reseda",10448,,,"March 25, 2022",91335
 "060371327002","Los Angeles - Reseda",8520,,,"March 25, 2022",91316
-"060371327003","Los Angeles - Reseda",10468,,,"March 25, 2022",91335
+"060371327003","Los Angeles - Reseda",10468,"Providence Little Company of Mary Foundation",,"March 25, 2022",91335
 "060371327004","Los Angeles - Reseda",2534,,,"March 25, 2022",91335
 "060371329001","Los Angeles - Reseda",5556,,,"March 25, 2022",91316
 "060371329002","Los Angeles - Reseda",8522,,,"March 25, 2022",91335
-"060371330001","Los Angeles - Reseda",4529,,,"March 25, 2022",91335
+"060371330001","Los Angeles - Reseda",4529,"Providence Little Company of Mary Foundation",,"March 25, 2022",91335
 "060371330002","Los Angeles - Reseda",3529,,,"March 25, 2022",91335
 "060371330003","Los Angeles - Reseda",4553,,,"March 25, 2022",91335
 "060371331001","Los Angeles - Reseda",4540,,,"March 25, 2022",91335
 "060371331002","Los Angeles - Reseda",2536,,,"March 25, 2022",91335
 "060371331003","Los Angeles - Reseda",8521,,1,"March 25, 2022",91335
 "060371331004","Los Angeles - Reseda",4567,,,"March 25, 2022",91335
-"060371340011","Los Angeles - Canoga Park",2412,,,"March 25, 2022",91303
+"060371340011","Los Angeles - Canoga Park",2412,"Providence Little Company of Mary Foundation",,"March 25, 2022",91303
 "060371340012","Los Angeles - Canoga Park",4329,,,"March 25, 2022",91303
 "060371340021","Los Angeles - Winnetka",5676,,,"March 25, 2022",91306
 "060371340022","Los Angeles - Winnetka",3553,,1,"March 25, 2022",91306
@@ -669,12 +669,12 @@
 "060371343022","Los Angeles - West Hills",6843,,,"March 25, 2022",91304
 "060371343023","Los Angeles - West Hills",9244,,,"March 25, 2022",91304
 "060371343031","Los Angeles - Canoga Park",10147,,,"March 25, 2022",91303
-"060371343032","Los Angeles - Canoga Park",4330,,28,"March 25, 2022",91303
-"060371343033","Los Angeles - Canoga Park",6238,,1,"March 25, 2022",91303
+"060371343032","Los Angeles - Canoga Park",4330,"Providence Little Company of Mary Foundation",28,"March 25, 2022",91303
+"060371343033","Los Angeles - Canoga Park",6238,"Providence Little Company of Mary Foundation",1,"March 25, 2022",91303
 "060371343034","Los Angeles - West Hills",8141,,1,"March 25, 2022",91307
-"060371343041","Los Angeles - Canoga Park",3419,,,"March 25, 2022",91304
-"060371343042","Los Angeles - Canoga Park",6239,,,"March 25, 2022",91304
-"060371343051","Los Angeles - Canoga Park",1507,,1,"March 25, 2022",91304
+"060371343041","Los Angeles - Canoga Park",3419,"Providence Little Company of Mary Foundation",,"March 25, 2022",91304
+"060371343042","Los Angeles - Canoga Park",6239,"Providence Little Company of Mary Foundation",,"March 25, 2022",91304
+"060371343051","Los Angeles - Canoga Park",1507,"Providence Little Company of Mary Foundation",1,"March 25, 2022",91304
 "060371343061","Los Angeles - Canoga Park",4328,,,"March 25, 2022",91304
 "060371344211","Los Angeles - West Hills",10399,,,"March 25, 2022",91307
 "060371344221","Los Angeles - West Hills",6765,,,"March 25, 2022",91307
@@ -685,7 +685,7 @@
 "060371344242","Los Angeles - West Hills",10204,,,"March 25, 2022",91304
 "060371345201","Los Angeles - Canoga Park",2413,"DPH",22,"March 25, 2022",91303
 "060371345202","Los Angeles - Canoga Park",2411,"DPH",68,"March 25, 2022",91303
-"060371345211","Los Angeles - Canoga Park",1508,,2,"March 25, 2022",91303
+"060371345211","Los Angeles - Canoga Park",1508,"Providence Little Company of Mary Foundation",2,"March 25, 2022",91303
 "060371345221","Los Angeles - Canoga Park",2410,"DPH",83,"March 25, 2022",91303
 "060371347101","Los Angeles - Winnetka",1677,,1,"March 25, 2022",91306
 "060371347102","Los Angeles - Winnetka",3587,,1,"March 25, 2022",91306
@@ -2668,7 +2668,7 @@
 "060373105012","City of Burbank",5780,,,"March 25, 2022",91504
 "060373105013","City of Burbank",6668,,,"March 25, 2022",91504
 "060373106011","City of Burbank",4715,,,"March 25, 2022",91504
-"060373106012","City of Burbank",5877,,,"March 25, 2022",91504
+"060373106012","City of Burbank",5877,"Providence Little Company of Mary Foundation",,"March 25, 2022",91504
 "060373106013","City of Burbank",4668,,,"March 25, 2022",91504
 "060373106021","City of Burbank",6828,,,"March 25, 2022",91504
 "060373106022","City of Burbank",7953,,3,"March 25, 2022",91504
@@ -2691,8 +2691,8 @@
 "060373109005","City of Burbank",6752,,1,"March 25, 2022",91506
 "060373109006","City of Burbank",6761,,,"March 25, 2022",91506
 "060373110001","City of Burbank",6567,,1,"March 25, 2022",91505
-"060373110002","City of Burbank",6739,,,"March 25, 2022",91505
-"060373110003","City of Burbank",6704,,,"March 25, 2022",91505
+"060373110002","City of Burbank",6739,"Providence Little Company of Mary Foundation",,"March 25, 2022",91505
+"060373110003","City of Burbank",6704,"Providence Little Company of Mary Foundation",,"March 25, 2022",91505
 "060373110004","City of Burbank",8556,,,"March 25, 2022",91505
 "060373111001","City of Burbank",6888,,1,"March 25, 2022",91505
 "060373111002","City of Burbank",6620,,,"March 25, 2022",91505
@@ -2700,7 +2700,7 @@
 "060373112001","City of Burbank",8524,,,"March 25, 2022",91505
 "060373112002","City of Burbank",6946,,,"March 25, 2022",91505
 "060373112003","City of Burbank",7814,,,"March 25, 2022",91505
-"060373113001","City of Burbank",6977,,2,"March 25, 2022",91505
+"060373113001","City of Burbank",6977,"Providence Little Company of Mary Foundation",2,"March 25, 2022",91505
 "060373113002","City of Burbank",8903,,2,"March 25, 2022",91505
 "060373113003","City of Burbank",7645,,,"March 25, 2022",91505
 "060373114001","City of Burbank",7663,,,"March 25, 2022",91505
@@ -2735,12 +2735,12 @@
 "060373202022","City of San Fernando",2524,,1,"March 25, 2022",91340
 "060373202023","City of San Fernando",2527,,,"March 25, 2022",91340
 "060373202024","City of San Fernando",6544,,,"March 25, 2022",91340
-"060373203001","City of San Fernando",2525,,1,"March 25, 2022",91340
-"060373203002","City of San Fernando",3521,,,"March 25, 2022",91340
+"060373203001","City of San Fernando",2525,"Providence Little Company of Mary Foundation",1,"March 25, 2022",91340
+"060373203002","City of San Fernando",3521,"Providence Little Company of Mary Foundation",,"March 25, 2022",91340
 "060373203003","City of San Fernando",2521,,,"March 25, 2022",91340
 "060373203004","City of San Fernando",2522,,,"March 25, 2022",91340
-"060373203005","City of San Fernando",3522,,,"March 25, 2022",91340
-"060373203006","City of San Fernando",3520,,1,"March 25, 2022",91340
+"060373203005","City of San Fernando",3522,"Providence Little Company of Mary Foundation",,"March 25, 2022",91340
+"060373203006","City of San Fernando",3520,"Providence Little Company of Mary Foundation",1,"March 25, 2022",91340
 "060374002041","City of La Verne",9529,,,"March 25, 2022",91750
 "060374002042","City of La Verne",10208,,,"March 25, 2022",91750
 "060374002043","Unincorporated - La Verne",9163,,,"March 25, 2022",91750
@@ -3417,11 +3417,11 @@
 "060374323001","City of El Monte",5167,,4,"March 25, 2022",91731
 "060374323002","City of El Monte",4050,,1,"March 25, 2022",91731
 "060374323003","City of El Monte",7062,,14,"March 25, 2022",91731
-"060374324011","City of El Monte",4002,,,"March 25, 2022",91731
+"060374324011","City of El Monte",4002,"East Valley Community Health Center, Inc.",,"March 25, 2022",91731
 "060374324012","City of El Monte",3190,"The Wellness Center",64,"March 25, 2022",91732
-"060374324021","City of El Monte",4184,,4,"March 25, 2022",91732
-"060374324022","City of El Monte",5080,,15,"March 25, 2022",91731
-"060374324023","City of El Monte",4009,,13,"March 25, 2022",91731
+"060374324021","City of El Monte",4184,"East Valley Community Health Center, Inc.",4,"March 25, 2022",91732
+"060374324022","City of El Monte",5080,"East Valley Community Health Center, Inc.",15,"March 25, 2022",91731
+"060374324023","City of El Monte",4009,"East Valley Community Health Center, Inc.",13,"March 25, 2022",91731
 "060374325001","City of Arcadia",4146,,,"March 25, 2022",91006
 "060374325002","City of El Monte",4159,,,"March 25, 2022",91732
 "060374325003","City of El Monte",4068,,,"March 25, 2022",91732
