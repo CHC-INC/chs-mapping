@@ -512,14 +512,14 @@
 "060371256001","Los Angeles - Toluca Woods",6842,,,"March 25, 2022",91601
 "060371256002","Los Angeles - Toluca Woods",7909,,,"March 25, 2022",91602
 "060371256003","Los Angeles - Toluca Lake",5900,,,"March 25, 2022",91602
-"060371271021","Los Angeles - Van Nuys",2361,"Southern California Crossroads",809,"March 25, 2022",91405
+"060371271021","Los Angeles - Van Nuys",2361,"Providence Little Company of Mary Foundation",809,"March 25, 2022",91405
 "060371271022","Los Angeles - Van Nuys",1262,"Southern California Crossroads",699,"March 25, 2022",91405
 "060371271031","Los Angeles - Van Nuys",2085,"Southern California Crossroads",1050,"March 25, 2022",91405
 "060371271041","Los Angeles - Van Nuys",3054,"Southern California Crossroads",667,"March 25, 2022",91405
 "060371271042","Los Angeles - Van Nuys",2119,"Southern California Crossroads",203,"March 25, 2022",91405
 "060371272101","Los Angeles - Van Nuys",3117,"Clinica Mrs. Oscar A. Romero",44,"March 25, 2022",91405
 "060371272102","Los Angeles - Van Nuys",2062,"Clinica Mrs. Oscar A. Romero",53,"March 25, 2022",91405
-"060371272103","Los Angeles - Van Nuys",2173,"Southern California Crossroads",666,"March 25, 2022",91405
+"060371272103","Los Angeles - Van Nuys",2173,"Providence Little Company of Mary Foundation",666,"March 25, 2022",91405
 "060371272201","Los Angeles - Van Nuys",1249,"Clinica Mrs. Oscar A. Romero",41,"March 25, 2022",91405
 "060371272202","Los Angeles - Van Nuys",1272,"Southern California Crossroads",743,"March 25, 2022",91405
 "060371273001","Los Angeles - Van Nuys",3303,"Clinica Mrs. Oscar A. Romero",23,"March 25, 2022",91406
@@ -531,7 +531,7 @@
 "060371275201","Los Angeles - Van Nuys",1022,"Clinica Mrs. Oscar A. Romero",28,"March 25, 2022",91406
 "060371275202","Los Angeles - Van Nuys",2118,"Clinica Mrs. Oscar A. Romero",64,"March 25, 2022",91406
 "060371276031","Los Angeles - Lake Balboa",2610,,,"March 25, 2022",91406
-"060371276032","Los Angeles - Lake Balboa",2584,,,"March 25, 2022",91406
+"060371276032","Los Angeles - Lake Balboa",2584,"Providence Little Company of Mary Foundation",,"March 25, 2022",91406
 "060371276041","Los Angeles - Lake Balboa",2611,,,"March 25, 2022",91406
 "060371276051","Los Angeles - Lake Balboa",8860,,,"March 25, 2022",91406
 "060371276052","Los Angeles - Lake Balboa",1678,,,"March 25, 2022",91406
@@ -547,22 +547,22 @@
 "060371278051","Los Angeles - Van Nuys",1285,"Southern California Crossroads",677,"March 25, 2022",91411
 "060371278052","Los Angeles - Van Nuys",1392,"Southern California Crossroads",551,"March 25, 2022",91405
 "060371278053","Los Angeles - Van Nuys",4175,,6,"March 25, 2022",91405
-"060371278061","Los Angeles - Van Nuys",2279,"Southern California Crossroads",740,"March 25, 2022",91411
+"060371278061","Los Angeles - Van Nuys",2279,"Providence Little Company of Mary Foundation",740,"March 25, 2022",91411
 "060371278062","Los Angeles - Van Nuys",3114,"Southern California Crossroads",488,"March 25, 2022",91411
 "060371278063","Los Angeles - Van Nuys",2282,"Southern California Crossroads",496,"March 25, 2022",91411
 "060371279101","Los Angeles - Van Nuys",1232,"Southern California Crossroads",577,"March 25, 2022",91405
-"060371279102","Los Angeles - Van Nuys",1093,"Southern California Crossroads",745,"March 25, 2022",91405
+"060371279102","Los Angeles - Van Nuys",1093,"Providence Little Company of Mary Foundation",745,"March 25, 2022",91405
 "060371279201","Los Angeles - Van Nuys",2245,"Southern California Crossroads",843,"March 25, 2022",91405
 "060371279202","Los Angeles - Van Nuys",2286,"Southern California Crossroads",509,"March 25, 2022",91405
 "060371281011","Los Angeles - Valley Glen",3646,,,"March 25, 2022",91401
 "060371281012","Los Angeles - Valley Glen",7766,,,"March 25, 2022",91405
 "060371281021","Los Angeles - Van Nuys",1286,"Southern California Crossroads",692,"March 25, 2022",91405
-"060371281022","Los Angeles - Van Nuys",2314,"Southern California Crossroads",704,"March 25, 2022",91401
+"060371281022","Los Angeles - Van Nuys",2314,"Providence Little Company of Mary Foundation",704,"March 25, 2022",91401
 "060371282101","Los Angeles - Van Nuys",1170,"Southern California Crossroads",618,"March 25, 2022",91401
 "060371282102","Los Angeles - Van Nuys",1255,"Southern California Crossroads",742,"March 25, 2022",91401
 "060371282201","Los Angeles - Valley Glen",3633,,,"March 25, 2022",91401
 "060371282202","Los Angeles - Valley Glen",3673,,,"March 25, 2022",91401
-"060371283021","Los Angeles - Van Nuys",3128,"Southern California Crossroads",695,"March 25, 2022",91411
+"060371283021","Los Angeles - Van Nuys",3128,"Providence Little Company of Mary Foundation",695,"March 25, 2022",91411
 "060371283022","Los Angeles - Van Nuys",1181,"Southern California Crossroads",735,"March 25, 2022",91411
 "060371283031","Los Angeles - Van Nuys",1233,"Southern California Crossroads",710,"March 25, 2022",91411
 "060371283032","Los Angeles - Van Nuys",1094,"Southern California Crossroads",488,"March 25, 2022",91411
@@ -2922,17 +2922,17 @@
 "060374033183","City of Pomona",6002,,1,"March 25, 2022",91766
 "060374033184","City of Pomona",8036,,,"March 25, 2022",91766
 "060374033191","City of Diamond Bar",7604,,6,"March 25, 2022",91765
-"060374033192","City of Diamond Bar",9247,,,"March 25, 2022",91765
-"060374033201","City of Diamond Bar",9219,,,"March 25, 2022",91765
+"060374033192","City of Diamond Bar",9247,"East Valley Community Health Center, Inc.",,"March 25, 2022",91765
+"060374033201","City of Diamond Bar",9219,"East Valley Community Health Center, Inc.",,"March 25, 2022",91765
 "060374033202","City of Diamond Bar",9257,,,"March 25, 2022",91765
 "060374033211","City of Diamond Bar",7575,,,"March 25, 2022",91765
 "060374033212","City of Diamond Bar",8872,,,"March 25, 2022",91765
 "060374033213","City of Diamond Bar",7876,,5,"March 25, 2022",91765
 "060374033221","City of Diamond Bar",9240,,,"March 25, 2022",91765
 "060374033222","City of Diamond Bar",9545,,,"March 25, 2022",91765
-"060374033231","City of Diamond Bar",7747,,,"March 25, 2022",91765
+"060374033231","City of Diamond Bar",7747,"East Valley Community Health Center, Inc.",,"March 25, 2022",91765
 "060374033232","City of Diamond Bar",9212,,,"March 25, 2022",91765
-"060374033233","City of Diamond Bar",9176,,,"March 25, 2022",91765
+"060374033233","City of Diamond Bar",9176,"East Valley Community Health Center, Inc.",,"March 25, 2022",91765
 "060374033241","City of Diamond Bar",9667,,,"March 25, 2022",91765
 "060374033242","City of Diamond Bar",7708,,,"March 25, 2022",91765
 "060374033243","City of Diamond Bar",7658,,,"March 25, 2022",91765
@@ -3136,12 +3136,12 @@
 "060374068001","City of West Covina",5528,"East Valley Community Health Center, Inc.",5,"March 25, 2022",91790
 "060374068002","City of West Covina",5527,"East Valley Community Health Center, Inc.",6,"March 25, 2022",91790
 "060374068003","City of West Covina",7527,"East Valley Community Health Center, Inc.",4,"March 25, 2022",91790
-"060374069011","City of West Covina",4765,,,"March 25, 2022",91790
+"060374069011","City of West Covina",4765,"East Valley Community Health Center, Inc.",,"March 25, 2022",91790
 "060374069012","Unincorporated - Bassett",4579,,,"March 25, 2022",91746
 "060374069013","Unincorporated - Bassett",3676,,3,"March 25, 2022",91746
 "060374069021","Unincorporated - Bassett",3726,,4,"March 25, 2022",91746
 "060374069022","Unincorporated - Bassett",5726,,1,"March 25, 2022",91746
-"060374069023","City of West Covina",6563,,,"March 25, 2022",91790
+"060374069023","City of West Covina",6563,"East Valley Community Health Center, Inc.",,"March 25, 2022",91790
 "060374070011","Unincorporated - Bassett",7828,,,"March 25, 2022",91746
 "060374070012","Unincorporated - Bassett",5774,,,"March 25, 2022",91746
 "060374070013","Unincorporated - Bassett",4705,,,"March 25, 2022",91746
@@ -3159,10 +3159,10 @@
 "060374072003","City of La Puente",4012,"DPH",1,"March 25, 2022",91744
 "060374072004","City of La Puente",3269,"Soledad Enrichment Action, Inc (SEA)",189,"March 25, 2022",91744
 "060374072005","City of La Puente",3271,"DPH",324,"March 25, 2022",91744
-"060374073011","Unincorporated - West Puente Valley",4704,,,"March 25, 2022",91744
+"060374073011","Unincorporated - West Puente Valley",4704,"East Valley Community Health Center, Inc.",,"March 25, 2022",91744
 "060374073012","Unincorporated - West Puente Valley",4675,,1,"March 25, 2022",91744
-"060374073013","Unincorporated - West Puente Valley",5876,,,"March 25, 2022",91744
-"060374073014","Unincorporated - West Puente Valley",7570,,,"March 25, 2022",91744
+"060374073013","Unincorporated - West Puente Valley",5876,"East Valley Community Health Center, Inc.",,"March 25, 2022",91744
+"060374073014","Unincorporated - West Puente Valley",7570,"East Valley Community Health Center, Inc.",,"March 25, 2022",91744
 "060374073021","Unincorporated - West Puente Valley",3725,,8,"March 25, 2022",91744
 "060374073022","Unincorporated - West Puente Valley",4762,,49,"March 25, 2022",91744
 "060374073023","Unincorporated - West Puente Valley",7712,,2,"March 25, 2022",91744
@@ -3426,12 +3426,12 @@
 "060374325002","City of El Monte",4159,,,"March 25, 2022",91732
 "060374325003","City of El Monte",4068,,,"March 25, 2022",91732
 "060374325004","City of El Monte",7059,,,"March 25, 2022",91732
-"060374326011","City of El Monte",5066,,1,"March 25, 2022",91732
+"060374326011","City of El Monte",5066,"East Valley Community Health Center, Inc.",1,"March 25, 2022",91732
 "060374326012","City of El Monte",3057,"The Wellness Center",17,"March 25, 2022",91732
-"060374326013","City of El Monte",4162,,2,"March 25, 2022",91732
+"060374326013","City of El Monte",4162,"East Valley Community Health Center, Inc.",2,"March 25, 2022",91732
 "060374326014","City of El Monte",4133,,,"March 25, 2022",91732
-"060374326021","City of El Monte",6079,,1,"March 25, 2022",91732
-"060374326022","City of El Monte",4073,,,"March 25, 2022",91732
+"060374326021","City of El Monte",6079,"East Valley Community Health Center, Inc.",1,"March 25, 2022",91732
+"060374326022","City of El Monte",4073,"East Valley Community Health Center, Inc.",,"March 25, 2022",91732
 "060374326023","City of El Monte",5082,,,"March 25, 2022",91732
 "060374327001","City of El Monte",2311,"The Wellness Center",38,"March 25, 2022",91731
 "060374327002","City of El Monte",5056,,19,"March 25, 2022",91731
@@ -3459,11 +3459,11 @@
 "060374333041","City of El Monte",2321,"The Wellness Center",28,"March 25, 2022",91732
 "060374333042","City of El Monte",2174,"The Wellness Center",28,"March 25, 2022",91732
 "060374333051","City of El Monte",2206,"The Wellness Center",13,"March 25, 2022",91732
-"060374333052","City of El Monte",4001,,,"March 25, 2022",91732
+"060374333052","City of El Monte",4001,"East Valley Community Health Center, Inc.",,"March 25, 2022",91732
 "060374333061","City of El Monte",4190,,,"March 25, 2022",91732
 "060374333062","City of El Monte",3197,"The Wellness Center",28,"March 25, 2022",91732
 "060374333063","City of El Monte",3012,"The Wellness Center",5,"March 25, 2022",91732
-"060374333071","City of El Monte",5021,,,"March 25, 2022",91732
+"060374333071","City of El Monte",5021,"East Valley Community Health Center, Inc.",,"March 25, 2022",91732
 "060374333072","City of El Monte",1418,"The Wellness Center",12,"March 25, 2022",91732
 "060374333073","City of El Monte",1344,"The Wellness Center",1,"March 25, 2022",91732
 "060374334011","City of El Monte",2103,"East Valley Community Health Center, Inc.",14,"March 25, 2022",91733
@@ -3491,7 +3491,7 @@
 "060374338014","City of El Monte",1145,"DPH",5,"March 25, 2022",91733
 "060374338021","Unincorporated - Whittier Narrows",7707,,33,"March 25, 2022",91733
 "060374338022","City of South El Monte",5860,,3,"March 25, 2022",91733
-"060374339011","City of El Monte",2377,,11,"March 25, 2022",91732
+"060374339011","City of El Monte",2377,"East Valley Community Health Center, Inc.",11,"March 25, 2022",91732
 "060374339012","City of El Monte",2170,"DPH",,"March 25, 2022",91732
 "060374339013","City of El Monte",2177,"DPH",,"March 25, 2022",91732
 "060374339021","City of El Monte",3284,"DPH",1,"March 25, 2022",91732
@@ -3500,7 +3500,7 @@
 "060374340011","City of El Monte",3273,"DPH",1,"March 25, 2022",91732
 "060374340012","City of El Monte",4060,"DPH",4,"March 25, 2022",91732
 "060374340031","City of El Monte",4039,"DPH",,"March 25, 2022",91732
-"060374340032","City of El Monte",4027,,,"March 25, 2022",91732
+"060374340032","City of El Monte",4027,"East Valley Community Health Center, Inc.",,"March 25, 2022",91732
 "060374340033","City of El Monte",3061,"DPH",,"March 25, 2022",91732
 "060374340041","City of South El Monte",4093,,7,"March 25, 2022",91733
 "060374340042","Unincorporated - South El Monte",3137,"The Wellness Center",66,"March 25, 2022",91733
