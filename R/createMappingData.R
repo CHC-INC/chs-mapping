@@ -18,7 +18,7 @@ city_bg_crosswalk <-
 
 # Import the outreach data from Google Sheet
 gs4_deauth()
-outreach <-
+outreach_meta <-
   read_sheet("1A1TJRyiQTEN4eM5V9BLgXwrpNSCkKjue64TyYgJtxxM", sheet = "mastersheet") %>%
   select(
     GEOID,
@@ -27,11 +27,21 @@ outreach <-
     CSA_Name = Current_CSA_Name,
     Block_Code,
     Current_Agency,
-    Current_Outreach,
-    Current_Outreach_Date,
     ZIP = ZIPCODE
   )
 
+# Calculate outreach counts from the raw outreach frequencies
+outreach_counts <- read_sheet("1A1TJRyiQTEN4eM5V9BLgXwrpNSCkKjue64TyYgJtxxM", sheet = "outreaches") 
+
+outreach <- outreach_counts %>%
+  mutate(Current_Outreach_Date = names(.)) %>%
+  rename(block = 1) %>%
+  filter(nchar(as.character(block)) == 4) %>%
+  group_by(block, Current_Outreach_Date ) %>%
+  summarize(Current_Outreach = n()) %>%
+  merge(outreach_meta, by.x = "block", by.y = "Block_Code", all.y = TRUE) %>%
+  rename(Block_Code = block)
+  
 # Grab acs population data by block groups
 demographics <- read.csv("R/raw/acs_bg.csv", colClasses = "character") %>%
   select(-vac_per)
