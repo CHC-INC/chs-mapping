@@ -6,7 +6,7 @@ vaccinations_city <-
   read.csv(
     "http://publichealth.lacounty.gov/media/coronavirus/vaccine/data/tables/cair_pm_hosp_geocoded_city_totals.csv"
   ) %>%
-  select('City.Community', X6..mos.Pop..Vaccinated.....2) %>%
+  select('City.Community', X6..mos.pop..vaccinated.....1) %>%
   rename(city = 1,
          Current_Vaccination = 2) %>%
   filter(Current_Vaccination < 1) %>%
