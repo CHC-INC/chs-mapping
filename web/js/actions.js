@@ -53,8 +53,6 @@ function resetHighlight(e) {
 			agency = e.target.feature.properties.Current_Agency
 			// find out where it is in the array
 			thisindex = chs.mapOptions.category_array.indexOf(agency)
-			//is it on?
-			console.log(chs.mapOptions.category_array_toggle[thisindex])
 			// if it is off, color it original white
 			if (chs.mapOptions.category_array_toggle[thisindex] == false) {
 				e.target.setStyle({

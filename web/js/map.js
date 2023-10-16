@@ -560,8 +560,7 @@ function addBoundaryLayer(id_text) {
 
 	// find it in the list of layers
 	layer2add = chs.data.boundaries.find(({ id }) => id === id_text)
-
-	console.log(layer2add.label)
+    
 	/*
 	
 		add boundary layer

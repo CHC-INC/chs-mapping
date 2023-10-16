@@ -112,13 +112,21 @@ chs.data = {
 			"path": "boundaries/zipcodes_topo.json",
 			"name_field": "ZIPCODE",
 			"label": "TRUE",
-			"type": "topojson"
-		},
-		{
-			"text": "LA Census Tracts",
-			"id": "ct",
-			"path": "boundaries/ct_s_topo.json",
-			"name_field": "geoid10",
+            "type": "topojson"
+        },
+        {
+            "text": "LA Census Tracts 2010",
+            "id": "ct",
+            "path": "boundaries/ct_s_topo.json",
+            "name_field": "geoid10",
+            "label": "FALSE",
+            "type": "topojson"
+        },
+        {
+            "text": "LA Census Tracts 2020",
+            "id": "ct20",
+			"path": "boundaries/ct_s_topo_20.json",
+			"name_field": "CT20",
 			"label": "FALSE",
 			"type": "topojson"
 		}

@@ -111,7 +111,7 @@ function createSidebar() {
 		placeholder: 'Boundaries',
 		showSearchInputInDropdown: false
 	}).on("change", function (data) {
-		addBoundaryLayer(data.value)
+        addBoundaryLayer(data.value)
 	});
 
 }
