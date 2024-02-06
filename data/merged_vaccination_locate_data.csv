@@ -4446,7 +4446,7 @@
 "060375402012","City of Lynwood",2003,"Southern California Crossroads",78,"12/24/23",90262
 "060375402021","City of Lynwood",1072,"Southern California Crossroads",181,"12/24/23",90262
 "060375402022","City of Lynwood",1247,"Southern California Crossroads",82,"12/24/23",90262
-"060375402023","City of Lynwood",4048,,999,"12/24/23",90262
+"060375402023","City of Lynwood",4048,"Southern California Crossroads",999,"12/24/23",90262
 "060375402024","City of Lynwood",1321,"Southern California Crossroads",135,"12/24/23",90262
 "060375402031","City of Lynwood",2302,"Southern California Crossroads",306,"12/24/23",90262
 "060375402032","City of Lynwood",1210,"Southern California Crossroads",57,"12/24/23",90262
@@ -4518,8 +4518,8 @@
 "060375416062","City of Compton",2379,"St. John's Well Child & Family Center",65,"12/24/23",90221
 "060375417001","City of Lynwood",2145,"Southern California Crossroads",759,"12/24/23",90262
 "060375417002","City of Lynwood",2265,"Southern California Crossroads",154,"12/24/23",90262
-"060375417003","City of Lynwood",7018,,65,"12/24/23",90262
-"060375417004","City of Lynwood",4220,,40,"12/24/23",90262
+"060375417003","City of Lynwood",7018,"Southern California Crossroads",65,"12/24/23",90262
+"060375417004","City of Lynwood",4220,"Southern California Crossroads",40,"12/24/23",90262
 "060375417005","City of Lynwood",3175,"Southern California Crossroads",67,"12/24/23",90262
 "060375417006","City of Lynwood",4099,,33,"12/24/23",90262
 "060375418011","City of Lynwood",3174,"Southern California Crossroads",39,"12/24/23",90262
@@ -4726,7 +4726,7 @@
 "060375511022","City of Downey",4136,,1,"12/24/23",90241
 "060375511023","City of Downey",3048,,4,"12/24/23",90242
 "060375512011","City of Downey",5126,,1,"12/24/23",90242
-"060375512012","City of Downey",4016,,,,90242
+"060375512012","City of Downey",4016,"Southern California Crossroads",,,90242
 "060375512021","City of Downey",3261,"Southern California Crossroads",161,"12/24/23",90242
 "060375512022","City of Downey",5004,,,,90242
 "060375512023","City of Downey",5162,,,,90242
@@ -6095,7 +6095,7 @@
 "060379001042","Unincorporated - Lake Los Angeles",7714,,6,"12/24/23",93591
 "060379001043","Unincorporated - Lake Los Angeles",6922,,22,"12/24/23",93591
 "060379002011","Unincorporated - Roosevelt",8811,,5,"12/24/23",93535
-"060379003001","Unincorporated - North Lancaster",7837,,2,"12/24/23",93535
+"060379003001","Unincorporated - North Lancaster",7837,"The Children's Center of the Antelope Valley",2,"12/24/23",93535
 "060379005011","City of Lancaster",6006,"H.E.L.P.E.R. Foundation",23,"12/24/23",93535
 "060379005012","City of Lancaster",4174,"The Children's Center of the Antelope Valley",19,"12/24/23",93535
 "060379005013","City of Lancaster",6087,,905,"12/24/23",93535
@@ -6133,8 +6133,8 @@
 "060379007042","City of Lancaster",9006,,7,"12/24/23",93534
 "060379007051","City of Lancaster",9014,,5,"12/24/23",93534
 "060379007052","City of Lancaster",6065,"H.E.L.P.E.R. Foundation",59,"12/24/23",93534
-"060379007053","City of Lancaster",9001,,22,"12/24/23",93534
-"060379008031","City of Lancaster",10087,,,,93534
+"060379007053","City of Lancaster",9001,"The Children's Center of the Antelope Valley",22,"12/24/23",93534
+"060379008031","City of Lancaster",10087,"The Children's Center of the Antelope Valley",,,93534
 "060379008032","City of Lancaster",10028,"The Children's Center of the Antelope Valley",,,93534
 "060379008033","City of Lancaster",10029,"The Children's Center of the Antelope Valley",,,93534
 "060379008034","City of Lancaster",7086,,2,"12/24/23",93534
