@@ -59,20 +59,20 @@
 "060371043101","Los Angeles - Pacoima",4154,,,,91331
 "060371043102","Los Angeles - Pacoima",4021,,1,"12/24/23",91340
 "060371043103","Los Angeles - Pacoima",4014,,10,"12/24/23",91331
-"060371043201","Los Angeles - Pacoima",2036,"Providence Little Company of Mary Foundation",40,"12/24/23",91331
-"060371043202","Los Angeles - Pacoima",3179,"Providence Little Company of Mary Foundation",89,"12/24/23",91331
+"060371043201","Los Angeles - Pacoima",2036,,40,"12/24/23",91331
+"060371043202","Los Angeles - Pacoima",3179,,89,"12/24/23",91331
 "060371043203","Los Angeles - Pacoima",1158,,39,"12/24/23",91331
 "060371043204","Los Angeles - Pacoima",6095,,2,"12/24/23",91331
 "060371044011","Los Angeles - Pacoima",3051,"Providence Little Company of Mary Foundation",25,"12/24/23",91331
 "060371044012","Los Angeles - Pacoima",2040,,15,"12/24/23",91331
 "060371044031","Los Angeles - Pacoima",3158,,2,"12/24/23",91331
-"060371044032","Los Angeles - Pacoima",3052,"Providence Little Company of Mary Foundation",6,"12/24/23",91331
+"060371044032","Los Angeles - Pacoima",3052,,6,"12/24/23",91331
 "060371044041","Los Angeles - Pacoima",3099,,17,"12/24/23",91331
-"060371044042","Los Angeles - Pacoima",2055,"Providence Little Company of Mary Foundation",36,"12/24/23",91331
+"060371044042","Los Angeles - Pacoima",2055,,36,"12/24/23",91331
 "060371045001","Los Angeles - Pacoima",3021,,7,"12/24/23",91331
-"060371045002","Los Angeles - Pacoima",3098,"DPH",8,"12/24/23",91331
-"060371046101","Los Angeles - Pacoima",2364,"Providence Little Company of Mary Foundation",44,"12/24/23",91331
-"060371046102","Los Angeles - Pacoima",3107,"DPH",14,"12/24/23",91331
+"060371045002","Los Angeles - Pacoima",3098,,8,"12/24/23",91331
+"060371046101","Los Angeles - Pacoima",2364,,44,"12/24/23",91331
+"060371046102","Los Angeles - Pacoima",3107,,14,"12/24/23",91331
 "060371046201","Los Angeles - Pacoima",3259,"DPH",6,"12/24/23",91331
 "060371046202","Los Angeles - Pacoima",3227,"DPH",18,"12/24/23",91331
 "060371047011","Los Angeles - Pacoima",1367,"Providence Little Company of Mary Foundation",45,"12/24/23",91331
@@ -84,9 +84,9 @@
 "060371048101","Los Angeles - Pacoima",4031,,,,91331
 "060371048102","Los Angeles - Pacoima",5044,,,,91331
 "060371048103","Los Angeles - Pacoima",3157,"DPH",12,"12/24/23",91331
-"060371048211","Los Angeles - Pacoima",3096,"DPH",11,"12/24/23",91331
+"060371048211","Los Angeles - Pacoima",3096,,11,"12/24/23",91331
 "060371048212","Los Angeles - Pacoima",4125,,,,91331
-"060371048221","Los Angeles - Pacoima",2333,"DPH",8,"12/24/23",91331
+"060371048221","Los Angeles - Pacoima",2333,,8,"12/24/23",91331
 "060371060101","Los Angeles - Sylmar",5559,,,,91342
 "060371060201","Los Angeles - Sylmar",6546,,,,91342
 "060371060202","Los Angeles - Sylmar",5542,,,,91342
@@ -134,8 +134,8 @@
 "060371066452","Los Angeles - Granada Hills",10323,,,,91344
 "060371066461","Los Angeles - Granada Hills",10355,,,,91344
 "060371066462","Los Angeles - Granada Hills",8591,,,,91344
-"060371066481","Los Angeles - Sylmar",3539,"DPH",10,"12/24/23",91342
-"060371066482","Los Angeles - Sylmar",2535,"DPH",4,"12/24/23",91342
+"060371066481","Los Angeles - Sylmar",3539,,10,"12/24/23",91342
+"060371066482","Los Angeles - Sylmar",2535,,4,"12/24/23",91342
 "060371066491","Los Angeles - Sylmar",5536,,,,91342
 "060371066492","Los Angeles - Sylmar",6551,,1,"12/24/23",91342
 "060371070101","Los Angeles - Sylmar",4549,,,,91342
@@ -1174,7 +1174,7 @@
 "060371990003","Los Angeles - Lincoln Heights",2158,"The Wellness Center",46,"12/24/23",90031
 "060371991101","Los Angeles - Lincoln Heights",4104,,1,"12/24/23",90032
 "060371991102","Los Angeles - Lincoln Heights",4150,,,,90032
-"060371991201","Los Angeles - Lincoln Heights",2336,"The Wellness Center",329,"12/24/23",90031
+"060371991201","Los Angeles - Lincoln Heights",2336,,329,"12/24/23",90031
 "060371991202","Los Angeles - Lincoln Heights",5071,,,,90031
 "060371992011","Los Angeles - Lincoln Heights",2285,"The Wellness Center",1,"12/24/23",90031
 "060371992012","Los Angeles - Lincoln Heights",2190,"The Wellness Center",53,"12/24/23",90031
@@ -1187,12 +1187,12 @@
 "060371994003","Los Angeles - Mt. Washington",3566,,,,90031
 "060371997001","Los Angeles - Wholesale District",3211,"The Wellness Center",19,"12/24/23",90031
 "060371997002","Los Angeles - Wholesale District",2253,"The Wellness Center",29,"12/24/23",90031
-"060371998001","Los Angeles - Lincoln Heights",3044,"The Wellness Center",5,"12/24/23",90031
-"060371998002","Los Angeles - Lincoln Heights",3081,"The Wellness Center",,,90031
-"060371998003","Los Angeles - Lincoln Heights",3003,"The Wellness Center",46,"12/24/23",90031
-"060371998004","Los Angeles - Lincoln Heights",3278,"The Wellness Center",19,"12/24/23",90031
-"060371999001","Los Angeles - Lincoln Heights",2371,"The Wellness Center",10,"12/24/23",90031
-"060371999002","Los Angeles - Lincoln Heights",3160,"The Wellness Center",33,"12/24/23",90031
+"060371998001","Los Angeles - Lincoln Heights",3044,,5,"12/24/23",90031
+"060371998002","Los Angeles - Lincoln Heights",3081,,,,90031
+"060371998003","Los Angeles - Lincoln Heights",3003,,46,"12/24/23",90031
+"060371998004","Los Angeles - Lincoln Heights",3278,,19,"12/24/23",90031
+"060371999001","Los Angeles - Lincoln Heights",2371,,10,"12/24/23",90031
+"060371999002","Los Angeles - Lincoln Heights",3160,,33,"12/24/23",90031
 "060372011101","Los Angeles - El Sereno",7719,,,,90032
 "060372011102","Los Angeles - El Sereno",4764,,,,90032
 "060372011103","Los Angeles - El Sereno",3554,,,,90032
@@ -1224,27 +1224,27 @@
 "060372017001","Los Angeles - University Hills",5818,,,,90032
 "060372017002","Los Angeles - El Sereno",5848,,,,90032
 "060372017003","Los Angeles - University Hills",5700,,,,90032
-"060372031001","Los Angeles - Boyle Heights",2186,"Clinica Mrs. Oscar A. Romero",68,"12/24/23",90033
-"060372031002","Los Angeles - Boyle Heights",2045,"Clinica Mrs. Oscar A. Romero",81,"12/24/23",90033
+"060372031001","Los Angeles - Boyle Heights",2186,,68,"12/24/23",90033
+"060372031002","Los Angeles - Boyle Heights",2045,,81,"12/24/23",90033
 "060372031003","Los Angeles - Boyle Heights",1137,,313,"12/24/23",90033
-"060372032001","Los Angeles - Boyle Heights",2335,"Clinica Mrs. Oscar A. Romero",99,"12/24/23",90033
+"060372032001","Los Angeles - Boyle Heights",2335,,99,"12/24/23",90033
 "060372032002","Los Angeles - Boyle Heights",1203,,87,"12/24/23",90063
-"060372033001","Los Angeles - Boyle Heights",4046,"Soledad Enrichment Action, Inc (SEA)",370,"12/24/23",90033
-"060372035001","Los Angeles - Boyle Heights",3268,"Community Build Inc.",,,90033
+"060372033001","Los Angeles - Boyle Heights",4046,,370,"12/24/23",90033
+"060372035001","Los Angeles - Boyle Heights",3268,,,,90033
 "060372035002","Los Angeles - Wholesale District",4063,,,,90031
 "060372035003","Los Angeles - Boyle Heights",1331,,,,90033
 "060372036001","Los Angeles - Boyle Heights",1336,,190,"12/24/23",90033
 "060372036002","Los Angeles - Boyle Heights",1238,,147,"12/24/23",90033
 "060372036003","Los Angeles - Boyle Heights",1142,,19,"12/24/23",90033
-"060372037101","Los Angeles - Boyle Heights",2125,"Clinica Mrs. Oscar A. Romero",3,"12/24/23",90033
+"060372037101","Los Angeles - Boyle Heights",2125,,3,"12/24/23",90033
 "060372037102","Los Angeles - Boyle Heights",1349,,7,"12/24/23",90033
 "060372037201","Los Angeles - Boyle Heights",1031,,202,"12/24/23",90033
 "060372037202","Los Angeles - Boyle Heights",1230,,96,"12/24/23",90033
-"060372037203","Los Angeles - Boyle Heights",2087,"The Wellness Center",72,"12/24/23",90033
-"060372038001","Los Angeles - Boyle Heights",3169,"Clinica Mrs. Oscar A. Romero",25,"12/24/23",90063
-"060372038002","Los Angeles - Boyle Heights",2398,"Clinica Mrs. Oscar A. Romero",277,"12/24/23",90063
-"060372038003","Los Angeles - Boyle Heights",1413,"Clinica Mrs. Oscar A. Romero",13,"12/24/23",90063
-"060372038004","Los Angeles - Boyle Heights",2268,"The Wellness Center",19,"12/24/23",90063
+"060372037203","Los Angeles - Boyle Heights",2087,,72,"12/24/23",90033
+"060372038001","Los Angeles - Boyle Heights",3169,,25,"12/24/23",90063
+"060372038002","Los Angeles - Boyle Heights",2398,,277,"12/24/23",90063
+"060372038003","Los Angeles - Boyle Heights",1413,,13,"12/24/23",90063
+"060372038004","Los Angeles - Boyle Heights",2268,,19,"12/24/23",90063
 "060372039001","Los Angeles - Boyle Heights",1208,"The Wellness Center",67,"12/24/23",90063
 "060372039002","Los Angeles - Boyle Heights",3151,"East LA Women's Center",41,"12/24/23",90063
 "060372039003","Los Angeles - Boyle Heights",3276,"East LA Women's Center",37,"12/24/23",90063
@@ -1257,16 +1257,16 @@
 "060372042002","Los Angeles - Boyle Heights",1153,,12,"12/24/23",90033
 "060372043001","Los Angeles - Boyle Heights",1239,,438,"12/24/23",90033
 "060372043002","Los Angeles - Boyle Heights",1228,,24,"12/24/23",90033
-"060372043003","Los Angeles - Boyle Heights",1366,"East LA Women's Center",,,90033
-"060372043004","Los Angeles - Boyle Heights",3196,"East LA Women's Center",81,"12/24/23",90033
-"060372044101","Los Angeles - Boyle Heights",3086,"The Wellness Center",20,"12/24/23",90033
+"060372043003","Los Angeles - Boyle Heights",1366,,,,90033
+"060372043004","Los Angeles - Boyle Heights",3196,,81,"12/24/23",90033
+"060372044101","Los Angeles - Boyle Heights",3086,,20,"12/24/23",90033
 "060372044102","Los Angeles - Boyle Heights",1064,,8,"12/24/23",90033
 "060372044201","Los Angeles - Boyle Heights",1038,,138,"12/24/23",90033
-"060372044202","Los Angeles - Boyle Heights",2013,"The Wellness Center",44,"12/24/23",90033
+"060372044202","Los Angeles - Boyle Heights",2013,,44,"12/24/23",90033
 "060372046001","Los Angeles - Boyle Heights",1151,"East LA Women's Center",346,"12/24/23",90023
 "060372046002","Los Angeles - Boyle Heights",2178,"East LA Women's Center",172,"12/24/23",90033
-"060372047001","Los Angeles - Boyle Heights",3113,"East LA Women's Center",131,"12/24/23",90023
-"060372047002","Los Angeles - Boyle Heights",3292,"Soledad Enrichment Action, Inc (SEA)",199,"12/24/23",90023
+"060372047001","Los Angeles - Boyle Heights",3113,,131,"12/24/23",90023
+"060372047002","Los Angeles - Boyle Heights",3292,,199,"12/24/23",90023
 "060372047003","Los Angeles - Boyle Heights",3143,"East LA Women's Center",34,"12/24/23",90023
 "060372048101","Los Angeles - Boyle Heights",1224,"East LA Women's Center",248,"12/24/23",90023
 "060372048102","Los Angeles - Boyle Heights",1416,"Soledad Enrichment Action, Inc (SEA)",205,"12/24/23",90023
@@ -1798,10 +1798,10 @@
 "060372326002","Los Angeles - West Vernon",2505,"Community Build Inc.",,,90037
 "060372326003","Los Angeles - West Vernon",2506,"Community Build Inc.",,,90062
 "060372327001","Los Angeles - West Vernon",1643,"Community Build Inc.",,,90037
-"060372327002","Los Angeles - West Vernon",2510,"Community Build Inc.",,,90037
-"060372327003","Los Angeles - South Park",3490,"Community Build Inc.",,,90037
-"060372328001","Los Angeles - South Park",1419,"Resilient",109,"12/24/23",90037
-"060372328002","Los Angeles - South Park",2066,"Resilient",153,"12/24/23",90037
+"060372327002","Los Angeles - West Vernon",2510,,,,90037
+"060372327003","Los Angeles - South Park",3490,,,,90037
+"060372328001","Los Angeles - South Park",1419,,109,"12/24/23",90037
+"060372328002","Los Angeles - South Park",2066,,153,"12/24/23",90037
 "060372340001","Los Angeles - Leimert Park",3607,"Community Build Inc.",259,"12/24/23",90008
 "060372340002","Los Angeles - Leimert Park",7818,,,,90008
 "060372340003","Los Angeles - Leimert Park",9856,,,,90008
@@ -1870,8 +1870,8 @@
 "060372371013","Los Angeles - Harvard Park",2022,"Resilient",1,"12/24/23",90044
 "060372371014","Los Angeles - Harvard Park",1102,"Resilient",72,"12/24/23",90044
 "060372371015","Los Angeles - Harvard Park",1028,"Resilient",,,90044
-"060372371021","Los Angeles - Harvard Park",2218,"Resilient",49,"12/24/23",90003
-"060372371022","Los Angeles - Harvard Park",2063,"Resilient",50,"12/24/23",90044
+"060372371021","Los Angeles - Harvard Park",2218,,49,"12/24/23",90003
+"060372371022","Los Angeles - Harvard Park",2063,,50,"12/24/23",90044
 "060372372011","Los Angeles - Harvard Park",2305,"DPH",50,"12/24/23",90044
 "060372372012","Los Angeles - Harvard Park",2021,"DPH",70,"12/24/23",90044
 "060372372013","Los Angeles - Harvard Park",10042,,,,90044
@@ -1931,17 +1931,17 @@
 "060372384002","Los Angeles - Gramercy Place",4663,"DPH",,,90047
 "060372384003","Los Angeles - Gramercy Place",10106,,,,90047
 "060372384004","Los Angeles - Gramercy Place",10105,,,,90047
-"060372392011","Los Angeles - Florence-Firestone",1540,"DPH",103,"12/24/23",90003
-"060372392012","Los Angeles - Florence-Firestone",1529,"DPH",60,"12/24/23",90003
+"060372392011","Los Angeles - Florence-Firestone",1540,,103,"12/24/23",90003
+"060372392012","Los Angeles - Florence-Firestone",1529,,60,"12/24/23",90003
 "060372392013","Los Angeles - Harvard Park",2427,,,,90003
-"060372392021","Los Angeles - Florence-Firestone",3432,"DPH",113,"12/24/23",90001
+"060372392021","Los Angeles - Florence-Firestone",3432,,113,"12/24/23",90001
 "060372392022","Los Angeles - Florence-Firestone",1543,,,,90003
-"060372392023","Los Angeles - Florence-Firestone",1547,"DPH",53,"12/24/23",90003
+"060372392023","Los Angeles - Florence-Firestone",1547,,53,"12/24/23",90003
 "060372393101","Los Angeles - Harvard Park",1536,,,,90003
-"060372393102","Los Angeles - Florence-Firestone",1539,"DPH",113,"12/24/23",90003
-"060372393103","Los Angeles - Florence-Firestone",2431,"DPH",88,"12/24/23",90003
-"060372393201","Los Angeles - Florence-Firestone",2435,"DPH",63,"12/24/23",90003
-"060372393202","Los Angeles - Florence-Firestone",1528,"DPH",74,"12/24/23",90003
+"060372393102","Los Angeles - Florence-Firestone",1539,,113,"12/24/23",90003
+"060372393103","Los Angeles - Florence-Firestone",2431,,88,"12/24/23",90003
+"060372393201","Los Angeles - Florence-Firestone",2435,,63,"12/24/23",90003
+"060372393202","Los Angeles - Florence-Firestone",1528,,74,"12/24/23",90003
 "060372393301","Los Angeles - Florence-Firestone",4335,,,,90001
 "060372393302","Los Angeles - Florence-Firestone",2436,,,,90003
 "060372395011","Los Angeles - Florence-Firestone",1537,,,,90001
@@ -2031,32 +2031,32 @@
 "060372413002","Los Angeles - Figueroa Park Square",2597,,,,90044
 "060372414001","Los Angeles - Century Palms/Cove",1159,"DPH",24,"12/24/23",90061
 "060372414002","Los Angeles - Century Palms/Cove",2176,"DPH",56,"12/24/23",90061
-"060372420001","Los Angeles - Watts",2028,"Southern California Crossroads",42,"12/24/23",90002
-"060372420002","Los Angeles - Watts",2074,"St. John's Well Child & Family Center",22,"12/24/23",90059
+"060372420001","Los Angeles - Watts",2028,,42,"12/24/23",90002
+"060372420002","Los Angeles - Watts",2074,,22,"12/24/23",90059
 "060372420003","Los Angeles - Watts",1313,,41,"12/24/23",90002
-"060372421001","Los Angeles - Watts",2399,"Soledad Enrichment Action, Inc (SEA)",493,"12/24/23",90002
-"060372422001","Los Angeles - Watts",2092,"St. John's Well Child & Family Center",71,"12/24/23",90002
-"060372422002","Los Angeles - Watts",2287,"St. John's Well Child & Family Center",122,"12/24/23",90002
+"060372421001","Los Angeles - Watts",2399,,493,"12/24/23",90002
+"060372422001","Los Angeles - Watts",2092,,71,"12/24/23",90002
+"060372422002","Los Angeles - Watts",2287,,122,"12/24/23",90002
 "060372422003","Los Angeles - Watts",1108,,51,"12/24/23",90002
 "060372422004","Los Angeles - Watts",1103,"St. John's Well Child & Family Center",211,"12/24/23",90002
-"060372423001","Los Angeles - Watts",2023,"St. John's Well Child & Family Center",12,"12/24/23",90002
+"060372423001","Los Angeles - Watts",2023,,12,"12/24/23",90002
 "060372423002","Los Angeles - Watts",1086,,12,"12/24/23",90002
-"060372423003","Los Angeles - Watts",1436,"Southern California Crossroads",279,"12/24/23",90002
+"060372423003","Los Angeles - Watts",1436,,279,"12/24/23",90002
 "060372426001","Los Angeles - Watts",1287,,4,"12/24/23",90059
 "060372426002","Los Angeles - Watts",1155,,103,"12/24/23",90059
 "060372426003","Los Angeles - Watts",1219,,41,"12/24/23",90059
 "060372427001","Los Angeles - Watts",1294,,139,"12/24/23",90002
-"060372427002","Los Angeles - Watts",3067,"Community Build Inc.",1,"12/24/23",90059
-"060372427003","Los Angeles - Watts",3080,"Community Build Inc.",,,90059
-"060372427004","Los Angeles - Watts",2300,"St. John's Well Child & Family Center",131,"12/24/23",90059
-"060372427005","Los Angeles - Watts",3280,"Southern California Crossroads",43,"12/24/23",90002
+"060372427002","Los Angeles - Watts",3067,,1,"12/24/23",90059
+"060372427003","Los Angeles - Watts",3080,,,,90059
+"060372427004","Los Angeles - Watts",2300,,131,"12/24/23",90059
+"060372427005","Los Angeles - Watts",3280,,43,"12/24/23",90002
 "060372430001","Los Angeles - Watts",2217,"Soledad Enrichment Action, Inc (SEA)",129,"12/24/23",90002
 "060372430002","Los Angeles - Watts",1330,"Soledad Enrichment Action, Inc (SEA)",120,"12/24/23",90002
 "060372430003","Los Angeles - Watts",7058,,,,90002
 "060372430004","Los Angeles - Watts",2363,"Soledad Enrichment Action, Inc (SEA)",65,"12/24/23",90059
-"060372431001","Los Angeles - Watts",3066,"Community Build Inc.",30,"12/24/23",90059
+"060372431001","Los Angeles - Watts",3066,,30,"12/24/23",90059
 "060372431002","Los Angeles - Watts",1143,,,,90059
-"060372431003","Los Angeles - Watts",2133,"Community Build Inc.",,,90059
+"060372431003","Los Angeles - Watts",2133,,,,90059
 "060372611011","Los Angeles - Beverly Crest",8965,,,,90046
 "060372611012","Los Angeles - Beverly Crest",9671,,,,90210
 "060372611021","Los Angeles - Beverly Crest",9592,,,,90210
@@ -2410,33 +2410,33 @@
 "060372942003","Los Angeles - Wilmington",4051,"DPH",,,90744
 "060372943011","Los Angeles - Wilmington",4180,"DPH",,,90744
 "060372943012","Los Angeles - Wilmington",3249,"Southern California Crossroads",129,"12/24/23",90744
-"060372943021","Los Angeles - Wilmington",2096,"Providence Little Company of Mary Foundation",74,"12/24/23",90744
-"060372943022","Los Angeles - Wilmington",3112,"Southern California Crossroads",180,"12/24/23",90744
+"060372943021","Los Angeles - Wilmington",2096,,74,"12/24/23",90744
+"060372943022","Los Angeles - Wilmington",3112,,180,"12/24/23",90744
 "060372944101","Los Angeles - Harbor City",3732,,,,90710
 "060372944102","Los Angeles - Harbor City",5604,,,,90710
 "060372944211","Los Angeles - Harbor City",4852,,,,90710
 "060372944212","Los Angeles - Harbor City",2629,,,,90710
 "060372944213","Los Angeles - Harbor City",4752,,,,90710
-"060372945101","Los Angeles - Wilmington",2192,"Southern California Crossroads",175,"12/24/23",90744
+"060372945101","Los Angeles - Wilmington",2192,,175,"12/24/23",90744
 "060372945102","Los Angeles - Wilmington",1296,,41,"12/24/23",90744
 "060372945201","Los Angeles - Wilmington",3078,"Southern California Crossroads",183,"12/24/23",90744
-"060372945202","Los Angeles - Wilmington",1386,"Providence Little Company of Mary Foundation",38,"12/24/23",90744
+"060372945202","Los Angeles - Wilmington",1386,,38,"12/24/23",90744
 "060372946101","Los Angeles - Wilmington",5030,,1,"12/24/23",90744
 "060372946102","Los Angeles - Wilmington",1434,"Providence Little Company of Mary Foundation",37,"12/24/23",90744
 "060372946201","Los Angeles - Wilmington",3095,"Southern California Crossroads",178,"12/24/23",90744
 "060372946202","Los Angeles - Wilmington",3260,"Southern California Crossroads",103,"12/24/23",90744
 "060372946203","Los Angeles - Wilmington",4218,,,,90744
-"060372947011","Los Angeles - Wilmington",4004,"DPH",,,90744
-"060372947012","Los Angeles - Wilmington",5065,"DPH",16,"12/24/23",90744
-"060372947013","Los Angeles - Wilmington",2193,"Providence Little Company of Mary Foundation",111,"12/24/23",90744
+"060372947011","Los Angeles - Wilmington",4004,,,,90744
+"060372947012","Los Angeles - Wilmington",5065,,16,"12/24/23",90744
+"060372947013","Los Angeles - Wilmington",2193,,111,"12/24/23",90744
 "060372948101","Los Angeles - Wilmington",1178,,37,"12/24/23",90744
 "060372948102","Los Angeles - Wilmington",1082,,44,"12/24/23",90744
 "060372948201","Los Angeles - Wilmington",1091,,45,"12/24/23",90744
-"060372948202","Los Angeles - Wilmington",1384,"Providence Little Company of Mary Foundation",41,"12/24/23",90744
+"060372948202","Los Angeles - Wilmington",1384,,41,"12/24/23",90744
 "060372948301","Los Angeles - Wilmington",1292,,,,90744
 "060372948302","Los Angeles - Wilmington",3187,,,,90744
 "060372949001","Los Angeles - Wilmington",2146,,23,"12/24/23",90744
-"060372949002","Los Angeles - Wilmington",2339,"Providence Little Company of Mary Foundation",33,"12/24/23",90744
+"060372949002","Los Angeles - Wilmington",2339,,33,"12/24/23",90744
 "060372951031","Los Angeles - Harbor City",9261,,,,90732
 "060372951032","Los Angeles - Harbor City",8993,,,,90731
 "060372962101","Los Angeles - San Pedro",3150,"Southern California Crossroads",189,"12/24/23",90731
@@ -2735,12 +2735,12 @@
 "060373202022","City of San Fernando",2524,,2,"12/24/23",91340
 "060373202023","City of San Fernando",2527,,9,"12/24/23",91340
 "060373202024","City of San Fernando",6544,,1,"12/24/23",91340
-"060373203001","City of San Fernando",2525,"Providence Little Company of Mary Foundation",74,"12/24/23",91340
-"060373203002","City of San Fernando",3521,"Providence Little Company of Mary Foundation",56,"12/24/23",91340
+"060373203001","City of San Fernando",2525,,74,"12/24/23",91340
+"060373203002","City of San Fernando",3521,,56,"12/24/23",91340
 "060373203003","City of San Fernando",2521,,4,"12/24/23",91340
 "060373203004","City of San Fernando",2522,,,,91340
-"060373203005","City of San Fernando",3522,"Providence Little Company of Mary Foundation",26,"12/24/23",91340
-"060373203006","City of San Fernando",3520,"Providence Little Company of Mary Foundation",30,"12/24/23",91340
+"060373203005","City of San Fernando",3522,,26,"12/24/23",91340
+"060373203006","City of San Fernando",3520,,30,"12/24/23",91340
 "060374002041","City of La Verne",9529,,,,91750
 "060374002042","City of La Verne",10208,,,,91750
 "060374002043","Unincorporated - La Verne",9163,,,,91750
@@ -3437,20 +3437,20 @@
 "060374327002","City of El Monte",5056,,8,"12/24/23",91731
 "060374327003","City of El Monte",4053,,2,"12/24/23",91731
 "060374328011","City of El Monte",4059,,,,91731
-"060374328012","City of El Monte",3195,"East Valley Community Health Center, Inc.",38,"12/24/23",91731
+"060374328012","City of El Monte",3195,,38,"12/24/23",91731
 "060374328021","City of El Monte",1059,,30,"12/24/23",91731
-"060374328022","City of El Monte",2367,"East Valley Community Health Center, Inc.",23,"12/24/23",91731
-"060374328023","City of El Monte",3073,"East Valley Community Health Center, Inc.",36,"12/24/23",91731
+"060374328022","City of El Monte",2367,,23,"12/24/23",91731
+"060374328023","City of El Monte",3073,,36,"12/24/23",91731
 "060374329011","City of Rosemead",5679,,,,91770
 "060374329012","City of Rosemead",8586,,11,"12/24/23",91770
 "060374329013","City of Rosemead",4769,,,,91770
 "060374329021","City of El Monte",8670,,,,91731
 "060374329022","City of Rosemead",8627,,,,91770
 "060374329023","City of Rosemead",6822,,,,91770
-"060374331011","City of El Monte",2165,"East Valley Community Health Center, Inc.",26,"12/24/23",91733
+"060374331011","City of El Monte",2165,,26,"12/24/23",91733
 "060374331012","City of El Monte",5134,,,,91731
-"060374331021","City of El Monte",1425,"East Valley Community Health Center, Inc.",36,"12/24/23",91733
-"060374331022","City of El Monte",3213,"East Valley Community Health Center, Inc.",19,"12/24/23",91733
+"060374331021","City of El Monte",1425,,36,"12/24/23",91733
+"060374331022","City of El Monte",3213,,19,"12/24/23",91733
 "060374332001","City of El Monte",4198,,,,91731
 "060374332002","City of El Monte",4017,,3,"12/24/23",91731
 "060374332003","City of El Monte",3172,"East Valley Community Health Center, Inc.",35,"12/24/23",91731
@@ -3466,18 +3466,18 @@
 "060374333071","City of El Monte",5021,"East Valley Community Health Center, Inc.",31,"12/24/23",91732
 "060374333072","City of El Monte",1418,"The Wellness Center",1,"12/24/23",91732
 "060374333073","City of El Monte",1344,"The Wellness Center",,,91732
-"060374334011","City of El Monte",2103,"East Valley Community Health Center, Inc.",38,"12/24/23",91733
+"060374334011","City of El Monte",2103,,38,"12/24/23",91733
 "060374334012","City of El Monte",5052,,,,91733
 "060374334021","City of El Monte",1370,"DPH",13,"12/24/23",91733
 "060374334022","City of El Monte",2235,"DPH",34,"12/24/23",91733
 "060374334031","City of El Monte",5005,"DPH",18,"12/24/23",91732
 "060374334032","City of El Monte",3134,"DPH",13,"12/24/23",91732
 "060374334033","City of El Monte",1431,"DPH",9,"12/24/23",91732
-"060374335011","City of South El Monte",3089,"East Valley Community Health Center, Inc.",20,"12/24/23",91733
-"060374335031","City of South El Monte",3102,"East Valley Community Health Center, Inc.",27,"12/24/23",91733
-"060374335032","City of South El Monte",3267,"East Valley Community Health Center, Inc.",11,"12/24/23",91733
-"060374335041","City of South El Monte",2328,"East Valley Community Health Center, Inc.",35,"12/24/23",91733
-"060374335042","City of El Monte",3250,"East Valley Community Health Center, Inc.",39,"12/24/23",91733
+"060374335011","City of South El Monte",3089,,20,"12/24/23",91733
+"060374335031","City of South El Monte",3102,,27,"12/24/23",91733
+"060374335032","City of South El Monte",3267,,11,"12/24/23",91733
+"060374335041","City of South El Monte",2328,,35,"12/24/23",91733
+"060374335042","City of El Monte",3250,,39,"12/24/23",91733
 "060374335043","City of El Monte",1303,,87,"12/24/23",91733
 "060374336011","City of Rosemead",7802,,,,91770
 "060374336012","City of Rosemead",5612,,,,91770
@@ -4293,8 +4293,8 @@
 "060375338051","City of Bell",1167,"DPH",61,"12/24/23",90201
 "060375338052","City of Bell",2163,"DPH",11,"12/24/23",90201
 "060375338053","City of Bell",2216,"DPH",26,"12/24/23",90201
-"060375338061","City of Bell",3097,"DPH",83,"12/24/23",90201
-"060375338062","City of Bell",2289,"DPH",12,"12/24/23",90201
+"060375338061","City of Bell",3097,,83,"12/24/23",90201
+"060375338062","City of Bell",2289,,12,"12/24/23",90201
 "060375339011","City of Bell Gardens",2267,"East LA Women's Center",,,90201
 "060375339012","City of Bell Gardens",4025,,,,90201
 "060375339013","City of Bell Gardens",2157,"East LA Women's Center",29,"12/24/23",90201
@@ -4320,7 +4320,7 @@
 "060375342023","City of Bell Gardens",1215,"DPH",10,"12/24/23",90201
 "060375342031","City of Bell Gardens",1380,"DPH",8,"12/24/23",90201
 "060375342032","City of Bell Gardens",2049,"DPH",22,"12/24/23",90201
-"060375343011","City of Cudahy",1374,"St. John's Well Child & Family Center",138,"12/24/23",90201
+"060375343011","City of Cudahy",1374,,138,"12/24/23",90201
 "060375343012","City of Cudahy",2241,"St. John's Well Child & Family Center",68,"12/24/23",90201
 "060375343021","City of Cudahy",2283,"Southern California Crossroads",89,"12/24/23",90201
 "060375343022","City of Cudahy",1396,"Southern California Crossroads",45,"12/24/23",90201
@@ -4328,15 +4328,15 @@
 "060375344041","City of Cudahy",2084,"St. John's Well Child & Family Center",26,"12/24/23",90201
 "060375344042","City of Cudahy",2064,"St. John's Well Child & Family Center",57,"12/24/23",90201
 "060375344051","City of Cudahy",1196,,111,"12/24/23",90201
-"060375344052","City of Cudahy",2209,"Southern California Crossroads",4,"12/24/23",90201
+"060375344052","City of Cudahy",2209,,4,"12/24/23",90201
 "060375344061","City of Cudahy",1282,,94,"12/24/23",90201
 "060375344062","City of Cudahy",1260,,107,"12/24/23",90201
 "060375345011","City of Huntington Park",1415,"Soledad Enrichment Action, Inc (SEA)",24,"12/24/23",90255
 "060375345012","City of Huntington Park",2292,"Soledad Enrichment Action, Inc (SEA)",,,90255
 "060375345013","City of Huntington Park",2142,"Soledad Enrichment Action, Inc (SEA)",26,"12/24/23",90255
-"060375345021","City of Huntington Park",3024,"Soledad Enrichment Action, Inc (SEA)",32,"12/24/23",90255
-"060375345022","City of Huntington Park",3207,"Soledad Enrichment Action, Inc (SEA)",392,"12/24/23",90255
-"060375345023","City of Huntington Park",3050,"Soledad Enrichment Action, Inc (SEA)",35,"12/24/23",90255
+"060375345021","City of Huntington Park",3024,,32,"12/24/23",90255
+"060375345022","City of Huntington Park",3207,,392,"12/24/23",90255
+"060375345023","City of Huntington Park",3050,,35,"12/24/23",90255
 "060375347001","Unincorporated - Walnut Park",2185,"St. John's Well Child & Family Center",297,"12/24/23",90255
 "060375348021","Unincorporated - Walnut Park",2248,"St. John's Well Child & Family Center",920,"12/24/23",90255
 "060375348022","Unincorporated - Walnut Park",1376,"St. John's Well Child & Family Center",142,"12/24/23",90255
@@ -4364,7 +4364,7 @@
 "060375351023","Unincorporated - Florence-Firestone",3281,"Resilient",71,"12/24/23",90002
 "060375352001","Unincorporated - Florence-Firestone",1128,,16,"12/24/23",90002
 "060375352002","Unincorporated - Florence-Firestone",1258,,48,"12/24/23",90002
-"060375352003","Unincorporated - Florence-Firestone",2389,"St. John's Well Child & Family Center",209,"12/24/23",90002
+"060375352003","Unincorporated - Florence-Firestone",2389,,209,"12/24/23",90002
 "060375353001","Unincorporated - Florence-Firestone",4036,,1,"12/24/23",90001
 "060375353002","Unincorporated - Florence-Firestone",2344,"Resilient",,,90001
 "060375353003","Unincorporated - Florence-Firestone",2161,"Resilient",,,90001
@@ -4389,13 +4389,13 @@
 "060375356072","City of South Gate",2054,"East LA Women's Center",,,90280
 "060375356073","City of South Gate",1365,"East LA Women's Center",,,90280
 "060375356074","City of South Gate",2347,"East LA Women's Center",5,"12/24/23",90280
-"060375357011","City of South Gate",3110,"Southern California Crossroads",104,"12/24/23",90280
-"060375357012","City of South Gate",3297,"Southern California Crossroads",174,"12/24/23",90280
-"060375357013","City of South Gate",3111,"East LA Women's Center",,,90280
-"060375357021","City of South Gate",2352,"Southern California Crossroads",75,"12/24/23",90280
-"060375357022","City of South Gate",2046,"Southern California Crossroads",105,"12/24/23",90280
-"060375357023","City of South Gate",2130,"East LA Women's Center",,,90280
-"060375357024","City of South Gate",2017,"East LA Women's Center",,,90280
+"060375357011","City of South Gate",3110,,104,"12/24/23",90280
+"060375357012","City of South Gate",3297,,174,"12/24/23",90280
+"060375357013","City of South Gate",3111,,,,90280
+"060375357021","City of South Gate",2352,,75,"12/24/23",90280
+"060375357022","City of South Gate",2046,,105,"12/24/23",90280
+"060375357023","City of South Gate",2130,,,,90280
+"060375357024","City of South Gate",2017,,,,90280
 "060375358021","City of South Gate",2008,"Southern California Crossroads",114,"12/24/23",90280
 "060375358022","City of South Gate",4171,,5,"12/24/23",90280
 "060375358023","City of South Gate",3163,"Southern California Crossroads",110,"12/24/23",90280
@@ -4413,8 +4413,8 @@
 "060375359022","City of South Gate",3299,"Southern California Crossroads",60,"12/24/23",90280
 "060375359023","City of South Gate",2384,"Southern California Crossroads",181,"12/24/23",90280
 "060375359024","City of South Gate",3070,"Southern California Crossroads",107,"12/24/23",90280
-"060375360001","City of South Gate",3291,"Soledad Enrichment Action, Inc (SEA)",390,"12/24/23",90280
-"060375360002","City of South Gate",2110,"Southern California Crossroads",317,"12/24/23",90280
+"060375360001","City of South Gate",3291,,390,"12/24/23",90280
+"060375360002","City of South Gate",2110,,317,"12/24/23",90280
 "060375361021","City of South Gate",4069,,,,90280
 "060375361022","City of South Gate",2115,,6,"12/24/23",90280
 "060375361023","City of South Gate",5151,,,,90280
@@ -6110,26 +6110,26 @@
 "060379005073","City of Lancaster",3298,"H.E.L.P.E.R. Foundation",85,"12/24/23",93535
 "060379005081","City of Lancaster",6070,,37,"12/24/23",93535
 "060379006021","City of Lancaster",4019,"DPH",9,"12/24/23",93535
-"060379006022","City of Lancaster",6078,"H.E.L.P.E.R. Foundation",114,"12/24/23",93535
+"060379006022","City of Lancaster",6078,,114,"12/24/23",93535
 "060379006051","City of Lancaster",6018,"H.E.L.P.E.R. Foundation",106,"12/24/23",93535
 "060379006052","City of Lancaster",7115,,,,93535
 "060379006053","City of Lancaster",5072,"DPH",13,"12/24/23",93535
-"060379006061","City of Lancaster",5110,"DPH",42,"12/24/23",93535
-"060379006062","City of Lancaster",5016,"DPH",17,"12/24/23",93534
-"060379006071","City of Lancaster",6009,"H.E.L.P.E.R. Foundation",72,"12/24/23",93535
-"060379006072","City of Lancaster",5074,"DPH",18,"12/24/23",93535
+"060379006061","City of Lancaster",5110,,42,"12/24/23",93535
+"060379006062","City of Lancaster",5016,,17,"12/24/23",93534
+"060379006071","City of Lancaster",6009,,72,"12/24/23",93535
+"060379006072","City of Lancaster",5074,,18,"12/24/23",93535
 "060379006081","City of Lancaster",5155,"DPH",32,"12/24/23",93535
 "060379006082","City of Lancaster",5020,"DPH",28,"12/24/23",93535
 "060379006091","City of Lancaster",5060,"DPH",40,"12/24/23",93535
 "060379006092","City of Lancaster",5033,"DPH",14,"12/24/23",93535
-"060379007011","City of Lancaster",5089,"The Children's Center of the Antelope Valley",8,"12/24/23",93534
-"060379007012","City of Lancaster",5168,"The Children's Center of the Antelope Valley",14,"12/24/23",93534
-"060379007013","City of Lancaster",5063,"The Children's Center of the Antelope Valley",12,"12/24/23",93534
+"060379007011","City of Lancaster",5089,,8,"12/24/23",93534
+"060379007012","City of Lancaster",5168,,14,"12/24/23",93534
+"060379007013","City of Lancaster",5063,,12,"12/24/23",93534
 "060379007014","City of Lancaster",8054,,,,93534
-"060379007031","City of Lancaster",5156,"The Children's Center of the Antelope Valley",7,"12/24/23",93534
-"060379007032","City of Lancaster",6059,"The Children's Center of the Antelope Valley",16,"12/24/23",93534
-"060379007033","City of Lancaster",4168,"The Children's Center of the Antelope Valley",9,"12/24/23",93534
-"060379007041","City of Lancaster",6069,"The Children's Center of the Antelope Valley",14,"12/24/23",93534
+"060379007031","City of Lancaster",5156,,7,"12/24/23",93534
+"060379007032","City of Lancaster",6059,,16,"12/24/23",93534
+"060379007033","City of Lancaster",4168,,9,"12/24/23",93534
+"060379007041","City of Lancaster",6069,,14,"12/24/23",93534
 "060379007042","City of Lancaster",9006,,7,"12/24/23",93534
 "060379007051","City of Lancaster",9014,,5,"12/24/23",93534
 "060379007052","City of Lancaster",6065,"H.E.L.P.E.R. Foundation",59,"12/24/23",93534
@@ -6138,13 +6138,13 @@
 "060379008032","City of Lancaster",10028,"The Children's Center of the Antelope Valley",,,93534
 "060379008033","City of Lancaster",10029,"The Children's Center of the Antelope Valley",,,93534
 "060379008034","City of Lancaster",7086,,2,"12/24/23",93534
-"060379008041","City of Lancaster",4108,"The Children's Center of the Antelope Valley",6,"12/24/23",93534
-"060379008042","City of Lancaster",6017,"The Children's Center of the Antelope Valley",10,"12/24/23",93534
+"060379008041","City of Lancaster",4108,,6,"12/24/23",93534
+"060379008042","City of Lancaster",6017,,10,"12/24/23",93534
 "060379008051","City of Lancaster",4107,"The Children's Center of the Antelope Valley",5,"12/24/23",93534
 "060379008052","City of Lancaster",5107,"The Children's Center of the Antelope Valley",10,"12/24/23",93534
 "060379008053","City of Lancaster",8016,,10,"12/24/23",93534
-"060379008061","City of Lancaster",5129,"DPH",33,"12/24/23",93534
-"060379008062","City of Lancaster",4161,"The Children's Center of the Antelope Valley",150,"12/24/23",93534
+"060379008061","City of Lancaster",5129,,33,"12/24/23",93534
+"060379008062","City of Lancaster",4161,,150,"12/24/23",93534
 "060379009001","Unincorporated - Del Sur",8747,,,,93536
 "060379009002","Unincorporated - North Lancaster",9577,,35,"12/24/23",93536
 "060379010031","City of Lancaster",8012,,,,93536
