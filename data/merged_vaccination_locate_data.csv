@@ -1311,14 +1311,14 @@
 "060372080002","Los Angeles - Temple-Beaudry",2493,"DPH",2301,"12/24/23",90026
 "060372080003","Los Angeles - Temple-Beaudry",1607,"DPH",,,90026
 "060372083011","Los Angeles - Temple-Beaudry",1595,"DPH",31,"12/24/23",90026
-"060372083021","Los Angeles - Historic Filipinotown",2457,,1,"12/24/23",90026
+"060372083021","Los Angeles - Historic Filipinotown",2457,"Clinica Mrs. Oscar A. Romero",1,"12/24/23",90026
 "060372083022","Los Angeles - Historic Filipinotown",2453,,2,"12/24/23",90026
-"060372083023","Los Angeles - Temple-Beaudry",1565,,,,90026
+"060372083023","Los Angeles - Temple-Beaudry",1565,"Clinica Mrs. Oscar A. Romero",,,90026
 "060372084011","Los Angeles - Temple-Beaudry",1597,"DPH",44,"12/24/23",90057
 "060372084012","Los Angeles - Temple-Beaudry",1598,"DPH",13,"12/24/23",90057
-"060372084021","Los Angeles - Historic Filipinotown",2452,,17,"12/24/23",90026
+"060372084021","Los Angeles - Historic Filipinotown",2452,"Clinica Mrs. Oscar A. Romero",17,"12/24/23",90026
 "060372084022","Los Angeles - Historic Filipinotown",2455,,,,90026
-"060372085011","Los Angeles - Historic Filipinotown",3441,,,,90026
+"060372085011","Los Angeles - Historic Filipinotown",3441,"Clinica Mrs. Oscar A. Romero",,,90026
 "060372085012","Los Angeles - Historic Filipinotown",3442,,,,90026
 "060372085021","Los Angeles - Temple-Beaudry",1602,"DPH",46,"12/24/23",90057
 "060372085022","Los Angeles - Temple-Beaudry",1600,"DPH",67,"12/24/23",90057
@@ -1453,10 +1453,10 @@
 "060372132013","Los Angeles - Koreatown",2061,"Community Build Inc.",,,90006
 "060372132021","Los Angeles - Koreatown",1084,,,,90006
 "060372132022","Los Angeles - Koreatown",1075,"Community Build Inc.",6,"12/24/23",90006
-"060372133101","Los Angeles - Koreatown",2048,,,,90006
-"060372133102","Los Angeles - Koreatown",1099,,,,90006
-"060372133201","Los Angeles - Koreatown",1235,,16,"12/24/23",90006
-"060372133202","Los Angeles - Koreatown",1106,,,,90006
+"060372133101","Los Angeles - Koreatown",2048,"Clinica Mrs. Oscar A. Romero",,,90006
+"060372133102","Los Angeles - Koreatown",1099,"Clinica Mrs. Oscar A. Romero",,,90006
+"060372133201","Los Angeles - Koreatown",1235,"Clinica Mrs. Oscar A. Romero",16,"12/24/23",90006
+"060372133202","Los Angeles - Koreatown",1106,"Clinica Mrs. Oscar A. Romero",,,90006
 "060372134011","Los Angeles - Pico-Union",1014,"Clinica Mrs. Oscar A. Romero",130,"12/24/23",90006
 "060372134012","Los Angeles - Pico-Union",1023,"Clinica Mrs. Oscar A. Romero",39,"12/24/23",90006
 "060372134021","Los Angeles - Pico-Union",1189,"DPH",1,"12/24/23",90006
@@ -1614,7 +1614,7 @@
 "060372212101","Los Angeles - Harvard Heights",1554,,69,"12/24/23",90006
 "060372212102","Los Angeles - Harvard Heights",2445,,,,90006
 "060372212201","Los Angeles - Harvard Heights",1558,,,,90006
-"060372212202","Los Angeles - Harvard Heights",2446,,1,"12/24/23",90006
+"060372212202","Los Angeles - Harvard Heights",2446,"Clinica Mrs. Oscar A. Romero",1,"12/24/23",90006
 "060372213021","Los Angeles - Harvard Heights",1559,"DPH",35,"12/24/23",90019
 "060372213022","Los Angeles - Harvard Heights",1557,"DPH",50,"12/24/23",90006
 "060372213031","Los Angeles - Harvard Heights",1560,,2,"12/24/23",90006
@@ -6144,7 +6144,7 @@
 "060379008052","City of Lancaster",5107,"The Children's Center of the Antelope Valley",10,"12/24/23",93534
 "060379008053","City of Lancaster",8016,,10,"12/24/23",93534
 "060379008061","City of Lancaster",5129,,33,"12/24/23",93534
-"060379008062","City of Lancaster",4161,,150,"12/24/23",93534
+"060379008062","City of Lancaster",4161,"The Children's Center of the Antelope Valley",150,"12/24/23",93534
 "060379009001","Unincorporated - Del Sur",8747,,,,93536
 "060379009002","Unincorporated - North Lancaster",9577,,35,"12/24/23",93536
 "060379010031","City of Lancaster",8012,,,,93536
