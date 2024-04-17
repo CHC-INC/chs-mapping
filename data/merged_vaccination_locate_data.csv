@@ -1307,7 +1307,7 @@
 "060372077101","Los Angeles - Downtown",5555,,,,90015
 "060372079001","Los Angeles - Downtown",6999,,1,"12/24/23",90015
 "060372079002","Los Angeles - Downtown",4541,,,,90015
-"060372080001","Los Angeles - Temple-Beaudry",4361,,15,"12/24/23",90012
+"060372080001","Los Angeles - Temple-Beaudry",4361,"Clinica Mrs. Oscar A. Romero",15,"12/24/23",90012
 "060372080002","Los Angeles - Temple-Beaudry",2493,"DPH",2301,"12/24/23",90026
 "060372080003","Los Angeles - Temple-Beaudry",1607,"DPH",,,90026
 "060372083011","Los Angeles - Temple-Beaudry",1595,"DPH",31,"12/24/23",90026
@@ -2052,7 +2052,7 @@
 "060372427005","Los Angeles - Watts",3280,,43,"12/24/23",90002
 "060372430001","Los Angeles - Watts",2217,"Soledad Enrichment Action, Inc (SEA)",129,"12/24/23",90002
 "060372430002","Los Angeles - Watts",1330,"Soledad Enrichment Action, Inc (SEA)",120,"12/24/23",90002
-"060372430003","Los Angeles - Watts",7058,,,,90002
+"060372430003","Los Angeles - Watts",7058,"Soledad Enrichment Action, Inc (SEA)",,,90002
 "060372430004","Los Angeles - Watts",2363,"Soledad Enrichment Action, Inc (SEA)",65,"12/24/23",90059
 "060372431001","Los Angeles - Watts",3066,,30,"12/24/23",90059
 "060372431002","Los Angeles - Watts",1143,,,,90059
@@ -3144,10 +3144,10 @@
 "060374069023","City of West Covina",6563,"East Valley Community Health Center, Inc.",20,"12/24/23",91790
 "060374070011","Unincorporated - Bassett",7828,,3,"12/24/23",91746
 "060374070012","Unincorporated - Bassett",5774,,,,91746
-"060374070013","Unincorporated - Bassett",4705,,7,"12/24/23",91746
-"060374070021","Unincorporated - Bassett",6666,,6,"12/24/23",91746
-"060374070022","City of Industry",7684,,2,"12/24/23",91746
-"060374071011","City of La Puente",4182,,14,"12/24/23",91746
+"060374070013","Unincorporated - Bassett",4705,"The Wellness Center",7,"12/24/23",91746
+"060374070021","Unincorporated - Bassett",6666,"The Wellness Center",6,"12/24/23",91746
+"060374070022","City of Industry",7684,"The Wellness Center",2,"12/24/23",91746
+"060374071011","City of La Puente",4182,"The Wellness Center",14,"12/24/23",91746
 "060374071012","City of La Puente",3229,"Soledad Enrichment Action, Inc (SEA)",12,"12/24/23",91746
 "060374071013","City of La Puente",3177,"Soledad Enrichment Action, Inc (SEA)",30,"12/24/23",91746
 "060374071014","City of La Puente",4116,,11,"12/24/23",91744
@@ -4117,7 +4117,7 @@
 "060375303023","Unincorporated - East Los Angeles",1393,"The Wellness Center",5,"12/24/23",90022
 "060375303024","Unincorporated - East Los Angeles",3253,"The Wellness Center",29,"12/24/23",90022
 "060375304001","Unincorporated - East Los Angeles",2642,"Soledad Enrichment Action, Inc (SEA)",158,"12/24/23",90022
-"060375304002","City of Monterey Park",5865,,24,"12/24/23",91754
+"060375304002","City of Monterey Park",5865,"Soledad Enrichment Action, Inc (SEA)",24,"12/24/23",91754
 "060375305001","Unincorporated - East Los Angeles",2093,"Soledad Enrichment Action, Inc (SEA)",77,"12/24/23",90022
 "060375305002","Unincorporated - East Los Angeles",1306,"East LA Women's Center",897,"12/24/23",90022
 "060375305003","Unincorporated - East Los Angeles",1241,"East LA Women's Center",457,"12/24/23",90022
@@ -4125,7 +4125,7 @@
 "060375306011","Unincorporated - East Los Angeles",1430,"Soledad Enrichment Action, Inc (SEA)",51,"12/24/23",90063
 "060375306012","Unincorporated - East Los Angeles",3277,"Soledad Enrichment Action, Inc (SEA)",97,"12/24/23",90063
 "060375306021","Unincorporated - East Los Angeles",4217,,,,90063
-"060375307001","Unincorporated - East Los Angeles",3237,,2,"12/24/23",90063
+"060375307001","Unincorporated - East Los Angeles",3237,"Soledad Enrichment Action, Inc (SEA)",2,"12/24/23",90063
 "060375308011","Unincorporated - East Los Angeles",1187,"The Wellness Center",5,"12/24/23",90063
 "060375308012","Unincorporated - East Los Angeles",1284,"The Wellness Center",7,"12/24/23",90063
 "060375308013","Unincorporated - East Los Angeles",3026,"Soledad Enrichment Action, Inc (SEA)",53,"12/24/23",90063
@@ -4146,7 +4146,7 @@
 "060375311014","Unincorporated - East Los Angeles",2309,,,,90063
 "060375311021","Unincorporated - East Los Angeles",1308,"Soledad Enrichment Action, Inc (SEA)",40,"12/24/23",90063
 "060375311022","Unincorporated - East Los Angeles",1420,"Soledad Enrichment Action, Inc (SEA)",92,"12/24/23",90063
-"060375312011","Unincorporated - East Los Angeles",2015,,,,90063
+"060375312011","Unincorporated - East Los Angeles",2015,"Soledad Enrichment Action, Inc (SEA)",,,90063
 "060375312012","Unincorporated - East Los Angeles",1271,,,,90063
 "060375312021","Unincorporated - East Los Angeles",1114,,,,90023
 "060375312022","Unincorporated - East Los Angeles",1244,,,,90023
@@ -4211,7 +4211,7 @@
 "060375323033","City of Commerce",6790,,,,90040
 "060375323041","City of Commerce",3644,,,,90040
 "060375323042","City of Commerce",7055,,2,"12/24/23",90040
-"060375324001","City of Vernon",5662,,1,"12/24/23",90058
+"060375324001","City of Vernon",5662,"Soledad Enrichment Action, Inc (SEA)",1,"12/24/23",90058
 "060375325001","City of Huntington Park",3062,,,,90255
 "060375325002","City of Huntington Park",2094,,,,90255
 "060375325003","City of Huntington Park",3059,"Soledad Enrichment Action, Inc (SEA)",1,"12/24/23",90255
@@ -4417,7 +4417,7 @@
 "060375360002","City of South Gate",2110,,317,"12/24/23",90280
 "060375361021","City of South Gate",4069,,,,90280
 "060375361022","City of South Gate",2115,,6,"12/24/23",90280
-"060375361023","City of South Gate",5151,,,,90280
+"060375361023","City of South Gate",5151,"Soledad Enrichment Action, Inc (SEA)",,,90280
 "060375361031","City of South Gate",1199,"Soledad Enrichment Action, Inc (SEA)",176,"12/24/23",90280
 "060375361032","City of South Gate",2240,"Soledad Enrichment Action, Inc (SEA)",177,"12/24/23",90280
 "060375361033","City of South Gate",5002,,,,90280
@@ -6104,7 +6104,7 @@
 "060379005051","City of Lancaster",5132,"H.E.L.P.E.R. Foundation",602,"12/24/23",93535
 "060379005052","City of Lancaster",6024,"H.E.L.P.E.R. Foundation",105,"12/24/23",93535
 "060379005061","City of Lancaster",5171,"H.E.L.P.E.R. Foundation",263,"12/24/23",93535
-"060379005062","City of Lancaster",8014,,5,"12/24/23",93535
+"060379005062","City of Lancaster",8014,"H.E.L.P.E.R. Foundation",5,"12/24/23",93535
 "060379005071","City of Lancaster",6071,,,,93535
 "060379005072","City of Lancaster",5083,"H.E.L.P.E.R. Foundation",577,"12/24/23",93535
 "060379005073","City of Lancaster",3298,"H.E.L.P.E.R. Foundation",85,"12/24/23",93535
@@ -6137,7 +6137,7 @@
 "060379008031","City of Lancaster",10087,"The Children's Center of the Antelope Valley",,,93534
 "060379008032","City of Lancaster",10028,"The Children's Center of the Antelope Valley",,,93534
 "060379008033","City of Lancaster",10029,"The Children's Center of the Antelope Valley",,,93534
-"060379008034","City of Lancaster",7086,,2,"12/24/23",93534
+"060379008034","City of Lancaster",7086,"H.E.L.P.E.R. Foundation",2,"12/24/23",93534
 "060379008041","City of Lancaster",4108,,6,"12/24/23",93534
 "060379008042","City of Lancaster",6017,,10,"12/24/23",93534
 "060379008051","City of Lancaster",4107,"The Children's Center of the Antelope Valley",5,"12/24/23",93534
@@ -6228,7 +6228,7 @@
 "060379106033","City of Palmdale",4115,"The Children's Center of the Antelope Valley",6,"12/24/23",93550
 "060379106034","City of Palmdale",4011,"DPH",5,"12/24/23",93550
 "060379106051","City of Palmdale",4189,"DPH",17,"12/24/23",93550
-"060379106052","City of Palmdale",8002,,,,93550
+"060379106052","City of Palmdale",8002,"Soledad Enrichment Action, Inc (SEA)",,,93550
 "060379106061","City of Palmdale",5118,"The Children's Center of the Antelope Valley",8,"12/24/23",93550
 "060379106062","City of Palmdale",4226,"The Children's Center of the Antelope Valley",2,"12/24/23",93550
 "060379107051","City of Palmdale",5124,"Clinica Mrs. Oscar A. Romero",8,"12/24/23",93552
@@ -6243,9 +6243,9 @@
 "060379107132","City of Palmdale",4209,"Clinica Mrs. Oscar A. Romero",4,"12/24/23",93552
 "060379107141","City of Palmdale",5077,"Clinica Mrs. Oscar A. Romero",4,"12/24/23",93552
 "060379107142","City of Palmdale",5094,"Clinica Mrs. Oscar A. Romero",,,93552
-"060379107151","City of Palmdale",5119,,1,"12/24/23",93550
+"060379107151","City of Palmdale",5119,"Soledad Enrichment Action, Inc (SEA)",1,"12/24/23",93550
 "060379107152","City of Palmdale",4148,,,,93550
-"060379107153","City of Palmdale",5011,,,,93550
+"060379107153","City of Palmdale",5011,"Soledad Enrichment Action, Inc (SEA)",,,93550
 "060379107161","City of Palmdale",5137,,,,93550
 "060379107162","City of Palmdale",5115,,,,93550
 "060379108041","Unincorporated - Acton",9674,,1,"12/24/23",93510
@@ -6301,7 +6301,7 @@
 "060379200351","City of Santa Clarita",6226,"DPH",,,91351
 "060379200352","City of Santa Clarita",9109,,,,91351
 "060379200353","City of Santa Clarita",10174,,,,91351
-"060379200354","City of Santa Clarita",9114,,,,91351
+"060379200354","City of Santa Clarita",9114,"Soledad Enrichment Action, Inc (SEA)",,,91351
 "060379200355","City of Santa Clarita",8119,,,,91351
 "060379200361","City of Santa Clarita",7222,,,,91351
 "060379200362","City of Santa Clarita",8137,,,,91351
