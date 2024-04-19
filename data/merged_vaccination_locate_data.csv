@@ -63,7 +63,7 @@
 "060371043202","Los Angeles - Pacoima",3179,,89,"12/24/23",91331
 "060371043203","Los Angeles - Pacoima",1158,,39,"12/24/23",91331
 "060371043204","Los Angeles - Pacoima",6095,,2,"12/24/23",91331
-"060371044011","Los Angeles - Pacoima",3051,"Providence Little Company of Mary Foundation",25,"12/24/23",91331
+"060371044011","Los Angeles - Pacoima",3051,,25,"12/24/23",91331
 "060371044012","Los Angeles - Pacoima",2040,,15,"12/24/23",91331
 "060371044031","Los Angeles - Pacoima",3158,,2,"12/24/23",91331
 "060371044032","Los Angeles - Pacoima",3052,,6,"12/24/23",91331
@@ -343,7 +343,7 @@
 "060371201052","Los Angeles - Panorama City",2078,"Providence Little Company of Mary Foundation",38,"12/24/23",91402
 "060371201061","Los Angeles - Panorama City",1041,"Clinica Mrs. Oscar A. Romero",57,"12/24/23",91402
 "060371201071","Los Angeles - Panorama City",1024,"Clinica Mrs. Oscar A. Romero",94,"12/24/23",91402
-"060371201081","Los Angeles - Panorama City",1107,"Providence Little Company of Mary Foundation",2,"12/24/23",91402
+"060371201081","Los Angeles - Panorama City",1107,,2,"12/24/23",91402
 "060371201082","Los Angeles - Panorama City",1140,"Clinica Mrs. Oscar A. Romero",79,"12/24/23",91402
 "060371203001","Los Angeles - Panorama City",4132,,6,"12/24/23",91402
 "060371203002","Los Angeles - Panorama City",4200,"Providence Little Company of Mary Foundation",30,"12/24/23",91402
@@ -389,7 +389,7 @@
 "060371221202","Los Angeles - Sun Valley",3476,,8,"12/24/23",91352
 "060371221211","Los Angeles - Sun Valley",2486,,2,"12/24/23",91352
 "060371221212","Los Angeles - Sun Valley",4356,"Providence Little Company of Mary Foundation",29,"12/24/23",91352
-"060371221221","Los Angeles - Sun Valley",3478,"Providence Little Company of Mary Foundation",42,"12/24/23",91352
+"060371221221","Los Angeles - Sun Valley",3478,,42,"12/24/23",91352
 "060371221222","Los Angeles - Sun Valley",3475,,,,91352
 "060371221223","Los Angeles - Sun Valley",5278,,,,91352
 "060371222001","Los Angeles - Sun Valley",3479,,,,91352
@@ -2471,7 +2471,7 @@
 "060372970004","Los Angeles - San Pedro",10095,"DPH",,,90731
 "060372970005","Los Angeles - San Pedro",10094,"DPH",,,90731
 "060372971101","Los Angeles - San Pedro",2359,"Providence Little Company of Mary Foundation",10,"12/24/23",90731
-"060372971102","Los Angeles - San Pedro",1275,"Providence Little Company of Mary Foundation",13,"12/24/23",90731
+"060372971102","Los Angeles - San Pedro",1275,,13,"12/24/23",90731
 "060372971201","Los Angeles - San Pedro",3181,"Providence Little Company of Mary Foundation",20,"12/24/23",90731
 "060372971202","Los Angeles - San Pedro",1442,"Providence Little Company of Mary Foundation",37,"12/24/23",90731
 "060372972011","Los Angeles - San Pedro",2184,"Providence Little Company of Mary Foundation",11,"12/24/23",90731
@@ -5494,7 +5494,7 @@
 "060376024043","City of Hawthorne",2247,"Providence Little Company of Mary Foundation",2,"12/24/23",90250
 "060376025041","City of Hawthorne",2005,"Providence Little Company of Mary Foundation",14,"12/24/23",90250
 "060376025042","City of Hawthorne",4081,,,,90250
-"060376025051","City of Hawthorne",1141,"Providence Little Company of Mary Foundation",10,"12/24/23",90250
+"060376025051","City of Hawthorne",1141,,10,"12/24/23",90250
 "060376025052","City of Hawthorne",2034,"Providence Little Company of Mary Foundation",10,"12/24/23",90250
 "060376025061","City of Hawthorne",2219,"Providence Little Company of Mary Foundation",13,"12/24/23",90250
 "060376025062","City of Hawthorne",2140,"Providence Little Company of Mary Foundation",11,"12/24/23",90250
